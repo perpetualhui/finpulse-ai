@@ -12,11 +12,16 @@ const current = JSON.parse(await readFile(dataPath, "utf8"));
 const FINANCE_TERMS = [
   "finance", "financial", "accounting", "account payable", "accounts payable",
   "account receivable", "accounts receivable", "invoice", "treasury", "tax",
-  "audit", "compliance", "risk", "fraud", "procurement", "purchase-to-pay",
-  "quote-to-cash", "close", "closing", "forecast", "budget", "fpa", "fp&a",
-  "cfo", "erp", "共享", "财务", "会计", "发票", "关账", "预算", "资金", "税务"
+  "audit", "financial compliance", "regulatory compliance", "financial risk", "risk management",
+  "fraud", "procurement", "purchase-to-pay", "quote-to-cash", "financial close",
+  "month-end close", "record-to-report", "closing", "forecast", "budget", "fpa", "fp&a",
+  "cfo", "erp", "bank", "banking", "payment", "fintech", "insurance", "wealth",
+  "investment", "federal reserve", "central bank", "interest rate", "aml", "kyc", "working capital", "spend management", "financial controller", "controllership",
+  "共享", "财务", "金融", "银行", "保险", "支付", "会计", "发票", "关账", "预算", "资金", "税务"
 ];
-const AI_TERMS = [" ai ", "artificial intelligence", "agent", "copilot", "automation", "llm", "智能体", "人工智能", "自动化"];
+const AI_TERMS = [" ai ", "ai-", "ai-powered", "ai-driven", "artificial intelligence", "agent", "agents", "agentic", "copilot", "automation", "llm", "智能体", "人工智能", "自动化"];
+const USER_AGENT = "FinPulseAI/1.1 (+daily finance AI intelligence aggregator)";
+const BROWSER_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36";
 
 function decodeXml(value = "") {
   return value
@@ -26,6 +31,12 @@ function decodeXml(value = "") {
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;|&lsquo;/g, "'")
+    .replace(/&rdquo;|&ldquo;/g, '"')
+    .replace(/&mdash;/g, "—")
+    .replace(/&ndash;/g, "–")
+    .replace(/&hellip;/g, "…")
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
 }
 
@@ -64,9 +75,102 @@ function parseFeed(xml) {
   })).filter((item) => item.title && item.url);
 }
 
+function htmlAttribute(tagText, name) {
+  const match = tagText.match(new RegExp(`\\b${name}\\s*=\\s*(?:["']([^"']*)["']|([^\\s>]+))`, "i"));
+  return decodeXml(match?.[1] ?? match?.[2] ?? "");
+}
+
+function htmlMeta(html, names) {
+  const accepted = new Set(names.map((name) => name.toLowerCase()));
+  for (const meta of html.match(/<meta\b[^>]*>/gi) ?? []) {
+    const key = (htmlAttribute(meta, "property") || htmlAttribute(meta, "name")).toLowerCase();
+    if (accepted.has(key)) return cleanText(htmlAttribute(meta, "content"));
+  }
+  return "";
+}
+
+function parseHtmlLinks(html, source) {
+  const base = new URL(source.url);
+  const seen = new Set();
+  const links = [];
+  const anchorPattern = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
+  let match;
+  while ((match = anchorPattern.exec(html))) {
+    const href = htmlAttribute(match[1], "href");
+    if (!href || href.startsWith("#") || href.startsWith("mailto:")) continue;
+    let url;
+    try { url = new URL(href, base); } catch { continue; }
+    if (url.hostname !== base.hostname) continue;
+    if (!(source.includePaths ?? []).some((part) => url.pathname.includes(part))) continue;
+    url.hash = "";
+    const canonical = url.toString();
+    if (canonical === source.url || seen.has(canonical)) continue;
+    const title = cleanText(match[2]);
+    if (title.length < 10 || title.length > 220) continue;
+    seen.add(canonical);
+    links.push({ url: canonical, listingTitle: title });
+    if (links.length >= (source.maxPages ?? 12)) break;
+  }
+  return links;
+}
+
+function parseEmbeddedArticles(html, source) {
+  const scan = html.replace(/\\\"/g, '"').replace(/\\n/g, " ");
+  const pattern = /"publishedOn":"([^"]+)","slug":\{[^{}]*"current":"([^"]+)"[^{}]*\},"subjects":\[[\s\S]*?\],"summary":"([^"]*)","title":"([^"]*)"/g;
+  const items = [];
+  const seen = new Set();
+  let match;
+  while ((match = pattern.exec(scan))) {
+    const slug = match[2];
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+    items.push({
+      title: cleanText(match[4].replace(/\\u0026/g, "&")),
+      url: new URL(`/news/${slug}`, source.url).toString(),
+      description: cleanText(match[3].replace(/\\u0026/g, "&")),
+      publishedAt: match[1],
+    });
+  }
+  return items;
+}
+
+async function fetchHtmlArticle(link, source) {
+  const response = await fetch(link.url, {
+    headers: { "user-agent": source.browserUserAgent ? BROWSER_USER_AGENT : USER_AGENT, accept: "text/html,application/xhtml+xml" },
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  const html = await response.text();
+  const documentTitle = tag(html, ["title"]).replace(/\s*[|–—-]\s*[^|–—-]{2,50}$/, "").trim();
+  const title = htmlMeta(html, ["og:title", "twitter:title"]) || documentTitle || link.listingTitle;
+  const description = htmlMeta(html, ["description", "og:description", "twitter:description"]);
+  const jsonDate = html.match(/["']datePublished["']\s*:\s*["']([^"']+)["']/i)?.[1] ?? "";
+  const timeDate = html.match(/<time\b[^>]*datetime=["']([^"']+)["']/i)?.[1] ?? "";
+  const publishedAt = htmlMeta(html, ["article:published_time", "date", "datepublished"]) || jsonDate || timeDate;
+  return { title: cleanText(title), url: link.url, description: cleanText(description), publishedAt };
+}
+
+function termMatches(text, term) {
+  const normalized = text.toLowerCase();
+  if (/[^\x00-\x7F]/.test(term)) return normalized.includes(term.toLowerCase());
+  const escaped = term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+  return new RegExp(`(?:^|[^a-z0-9])${escaped}(?:$|[^a-z0-9])`, "i").test(normalized);
+}
+
 function includesAny(text, terms) {
-  const haystack = ` ${text.toLowerCase()} `;
-  return terms.some((term) => haystack.includes(term));
+  return terms.some((term) => termMatches(text, term));
+}
+
+function matchingTerms(text, terms) {
+  return terms.filter((term) => termMatches(text, term));
+}
+
+function isFinanceAiRelevant(raw, source) {
+  const text = `${raw.title} ${raw.description}`;
+  if (!includesAny(text, AI_TERMS)) return false;
+  const combinedHits = matchingTerms(text, FINANCE_TERMS).length;
+  if (source.focus === "finance") return combinedHits >= 1;
+  return includesAny(raw.title, FINANCE_TERMS) || combinedHits >= 2;
 }
 
 function classify(text) {
@@ -78,11 +182,15 @@ function classify(text) {
   return ["流程升级", "R2R · 财务运营"];
 }
 
-function scoreItem(text, tier) {
-  const financeHits = FINANCE_TERMS.filter((term) => text.toLowerCase().includes(term)).length;
-  const aiHits = AI_TERMS.filter((term) => ` ${text.toLowerCase()} `.includes(term)).length;
-  const base = tier === 1 ? 58 : 50;
-  return Math.min(96, base + Math.min(24, financeHits * 4) + Math.min(14, aiHits * 4));
+function scoreItem(raw, source) {
+  const text = `${raw.title} ${raw.description}`;
+  const financeHits = matchingTerms(text, FINANCE_TERMS).length;
+  const aiHits = matchingTerms(text, AI_TERMS).length;
+  const titleFinance = includesAny(raw.title, FINANCE_TERMS);
+  const titleAi = includesAny(raw.title, AI_TERMS);
+  const base = source.tier === 1 ? 54 : 48;
+  const focusBoost = source.focus === "finance" ? 8 : 0;
+  return Math.min(96, base + focusBoost + Math.min(20, financeHits * 4) + Math.min(12, aiHits * 3) + (titleFinance ? 8 : 0) + (titleAi ? 5 : 0));
 }
 
 function defaultInsight(category) {
@@ -99,9 +207,9 @@ function defaultInsight(category) {
 function toRecord(raw, source) {
   const text = `${raw.title} ${raw.description}`;
   const [category, processName] = classify(text);
-  const score = scoreItem(text, source.tier);
+  const score = scoreItem(raw, source);
   const date = new Date(raw.publishedAt || Date.now());
-  const summary = raw.description.length > 220 ? `${raw.description.slice(0, 216)}…` : raw.description;
+  const summary = raw.description.length > 320 ? `${raw.description.slice(0, 316)}…` : raw.description;
   return {
     id: createHash("sha1").update(raw.url).digest("hex").slice(0, 18),
     title: raw.title,
@@ -115,25 +223,38 @@ function toRecord(raw, source) {
     score,
     selected: score >= 70,
     kind: /(tool|platform|launch|release|agent|copilot|产品|工具)/i.test(text) ? "tool" : "news",
-    keywords: [...new Set(FINANCE_TERMS.filter((term) => text.toLowerCase().includes(term)).slice(0, 5))],
-    readTime: Math.max(2, Math.min(8, Math.round(text.length / 700)))
+    keywords: [...new Set(matchingTerms(text, FINANCE_TERMS).slice(0, 5))],
+    readTime: Math.max(2, Math.min(8, Math.round(text.length / 700))),
+    pipelineVersion: 2,
   };
 }
 
 async function fetchSource(source) {
   const response = await fetch(source.url, {
-    headers: { "user-agent": "FinPulseAI/1.0 (+GitHub Actions; finance intelligence aggregator)" },
+    headers: { "user-agent": source.browserUserAgent ? BROWSER_USER_AGENT : USER_AGENT },
     signal: AbortSignal.timeout(20_000),
   });
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-  const xml = await response.text();
-  return parseFeed(xml)
+  const body = await response.text();
+  let candidates;
+  if (source.type === "html") {
+    if (source.embeddedJson) {
+      candidates = parseEmbeddedArticles(body, source);
+    } else {
+      const links = parseHtmlLinks(body, source);
+      const articleResults = await Promise.allSettled(links.map((link) => fetchHtmlArticle(link, source)));
+      candidates = articleResults.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
+    }
+  } else {
+    candidates = parseFeed(body);
+  }
+  const lookbackDays = source.lookbackDays ?? 14;
+  return candidates
     .filter((item) => {
       const published = new Date(item.publishedAt || 0);
-      return Number.isNaN(published.valueOf()) || published.valueOf() >= Date.now() - 14 * 24 * 60 * 60 * 1000;
+      return Number.isNaN(published.valueOf()) || published.valueOf() >= Date.now() - lookbackDays * 24 * 60 * 60 * 1000;
     })
-    .filter((item) => includesAny(`${item.title} ${item.description}`, FINANCE_TERMS))
-    .filter((item) => includesAny(`${item.title} ${item.description}`, AI_TERMS))
+    .filter((item) => isFinanceAiRelevant(item, source))
     .map((item) => toRecord(item, source));
 }
 
@@ -169,6 +290,12 @@ const fresh = results.flatMap((result) => result.status === "fulfilled" ? result
 const errors = results
   .map((result, index) => result.status === "rejected" ? `${sources[index].name}: ${result.reason?.message ?? result.reason}` : null)
   .filter(Boolean);
+const sourceStats = results.map((result, index) => ({
+  name: sources[index].name,
+  type: sources[index].type === "html" ? "website" : "feed",
+  status: result.status === "fulfilled" ? "ok" : "error",
+  matched: result.status === "fulfilled" ? result.value.length : 0,
+}));
 
 let enriched = fresh.slice(0, 20);
 try {
@@ -178,15 +305,54 @@ try {
 }
 const finalizedFresh = [...enriched, ...fresh.slice(20)].map((item) => ({
   ...item,
-  selected: item.score >= 70 && /[\u4e00-\u9fff]/.test(item.title),
+  selected: item.score >= 70,
 }));
 
 const merged = new Map(current.items.map((item) => [item.url, item]));
 for (const item of finalizedFresh) merged.set(item.url, item);
+const sourceByName = new Map(sources.map((source) => [source.name, source]));
 const items = [...merged.values()]
+  .map((item) => {
+    const source = sourceByName.get(item.source) ?? { tier: 1 };
+    const validatedKeywords = item.pipelineVersion === 2 ? ` ${(item.keywords ?? []).join(" ")}` : "";
+    const raw = { title: item.title, description: `${item.summary}${validatedKeywords}` };
+    const score = scoreItem(raw, source);
+    return { ...item, score, selected: score >= 70, _relevant: isFinanceAiRelevant(raw, source) };
+  })
+  .filter((item) => item._relevant)
   .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || b.score - a.score)
-  .map((item) => ({ ...item, selected: Boolean(item.selected && /[\u4e00-\u9fff]/.test(item.title)) }))
-  .slice(0, 120);
+  .map(({ _relevant, ...item }) => item)
+  .slice(0, 160);
+
+function rebuildTrends(allItems) {
+  const recent = allItems.filter((item) => new Date(`${item.publishedAt}T00:00:00Z`).valueOf() >= Date.now() - 30 * 24 * 60 * 60 * 1000);
+  const definitions = [
+    { label: "财务智能体", note: "从助手走向流程执行", pattern: /agent|agentic|智能体/i },
+    { label: "P2P 自动化", note: "例外处理成为主战场", pattern: /payable|invoice|procurement|purchase-to-pay|p2p|应付|发票|采购/i },
+    { label: "智能 FP&A", note: "解释偏差比预测更重要", pattern: /forecast|budget|planning|variance|fp&a|fpa|预测|预算/i },
+    { label: "AI 治理", note: "权限与审计要求上升", pattern: /governance|security|compliance|audit|fraud|risk|治理|合规|审计|风险/i },
+    { label: "金融 AI", note: "银行、支付与风控加速落地", pattern: /bank|banking|payment|fintech|insurance|wealth|aml|kyc|银行|支付|金融|保险/i },
+  ];
+  const counts = definitions.map((definition) => recent.filter((item) => definition.pattern.test(`${item.title} ${item.summary} ${item.process}`)).length);
+  const max = Math.max(1, ...counts);
+  return definitions.map((definition, index) => ({
+    label: definition.label,
+    note: definition.note,
+    heat: Math.round(38 + (counts[index] / max) * 57),
+  }));
+}
+
+function buildDailyBrief(allItems, matchedCount, healthyCount) {
+  const recent = allItems
+    .filter((item) => new Date(`${item.publishedAt}T00:00:00Z`).valueOf() >= Date.now() - 14 * 24 * 60 * 60 * 1000)
+    .sort((a, b) => b.score - a.score || b.publishedAt.localeCompare(a.publishedAt));
+  const categoryCounts = new Map();
+  for (const item of recent) categoryCounts.set(item.category, (categoryCounts.get(item.category) ?? 0) + 1);
+  const focus = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([category]) => category);
+  const lead = recent[0];
+  if (!lead) return `本轮已有 ${healthyCount} 个信源正常完成采集，暂未发现新的高相关财务 AI 信号。`;
+  return `本轮从 ${healthyCount} 个正常信源中匹配 ${matchedCount} 条财务与金融 AI 信号，重点集中在${focus.join("、")}。当前最值得继续追踪的是《${lead.title}》。`;
+}
 
 const now = new Date();
 const formatter = new Intl.DateTimeFormat("zh-CN", {
@@ -199,11 +365,17 @@ const issue = new Intl.DateTimeFormat("en-CA", {
 
 current.meta.lastUpdated = `${formatter.format(now).replaceAll("/", "-")} CST`;
 current.meta.sourceCount = sources.length;
+current.meta.sourceOk = results.filter((result) => result.status === "fulfilled").length;
+current.meta.websiteSourceCount = sources.filter((source) => source.type === "html").length;
+current.meta.sourceStats = sourceStats;
 current.meta.todaySignals = fresh.length;
 current.meta.actionable = items.filter((item) => item.selected).length;
 current.meta.issue = issue;
+current.meta.dailyBrief = buildDailyBrief(items, fresh.length, current.meta.sourceOk);
+current.trends = rebuildTrends(items);
 current.items = items;
 
 await writeFile(dataPath, `${JSON.stringify(current, null, 2)}\n`, "utf8");
 console.log(`FinPulse refresh complete: ${fresh.length} matched, ${items.length} total.`);
+console.log(`Source results: ${sourceStats.map((source) => `${source.name}=${source.matched}`).join(", ")}`);
 if (errors.length) console.warn(`Unavailable feeds (${errors.length}):\n- ${errors.join("\n- ")}`);

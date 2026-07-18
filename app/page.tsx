@@ -108,7 +108,7 @@ export default function Home() {
 
   const visibleItems = showAll ? filteredItems : filteredItems.slice(0, 7);
   const sectionCopy = SECTION_COPY[activeView] ?? SECTION_COPY.精选;
-  const leadItem = newsData.items.find((item) => item.selected && /[\u4e00-\u9fff]/.test(item.title)) ?? newsData.items[0];
+  const leadItem = newsData.items.find((item) => item.selected) ?? newsData.items[0];
 
   function toggleSaved(id: string) {
     setSavedIds((current) => {
@@ -190,7 +190,7 @@ export default function Home() {
               <p className="hero-subtitle">{sectionCopy.subtitle}</p>
             </div>
             <div className="hero-stats" aria-label="今日采集概览">
-              <div><strong>{newsData.meta.sourceCount}</strong><span>持续跟踪信源</span></div>
+              <div><strong>{newsData.meta.sourceOk}/{newsData.meta.sourceCount}</strong><span>正常 / 全部信源</span></div>
               <div><strong>{newsData.meta.todaySignals}</strong><span>本轮匹配信号</span></div>
               <div><strong>{newsData.meta.actionable}</strong><span>高相关精选</span></div>
             </div>
@@ -291,7 +291,7 @@ export default function Home() {
               <section className="rail-card source-card">
                 <div className="rail-heading"><span>采集流水线</span><small><i className="live-dot" /> 运行中</small></div>
                 <ol>
-                  <li><span>01</span><p><b>定时抓取</b><small>RSS / 官方博客 / 研究机构</small></p></li>
+                  <li><span>01</span><p><b>定时抓取</b><small>RSS + {newsData.meta.websiteSourceCount} 个官网页面</small></p></li>
                   <li><span>02</span><p><b>去重与相关性评分</b><small>财务关键词 + 流程映射</small></p></li>
                   <li><span>03</span><p><b>摘要与财务解读</b><small>保留原文链接与出处</small></p></li>
                   <li><span>04</span><p><b>GitHub 自动发布</b><small>每日 07:30 更新数据</small></p></li>

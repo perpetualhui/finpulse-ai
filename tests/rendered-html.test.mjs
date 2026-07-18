@@ -31,7 +31,22 @@ test("news data keeps attribution and finance workflow fields", async () => {
   const data = JSON.parse(await readFile(new URL("../public/data/news.json", import.meta.url), "utf8"));
   assert.ok(data.items.length >= 10);
   assert.ok(data.tools.length >= 5);
+  assert.ok(data.meta.sourceCount >= 10);
+  assert.ok(data.meta.sourceOk / data.meta.sourceCount >= 0.8);
+  assert.ok(data.meta.websiteSourceCount >= 1);
+  assert.ok(data.meta.sourceStats.some((source) => source.type === "website" && source.status === "ok"));
+  assert.match(data.meta.issue, /^\d{8}$/);
+  assert.ok(data.meta.dailyBrief.includes("财务与金融 AI 信号"));
   assert.ok(data.items.every((item) => item.source && item.url.startsWith("http")));
-  assert.ok(data.items.every((item) => item.process && Number.isInteger(item.score)));
+  assert.ok(data.items.every((item) => item.title && item.summary && item.insight));
+  assert.ok(data.items.every((item) => item.category && item.process && Number.isInteger(item.score)));
   assert.ok(data.trends.every((trend) => trend.heat >= 0 && trend.heat <= 100));
+});
+
+test("source configuration covers feeds and direct websites", async () => {
+  const sources = JSON.parse(await readFile(new URL("../config/sources.json", import.meta.url), "utf8"));
+  assert.ok(sources.length >= 12);
+  assert.ok(sources.some((source) => source.type === "html"));
+  assert.ok(sources.some((source) => source.focus === "finance"));
+  assert.ok(sources.every((source) => source.name && source.url.startsWith("https://")));
 });

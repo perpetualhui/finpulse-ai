@@ -4,10 +4,14 @@
   { "name": "SAP News", "url": "https://news.sap.com/feed/", "tier": 1, "locale": "en" },
   { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/", "tier": 1, "locale": "en" },
   { "name": "AWS Machine Learning", "url": "https://aws.amazon.com/blogs/machine-learning/feed/", "tier": 1, "locale": "en" },
-  { "name": "CFO Dive", "url": "https://www.cfodive.com/feeds/news/", "tier": 2, "locale": "en" },
-  { "name": "Banking Dive", "url": "https://www.bankingdive.com/feeds/news/", "tier": 2, "locale": "en" },
-  { "name": "Payments Dive", "url": "https://www.paymentsdive.com/feeds/news/", "tier": 2, "locale": "en" },
-  { "name": "PYMNTS", "url": "https://www.pymnts.com/feed/", "tier": 2, "locale": "en" },
+  { "name": "CFO Dive", "url": "https://www.cfodive.com/feeds/news/", "focus": "finance", "tier": 2, "locale": "en" },
+  { "name": "Banking Dive", "url": "https://www.bankingdive.com/feeds/news/", "focus": "finance", "tier": 2, "locale": "en" },
+  { "name": "Payments Dive", "url": "https://www.paymentsdive.com/feeds/news/", "focus": "finance", "tier": 2, "locale": "en" },
+  { "name": "PYMNTS", "url": "https://www.pymnts.com/feed/", "focus": "finance", "tier": 2, "locale": "en" },
   { "name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "tier": 2, "locale": "en" },
-  { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "tier": 2, "locale": "en" }
+  { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "tier": 2, "locale": "en" },
+  { "name": "Anthropic Newsroom", "url": "https://www.anthropic.com/news", "type": "html", "embeddedJson": true, "includePaths": ["/news/"], "lookbackDays": 120, "tier": 1, "locale": "en" },
+  { "name": "UiPath Newsroom", "url": "https://www.uipath.com/newsroom", "type": "html", "includePaths": ["/newsroom/"], "maxPages": 30, "lookbackDays": 120, "tier": 1, "locale": "en" },
+  { "name": "Oracle News", "url": "https://www.oracle.com/news/", "type": "html", "includePaths": ["/news/announcement/"], "maxPages": 30, "lookbackDays": 120, "browserUserAgent": true, "tier": 1, "locale": "en" },
+  { "name": "Workday Newsroom", "url": "https://newsroom.workday.com/", "type": "html", "includePaths": ["/2026-"], "maxPages": 30, "lookbackDays": 120, "focus": "finance", "tier": 1, "locale": "en" }
 ]
