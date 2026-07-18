@@ -1,0 +1,36 @@
+name: Refresh finance AI news
+
+on:
+  schedule:
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run refresh
+        env:
+          LLM_API_URL: ${{ secrets.LLM_API_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -- public/data/news.json; then
+            echo "No data changes"
+            exit 0
+          fi
+          git config user.name "finpulse-bot"
+          git config user.email "finpulse-bot@users.noreply.github.com"
+          git add public/data/news.json
+          git commit -m "data: refresh finance AI signals"
+          git push

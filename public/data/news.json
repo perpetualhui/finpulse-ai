@@ -1,0 +1,2325 @@
+{
+  "meta": {
+    "lastUpdated": "2026-07-18 23:54 CST",
+    "sourceCount": 11,
+    "todaySignals": 28,
+    "actionable": 9,
+    "issue": "20260718",
+    "dailyBrief": "财务 AI 的竞争正在从“会回答问题”转向“能进入受控流程”。今天最值得关注的信号集中在银行服务智能体、端到端 P2P 自动化与带审计轨迹的财务代理。"
+  },
+  "trends": [
+    {
+      "label": "财务智能体",
+      "note": "从助手走向流程执行",
+      "heat": 94
+    },
+    {
+      "label": "P2P 自动化",
+      "note": "例外处理成为主战场",
+      "heat": 86
+    },
+    {
+      "label": "智能 FP&A",
+      "note": "解释偏差比预测更重要",
+      "heat": 78
+    },
+    {
+      "label": "AI 治理",
+      "note": "权限与审计要求上升",
+      "heat": 72
+    },
+    {
+      "label": "财务 MCP",
+      "note": "数据连接层开始成形",
+      "heat": 65
+    }
+  ],
+  "items": [
+    {
+      "id": "f93d6e5542db8469d6",
+      "title": "Transform your sales organization with Amazon Quick: your new agentic AI teammate",
+      "summary": "In this post, we walk through a few ways that Quick delivers on this promise. We cover the entire sales cycle, from identifying your highest-priority prospect, contacting them, working the deal to close, and keeping …",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/transform-your-sales-organization-with-amazon-quick-your-new-agentic-ai-teammate/",
+      "publishedAt": "2026-07-17",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "close"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "3eed44316a2c14f070",
+      "title": "The $100 Million CFO Rewrites the Rules on Legal Spend",
+      "summary": "Legal spending was once a simple professional-services line item for CFOs. Now it’s an operating problem. Compliance rules, cybersecurity duties, artificial intelligence (AI) governance and a growing patchwork of sta…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/back-office/cfo/2026/the-100-million-cfo-rewrites-the-rules-on-legal-spend/",
+      "publishedAt": "2026-07-17",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "finance",
+        "compliance",
+        "risk",
+        "cfo"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "3ebda52fc80ebe3316",
+      "title": "A scorecard for the AI age",
+      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "publishedAt": "2026-07-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "cfo"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "1918643d917179e9c7",
+      "title": "New Xactly CFO targets efficient revenue growth",
+      "summary": "In her first week at the AI company, Adriana Carpenter is focusing on revenue, AI implementation, and ensuring she&rsquo;s showing, not just telling, the financial story.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "CFO Dive",
+      "url": "https://www.cfodive.com/news/new-xactly-cfo-targets-efficient-revenue-growth/825589/",
+      "publishedAt": "2026-07-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 62,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "financial",
+        "cfo"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "5bd558275edc56090a",
+      "title": "AI Agents Finally Get Access Without the Password",
+      "summary": "Given free rein, AI agents can research products, compare prices and fill out forms. They’re thwarted the moment a task requires a login. Until now, the only options have been handing over the password and accepting …",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-finally-get-access-without-the-password/",
+      "publishedAt": "2026-07-17",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 62,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "ccdf9b327910cfecc5",
+      "title": "FIS Deploys Anthropic’s Mythos 5 to Strengthen Global Financial Infrastructure",
+      "summary": "FIS has joined Anthropic’s Project Glasswing and is using the artificial intelligence company’s most advanced frontier model, Mythos 5, to secure its own systems. Project Glasswing is Anthropic’s initiative that allo…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fis-deploys-anthropics-mythos-5-to-strengthen-global-financial-infrastructure/",
+      "publishedAt": "2026-07-17",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 62,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "financial"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "9597485c20480ac3c0",
+      "title": "OpenAI pushes new yardstick for measuring AI investments",
+      "summary": "The company&rsquo;s CFO floated a &ldquo;useful-intelligence-per-dollar&rdquo; approach, arguing that traditional software metrics fail to capture the value of AI.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "CFO Dive",
+      "url": "https://www.cfodive.com/news/openai-pushes-new-roi-yardstick-ai-cfos/825606/",
+      "publishedAt": "2026-07-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 58,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "cfo"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "9a3bfba7061ea5562d",
+      "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+      "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations an…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "VentureBeat AI",
+      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "publishedAt": "2026-07-16",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 84,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "compliance",
+        "risk",
+        "close",
+        "budget",
+        "erp"
+      ],
+      "readTime": 8
+    },
+    {
+      "id": "09e86f1db1bc975bb4",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+      "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-mis…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "VentureBeat AI",
+      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "publishedAt": "2026-07-16",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 74,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "risk",
+        "close",
+        "budget",
+        "erp"
+      ],
+      "readTime": 8
+    },
+    {
+      "id": "cec1ebe5d23f0658e4",
+      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+      "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, …",
+      "insight": "落地前应先统一指标定义、版本口径、责任中心和数据权限。",
+      "source": "VentureBeat AI",
+      "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+      "publishedAt": "2026-07-16",
+      "category": "业财分析",
+      "process": "FP&A · 预算预测",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "financial",
+        "accounting",
+        "close",
+        "erp"
+      ],
+      "readTime": 8
+    },
+    {
+      "id": "e9ea1363a186c8a2e7",
+      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "VentureBeat AI",
+      "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "publishedAt": "2026-07-16",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "financial",
+        "close",
+        "erp"
+      ],
+      "readTime": 8
+    },
+    {
+      "id": "2a54202931aaa84bc3",
+      "title": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
+      "summary": "In this post, we walk through the three pillars that make this possible: simplified setup, smarter retrieval, and production readiness. We also show you code examples for setting up a knowledge base and retrieving fr…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/",
+      "publishedAt": "2026-07-16",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "14f442218433c2dcd6",
+      "title": "Introducing Grok on Amazon Bedrock",
+      "summary": "This post covers what makes Grok 4.3 a great fit for agentic and enterprise workloads, how you access it through Amazon Bedrock, and how to use the capabilities most teams reach for first: a basic chat request, confi…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+      "publishedAt": "2026-07-16",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "a571a566f6c633fec1",
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "summary": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "publishedAt": "2026-07-16",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 58,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "close"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "89c9f7f3ade42756ea",
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-ste…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "VentureBeat AI",
+      "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "publishedAt": "2026-07-15",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 78,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "financial",
+        "risk",
+        "close",
+        "budget",
+        "erp"
+      ],
+      "readTime": 8
+    },
+    {
+      "id": "8d2709bfb02ec6085a",
+      "title": "Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance",
+      "summary": "Built partnered with the AWS Generative AI Innovation Center (GenAIIC), AWS Partner AND Digital, and AWS account teams to create a scalable, AI-powered document processing engine that can classify, split, extract, ev…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance/",
+      "publishedAt": "2026-07-15",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "finance"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "visa-ai-financial-assistant-2026",
+      "title": "Visa 推出 AI Financial Assistant，把银行洞察直接推进到客户行动",
+      "summary": "Visa 发布面向银行 App 的对话式财务助手，可把账户洞察、产品建议和下一步操作放进同一个交互入口，并计划于 2026 年 8 月在美国启动试点。",
+      "insight": "这类能力会把银行客户服务从“解释数据”推向“基于规则执行动作”，财务团队需要提前定义推荐边界、授权层级与留痕要求。",
+      "source": "Visa Investor",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Introduces-AI-Financial-Assistant-Helping-Banks-Guide-Customers-from-Insight-to-Action/default.aspx",
+      "publishedAt": "2026-07-14",
+      "category": "AI工具",
+      "process": "资金管理 · 银行服务",
+      "score": 94,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "Visa",
+        "银行",
+        "财务助手",
+        "客户洞察"
+      ],
+      "readTime": 4
+    },
+    {
+      "id": "92ab1f77dd8ccf54b1",
+      "title": "How to manage AI investments in the agentic era",
+      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "publishedAt": "2026-07-14",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "43be431cc445231017",
+      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "summary": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric t…",
+      "insight": "落地前应先统一指标定义、版本口径、责任中心和数据权限。",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "publishedAt": "2026-07-14",
+      "category": "业财分析",
+      "process": "FP&A · 预算预测",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "budget"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "9d5925e11f316f2b9d",
+      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+      "summary": "Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exc…",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
+      "publishedAt": "2026-07-14",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "8e9f4094317760035b",
+      "title": "ScienceSoft’s HIPAA-compliant AI voice scheduler built on AWS",
+      "summary": "In this post, you will learn how ScienceSoft, an Amazon Web Services (AWS) Services Partner, integrated Amazon Nova 2 Sonic with Amazon Bedrock Guardrails to build a Health Insurance Portability and Accountability Ac…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/sciencesofts-hipaa-compliant-ai-voice-scheduler-built-on-aws/",
+      "publishedAt": "2026-07-14",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "compliance"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "0034b7b78f2825defe",
+      "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
+      "summary": "In this post, we describe how Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution spanning six healthcare compliance pr…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock/",
+      "publishedAt": "2026-07-13",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "compliance"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "b15b0a8d3b217e5bd3",
+      "title": "AI Is Exposing Fragmented Systems in Financial Services",
+      "summary": "Since 2021, SAP and SAP Fioneer have significantly expanded joint capabilities for the financial services sector.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "SAP News",
+      "url": "https://news.sap.com/2026/07/ai-exposing-fragmented-systems-financial-services/",
+      "publishedAt": "2026-07-13",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "financial"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "0b0b56d8835f1c85af",
+      "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
+      "summary": "In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience. The API already gives you programmatic access to recommenda…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/",
+      "publishedAt": "2026-07-13",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "dc6dae0f7c2bf70b28",
+      "title": "Luxury on Cloud Nine: Redefining Excellence at Swarovski with SAP Cloud ERP",
+      "summary": "The luxury brand is laying the foundation for AI and to reach its strategic targets by 2030.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "SAP News",
+      "url": "https://news.sap.com/2026/07/swarovski-redefining-excellence-sap-cloud-erp/",
+      "publishedAt": "2026-07-10",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "365a2a08442831c949",
+      "title": "Real-time dental image verification with Amazon SageMaker AI at Henry Schein One",
+      "summary": "This post describes how Henry Schein One closed that gap by building Image Verify, an AI-powered quality verification system on Amazon SageMaker AI that evaluates dental X-ray quality at the point of capture, in real…",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/real-time-dental-image-verification-with-amazon-sagemaker-ai-at-henry-schein-one/",
+      "publishedAt": "2026-07-10",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "close"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "e799563c0958e055c8",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "publishedAt": "2026-07-09",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "5972b33e1818d1585a",
+      "title": "How Natura &Co Is Transforming Finance with Generative AI on SAP S/4HANA",
+      "summary": "A co-innovation project between Natura &Co, Numen, and SAP is turning gross margin analysis from a manual process into a real-time engine for financial decision-making.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "SAP News",
+      "url": "https://news.sap.com/2026/07/natura-co-transforming-finance-generative-ai/",
+      "publishedAt": "2026-07-08",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 70,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "finance",
+        "financial"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "cecc787bcc8b6c47cd",
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDI…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "publishedAt": "2026-07-08",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "close"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "24d17638a65026e396",
+      "title": "SAP and IBM Announce Client Momentum Across IBM Technology and SAP Cloud ERP Private to Drive AI Innovation",
+      "summary": "WALLDORF & ARMONK — Global enterprises are modernizing their ERP workloads.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "SAP News",
+      "url": "https://news.sap.com/2026/07/ibm-technology-sap-cloud-erp-private-client-momentum-ai-innovation/",
+      "publishedAt": "2026-07-02",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "3e4bb7dd4bacc4da15",
+      "title": "Nokia, SAP and Microsoft Enter Strategic Multi-Year Agreement to Advance Cloud- and AI-Driven Business Transformation",
+      "summary": "WALLDORF — The global leader in connectivity for the AI era will accelerate its enterprise transformation with SAP.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "SAP News",
+      "url": "https://news.sap.com/2026/06/nokia-sap-microsoft-strategic-multi-year-agreement-advance-cloud-ai-driven-business-transformation/",
+      "publishedAt": "2026-06-30",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "1ae317c00ced77b0a2",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "publishedAt": "2026-06-28",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "eebdb7f63bb5dd4fde",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "publishedAt": "2026-06-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "gartner-ap-2026",
+      "title": "2026 应付应用竞争焦点转向动态审批、实时反欺诈与全球电子发票合规",
+      "summary": "Gartner 最新研究把 AI 驱动的动态工作流、欺诈检测、电子发票合规和营运资金洞察列为应付应用的关键能力。",
+      "insight": "选型不应只看 OCR 准确率，还要同时衡量发票处理周期、例外率、折扣捕获、欺诈阻断和全球合规覆盖。",
+      "source": "Gartner",
+      "url": "https://www.gartner.com/en/documents/8014469",
+      "publishedAt": "2026-06-18",
+      "category": "风险合规",
+      "process": "P2P · 电子发票",
+      "score": 85,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "Gartner",
+        "AP",
+        "电子发票",
+        "欺诈",
+        "营运资金"
+      ],
+      "readTime": 8
+    },
+    {
+      "id": "217d8a1a56f1c72721",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "publishedAt": "2026-06-18",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "888bd1de6f406f7ac4",
+      "title": "Introducing the OpenAI Partner Network",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "publishedAt": "2026-06-14",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "6600f3e4b9646c4be9",
+      "title": "OpenAI to acquire Ona",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "publishedAt": "2026-06-11",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "a9f0898c4190e00181",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/bbva",
+      "publishedAt": "2026-06-11",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "ramp-applied-ai-2026",
+      "title": "Ramp 推出 Applied AI Solutions，开始承接复杂财务运营流程",
+      "summary": "Ramp 的新方案面向大型企业，把智能体连接到 ERP、采购系统、文档库、审批流与银行数据，覆盖应付、采购、关账、应收和费用管理。",
+      "insight": "工具价值从单点识别转向跨系统编排。评估时应优先看主数据一致性、例外回退机制和人工审批插点。",
+      "source": "Ramp",
+      "url": "https://www.prnewswire.com/news-releases/ramp-launches-applied-ai-solutions-helping-enterprises-deploy-ai-agents-across-finance-operations-302796179.html",
+      "publishedAt": "2026-06-10",
+      "category": "财务共享",
+      "process": "财务共享 · P2P · R2R",
+      "score": 92,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "Ramp",
+        "应付",
+        "关账",
+        "费用管理",
+        "ERP"
+      ],
+      "readTime": 5
+    },
+    {
+      "id": "4600462b11c1a928d9",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "publishedAt": "2026-06-10",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "d0841d29a3627d472a",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/endava-frontiers",
+      "publishedAt": "2026-06-04",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "3e9dde27d0980f7870",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "publishedAt": "2026-05-28",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "a1f161b6a344e4fa2c",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/cisco",
+      "publishedAt": "2026-05-27",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "9da64821c60f866d06",
+      "title": "Building self-improving tax agents with Codex",
+      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "publishedAt": "2026-05-27",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "tax"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "ef1db9edff97d09f04",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "publishedAt": "2026-05-22",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "210c7a7c782649817d",
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "publishedAt": "2026-05-18",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "c64312c3121cafd6f0",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/databricks",
+      "publishedAt": "2026-05-15",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "4ca12da2ae6a65c2eb",
+      "title": "How enterprises are scaling AI",
+      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "publishedAt": "2026-05-11",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "68e94ee2f13a7ca6fb",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "publishedAt": "2026-05-11",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "e41b9b9c2133078d6f",
+      "title": "Parloa builds service agents customers want to talk to",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/parloa",
+      "publishedAt": "2026-05-07",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "94f58b450581f2c916",
+      "title": "How frontier firms are pulling ahead",
+      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-b2b-signals",
+      "publishedAt": "2026-05-06",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "anthropic-finance-agents-2026",
+      "title": "Anthropic 发布 10 个金融智能体模板，月末关账进入标准化交付范围",
+      "summary": "Anthropic 发布覆盖月末关账、KYC、投行材料等工作的智能体模板，并通过技能、连接器与子智能体组合，把金融专业知识和数据访问封装为可复用方案。",
+      "insight": "“模板 + 数据连接 + 复核子流程”正在成为财务智能体的产品形态，财务部门可从关账底稿、调节表和差异复核等低风险场景试点。",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "publishedAt": "2026-05-05",
+      "category": "流程升级",
+      "process": "R2R · 月末关账",
+      "score": 91,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "Claude",
+        "关账",
+        "KYC",
+        "智能体模板"
+      ],
+      "readTime": 6
+    },
+    {
+      "id": "openai-pwc-cfo-2026",
+      "title": "OpenAI 与 PwC 共建 CFO 办公室智能体，覆盖规划、报告、税务与资金",
+      "summary": "双方宣布围绕真实财务工作流共建智能体，覆盖计划预测、管理报告、采购付款、资金、税务与会计关账，并强调治理和人工监督。",
+      "insight": "大型财务转型项目会越来越像“流程产品建设”，需要把岗位职责、系统权限、控制点与模型评估放进同一张蓝图。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration/",
+      "publishedAt": "2026-05-04",
+      "category": "财务共享",
+      "process": "财务共享 · CFO Office",
+      "score": 90,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "OpenAI",
+        "PwC",
+        "CFO",
+        "财务转型",
+        "税务"
+      ],
+      "readTime": 5
+    },
+    {
+      "id": "9807ae0752f785d88e",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "insight": "落地前应先统一指标定义、版本口径、责任中心和数据权限。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "publishedAt": "2026-05-04",
+      "category": "业财分析",
+      "process": "FP&A · 预算预测",
+      "score": 82,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "finance",
+        "forecast",
+        "cfo",
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "368128e6f28129236f",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-on-aws",
+      "publishedAt": "2026-04-28",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "bc680bc14e9fe20607",
+      "title": "OpenAI available at FedRAMP Moderate",
+      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "publishedAt": "2026-04-27",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "3fd9feef2846dd33b2",
+      "title": "Modeling an AI jobs transition",
+      "summary": "A new framework analyzes 921 occupations and 148 million U.S. jobs to identify which roles face automation risk, reorganization, growth, or minimal AI disruption.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/modeling-ai-jobs-transition",
+      "publishedAt": "2026-04-25",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "6b46e3ebb2c30a0c12",
+      "title": "Cricket Australia uses AI Insights to bring fans closer to the action",
+      "summary": "The post Cricket Australia uses AI Insights to bring fans closer to the action appeared first on Source .",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/asia/features/cricket-australia-uses-ai-insights-to-bring-fans-closer-to-the-action/",
+      "publishedAt": "2026-04-23",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "close"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "5e9e3b875406228620",
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "publishedAt": "2026-04-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "zuora-ai-agents-2026",
+      "title": "Zuora AI 新增 Quote-to-Cash 智能体，强调权限与审计框架内执行",
+      "summary": "Zuora 发布一组面向订阅业务的财务智能体，可汇总客户的合同、账单、付款与风险信号，并在现有权限和审计框架内提出后续动作。",
+      "insight": "O2C 场景天然跨越销售、合同、开票与回款，真正的落地门槛不在摘要，而在数据口径与动作权限。",
+      "source": "Zuora",
+      "url": "https://www.zuora.com/press-release/zuora-ai/",
+      "publishedAt": "2026-04-16",
+      "category": "流程升级",
+      "process": "O2C · 应收管理",
+      "score": 87,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "Zuora",
+        "应收",
+        "订阅",
+        "Quote-to-Cash"
+      ],
+      "readTime": 4
+    },
+    {
+      "id": "f3e62d489285a827b6",
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "publishedAt": "2026-04-13",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "11c496abc34e390b62",
+      "title": "Financial services",
+      "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/academy/financial-services",
+      "publishedAt": "2026-04-10",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "financial"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "trustworthy-agents-2026",
+      "title": "高自主财务智能体带来新的治理缺口：提示注入、越权与错误动作",
+      "summary": "随着智能体能够调用邮件、费用系统与企业应用，治理重点从输出内容安全扩展到身份、权限、工具访问、审批边界和运行时监控。",
+      "insight": "任何能写入财务系统的智能体都应拥有独立身份、最小权限、金额阈值、可撤销动作与完整审计日志。",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/trustworthy-agents",
+      "publishedAt": "2026-04-09",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "治理",
+        "提示注入",
+        "最小权限",
+        "审计日志"
+      ],
+      "readTime": 7
+    },
+    {
+      "id": "oracle-fusion-agentic-2026",
+      "title": "Oracle 推出 Fusion Agentic Applications，把异常处理带入财务与供应链",
+      "summary": "Oracle 发布面向财务和供应链的代理式应用，聚焦跨工具谈判、异常处理、采购与合规，并以 AI Agent Studio 作为编排基础。",
+      "insight": "ERP 厂商正在把智能体嵌入系统记录层。已有 Oracle 技术栈的企业，应重点评估原生代理能否减少外围 RPA 和重复集成。",
+      "source": "Oracle",
+      "url": "https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-finance-and-supply-chain-2026-04-09/",
+      "publishedAt": "2026-04-09",
+      "category": "流程升级",
+      "process": "P2P · 采购与供应链",
+      "score": 86,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "Oracle",
+        "Fusion",
+        "采购",
+        "异常处理"
+      ],
+      "readTime": 5
+    },
+    {
+      "id": "284df27bcb93b21df7",
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/cyberagent",
+      "publishedAt": "2026-04-09",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "1c7f2b6158ff540e0d",
+      "title": "The next phase of enterprise AI",
+      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "publishedAt": "2026-04-08",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "092ef1a3b23417a8dc",
+      "title": "Accelerating the next phase of AI",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "publishedAt": "2026-03-31",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "uipath-p2p-agentic-2026",
+      "title": "UiPath 发布端到端 P2P 智能体方案，例外处理成为自动化核心",
+      "summary": "UiPath 发布 Purchase-to-Pay 代理式解决方案，面向采购和应付流程，自动处理跨 ERP、文档和审批系统之间的交接与异常。",
+      "insight": "传统 RPA 的稳定路径正在升级为“智能体处理异常 + 自动化执行确定动作”，共享中心需要重新划分机器人、智能体和人工坐席的边界。",
+      "source": "UiPath",
+      "url": "https://www.uipath.com/newsroom/uipath-announces-new-agentic-solution-to-accelerate-procurement-cycles",
+      "publishedAt": "2026-03-25",
+      "category": "财务共享",
+      "process": "财务共享 · P2P",
+      "score": 89,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "UiPath",
+        "P2P",
+        "应付",
+        "例外处理",
+        "RPA"
+      ],
+      "readTime": 5
+    },
+    {
+      "id": "7414617764709a8c0e",
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/safety-bug-bounty",
+      "publishedAt": "2026-03-25",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "5aac17e98eb60c8832",
+      "title": "Helping developers build safer AI experiences for teens",
+      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "publishedAt": "2026-03-24",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "fd3208099b40794a1e",
+      "title": "How we monitor internal coding agents for misalignment",
+      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "publishedAt": "2026-03-19",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "workday-sana-2026",
+      "title": "Workday Sana 上线 300+ 技能，把财务自助服务扩展到跨系统执行",
+      "summary": "Sana from Workday 面向全球客户开放，Self-Service Agent 搭载 300 多项技能，可基于 Workday 的人员与财务数据查找答案、执行动作并自动化多步工作流。",
+      "insight": "员工财务自助将从查制度、查单据进化为可执行服务。上线前要把低风险动作、敏感变更与二次确认规则分级。",
+      "source": "Workday",
+      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Introducing-Sana-from-Workday-Superintelligence-for-Work-That-Finds-Answers-Takes-Action-and-Automates-Workflows/default.aspx",
+      "publishedAt": "2026-03-17",
+      "category": "AI工具",
+      "process": "财务共享 · 员工自助",
+      "score": 84,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "Workday",
+        "Sana",
+        "员工自助",
+        "工作流"
+      ],
+      "readTime": 4
+    },
+    {
+      "id": "86852cb22192e82008",
+      "title": "Designing AI agents to resist prompt injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "publishedAt": "2026-03-11",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "bdffd4a95bf1bb86c2",
+      "title": "OpenAI to acquire Promptfoo",
+      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "publishedAt": "2026-03-09",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "e535c691836b5eb15a",
+      "title": "Ensuring AI use in education leads to opportunity",
+      "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/ai-education-opportunity",
+      "publishedAt": "2026-03-05",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "close"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "11f28611545f156e7a",
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/amazon-partnership",
+      "publishedAt": "2026-02-27",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "4526d33ef1a2006009",
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "summary": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "publishedAt": "2026-02-23",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "a3ef4d9d087b886690",
+      "title": "Advancing independent research on AI alignment",
+      "summary": "OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/advancing-independent-research-ai-alignment",
+      "publishedAt": "2026-02-19",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "14da3f6649257f2e12",
+      "title": "Introducing OpenAI for India",
+      "summary": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-for-india",
+      "publishedAt": "2026-02-18",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "cemex-luca-bot-2026",
+      "title": "Cemex 用 LUCA Bot 向管理层开放财务 KPI，自然语言成为经营分析入口",
+      "summary": "Cemex 正向约 100 名高管推广财务智能体 LUCA Bot。该工具基于内部经济和财务数据回答问题，帮助管理层更快分析销售及工厂经营表现。",
+      "insight": "业财分析智能体的第一优先级不是生成更多图表，而是保证指标定义、权限隔离和答案可追溯。",
+      "source": "Microsoft Source",
+      "url": "https://news.microsoft.com/source/latam/features/ai/cemex-luca-bot-ai-agent/?lang=en",
+      "publishedAt": "2026-02-12",
+      "category": "业财分析",
+      "process": "FP&A · 管理报告",
+      "score": 83,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "Cemex",
+        "LUCA Bot",
+        "KPI",
+        "管理层",
+        "经营分析"
+      ],
+      "readTime": 6
+    },
+    {
+      "id": "537f97d9df022e3a96",
+      "title": "Introducing OpenAI Frontier",
+      "summary": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-openai-frontier",
+      "publishedAt": "2026-02-05",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "df0b4d474a022be62f",
+      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "summary": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "publishedAt": "2026-02-05",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "close"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "bea71e9121e9771588",
+      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
+      "summary": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/snowflake-partnership",
+      "publishedAt": "2026-02-02",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "a856111bf1044d532f",
+      "title": "Taisei Corporation shapes the next generation of talent with AI",
+      "summary": "Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/taisei",
+      "publishedAt": "2026-01-29",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "53560453084e268811",
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "summary": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/pvh-future-of-fashion",
+      "publishedAt": "2026-01-27",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "board-microsoft-agents-2026",
+      "title": "Board 与 Microsoft 推出 FP&A 和 Controller Agents，瞄准连续计划",
+      "summary": "Board 发布基于 Microsoft Foundry 的企业规划智能体，首批覆盖 FP&A 与 Controller 岗位，支持财务、供应链和商品规划中的持续决策。",
+      "insight": "计划工具的竞争点正在从协同填报转向持续解释与建议，企业需要先治理版本、假设和责任中心数据。",
+      "source": "Microsoft Source",
+      "url": "https://news.microsoft.com/source/emea/2026/01/board-collaborates-with-microsoft-to-bring-agentic-ai-into-the-core-of-enterprise-planning/",
+      "publishedAt": "2026-01-21",
+      "category": "业财分析",
+      "process": "FP&A · 预算预测",
+      "score": 82,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "Board",
+        "Microsoft",
+        "FP&A",
+        "Controller",
+        "连续计划"
+      ],
+      "readTime": 5
+    },
+    {
+      "id": "8fe35db9d836ff52ad",
+      "title": "ServiceNow powers actionable enterprise AI with OpenAI",
+      "summary": "ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
+      "publishedAt": "2026-01-20",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "bb41bbc5572091aa16",
+      "title": "OpenAI for Healthcare",
+      "summary": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-for-healthcare",
+      "publishedAt": "2026-01-08",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "compliance",
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "0f7e9213fe84e16854",
+      "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "summary": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/netomi",
+      "publishedAt": "2026-01-08",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "d0b2cf7c48996a035d",
+      "title": "The state of enterprise AI",
+      "summary": "A data-driven look at enterprise AI adoption, showing how organizations move from experimentation to real productivity gains and new capabilities.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report",
+      "publishedAt": "2025-12-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "e63ddad45fc635a470",
+      "title": "Measuring AI’s capability to accelerate biological research",
+      "summary": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both the promise and ri…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
+      "publishedAt": "2025-12-16",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "f3eda620bd44336a01",
+      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+      "summary": "BNY uses OpenAI to expand AI adoption enterprise-wide through Eliza, where 20,000+ employees build AI agents that improve efficiency and client outcomes.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/bny",
+      "publishedAt": "2025-12-12",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "b0923f0323a034bd84",
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "summary": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that enhance customer …",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/bbva-collaboration-expansion",
+      "publishedAt": "2025-12-12",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "17fe1c1675c8a1a7cc",
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "summary": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in entertainment and in…",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/disney-sora-agreement",
+      "publishedAt": "2025-12-11",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "b129d60f25bb8ac449",
+      "title": "Strengthening cyber resilience as AI capabilities advance",
+      "summary": "OpenAI is investing in stronger safeguards and defensive capabilities as AI models become more powerful in cybersecurity. We explain how we assess risk, limit misuse, and work with the security community to strengthe…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/strengthening-cyber-resilience",
+      "publishedAt": "2025-12-10",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "9983b0e62490135f99",
+      "title": "Commonwealth Bank of Australia builds AI fluency at scale",
+      "summary": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/commonwealth-bank-of-australia",
+      "publishedAt": "2025-12-09",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "fraud",
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "dd8b3c77e471ce3762",
+      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+      "summary": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day operations as O…",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-appoints-denise-dresser",
+      "publishedAt": "2025-12-09",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "e8c744380d8b61e9f0",
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "summary": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche Telekom improve…",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/deutsche-telekom-collaboration",
+      "publishedAt": "2025-12-09",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "1c26a12c7f0fd77339",
+      "title": "The state of enterprise AI",
+      "summary": "Key findings from OpenAI’s enterprise data show accelerating AI adoption, deeper integration, and measurable productivity gains across industries in 2025.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
+      "publishedAt": "2025-12-08",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "bcd69a9e8a00aa64b8",
+      "title": "How Virgin Atlantic uses AI to enhance every step of travel",
+      "summary": "Virgin Atlantic CFO Oliver Byers shares how the airline is using AI to speed up development, improve decision-making, and elevate customer experience.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/virgin-atlantic-oliver-byers",
+      "publishedAt": "2025-12-08",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "cfo"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "007df06b65ea8a7ca0",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "summary": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/mirakl",
+      "publishedAt": "2025-12-01",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "2ccaba4cac6c3c2a7e",
+      "title": "Accenture and OpenAI accelerate enterprise AI success",
+      "summary": "Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/accenture-partnership",
+      "publishedAt": "2025-12-01",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "d40028f6468c263b5f",
+      "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
+      "summary": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy, and efficiency w…",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/thrive-holdings",
+      "publishedAt": "2025-12-01",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 70,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "accounting",
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "1e0105875961cdfec7",
+      "title": "Funding grants for new research into AI and mental health",
+      "summary": "OpenAI is awarding up to $2 million in grants for research at the intersection of AI and mental health. The program supports projects that study real-world risks, benefits, and applications to improve safety and well…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/ai-mental-health-research-grants",
+      "publishedAt": "2025-12-01",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "622e7b650fdd2137a0",
+      "title": "Strengthening our safety ecosystem with external testing",
+      "summary": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and risks.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/strengthening-safety-with-external-testing",
+      "publishedAt": "2025-11-19",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "0e16cd3f8068fe2d72",
+      "title": "How evals drive the next chapter in AI for businesses",
+      "summary": "Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/evals-drive-next-chapter-of-ai",
+      "publishedAt": "2025-11-19",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "410aa22bdc35c06fa2",
+      "title": "How Scania accelerates work with AI across its global workforce",
+      "summary": "Global manufacturer Scania is scaling AI with ChatGPT Enterprise. With team-based onboarding and strong guardrails, AI is boosting productivity, quality, and innovation.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/scania",
+      "publishedAt": "2025-11-19",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "862429ef7fc559ed07",
+      "title": "OpenAI named Emerging Leader in Generative AI",
+      "summary": "OpenAI has been named an Emerging Leader in Gartner’s 2025 Innovation Guide for Generative AI Model Providers. The recognition reflects our enterprise momentum, with over 1 million companies building with ChatGPT.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gartner-2025-emerging-leader",
+      "publishedAt": "2025-11-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "8dfbb146fdc5662c10",
+      "title": "Understanding neural networks through sparse circuits",
+      "summary": "OpenAI is exploring mechanistic interpretability to understand how neural networks reason. Our new sparse model approach could make AI systems more transparent and support safer, more reliable behavior.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits",
+      "publishedAt": "2025-11-13",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "eae8fc742928846653",
+      "title": "How Philips is scaling AI literacy across 70,000 employees",
+      "summary": "Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/philips",
+      "publishedAt": "2025-11-13",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "6f9bafaa17ff11ac71",
+      "title": "1 million business customers putting AI to work",
+      "summary": "More than 1 million business customers around the world now use OpenAI. Across healthcare, life sciences, financial services, and more, ChatGPT and our APIs are driving a new era of intelligent, AI-powered work.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/1-million-businesses-putting-ai-to-work",
+      "publishedAt": "2025-11-05",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "financial"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "6b53b6f6f17ef9a429",
+      "title": "Advancing organizational transformation for business innovation",
+      "summary": "DNP rolled out ChatGPT Enterprise across ten core departments, achieving 95% faster patent research, 10x processing volume, 87% automation, and 70% knowledge reuse in three months.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/dai-nippon-printing",
+      "publishedAt": "2025-10-28",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "b70266b486445c45a8",
+      "title": "The next chapter for UK sovereign AI",
+      "summary": "OpenAI expands its UK partnership with a new Ministry of Justice agreement, bringing ChatGPT to civil servants. It also introduces UK data residency for ChatGPT Enterprise, ChatGPT Edu, and the API Platform to suppor…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/the-next-chapter-for-uk-sovereign-ai",
+      "publishedAt": "2025-10-22",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "236988a26963c7f4c6",
+      "title": "HiBob turns 2,500 GPTs into product and team growth",
+      "summary": "Discover how HiBob uses ChatGPT Enterprise and custom GPTs to scale AI adoption, boost revenue, streamline HR workflows, and deliver AI-powered features in the Bob platform.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/hibob",
+      "publishedAt": "2025-10-08",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "c161d286b7c19f2999",
+      "title": "How people are using ChatGPT",
+      "summary": "New research from the largest study of ChatGPT use shows how the tool creates economic value through both personal and professional use. Adoption is broadening beyond early users, closing gaps and making AI a part of…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/how-people-are-using-chatgpt",
+      "publishedAt": "2025-09-15",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "closing"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "00474c9a0aa5f9d139",
+      "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+      "summary": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy .",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/safetykit",
+      "publishedAt": "2025-09-09",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "compliance",
+        "risk"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "dca5e1de215898de18",
+      "title": "Mixi reimagines communication with ChatGPT",
+      "summary": "Discover how MIXI, a leader in digital entertainment and lifestyle services in Japan, uses ChatGPT Enterprise to transform productivity, boost AI adoption across teams, and create a secure environment for innovation.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/mixi",
+      "publishedAt": "2025-08-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "fd78855f062f561cf8",
+      "title": "Scaling accounting capacity with OpenAI",
+      "summary": "Built with OpenAI o3, o3-Pro, GPT-4.1, and GPT-5, Basis’ AI agents help accounting firms save up to 30% of their time and expand capacity for advisory and growth.",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/basis",
+      "publishedAt": "2025-08-12",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 70,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "accounting"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "d7893b67b5b0b07251",
+      "title": "GPT-5 and the new era of work",
+      "summary": "GPT-5 is OpenAI’s most advanced model—transforming enterprise AI, automation, and workforce productivity in the new era of intelligent work.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gpt-5-new-era-of-work",
+      "publishedAt": "2025-08-07",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "erp"
+      ],
+      "readTime": 2
+    },
+    {
+      "id": "7021f30af85ddd32ae",
+      "title": "Estimating worst case frontier risks of open weight LLMs",
+      "summary": "In this paper, we study the worst-case frontier risks of releasing gpt-oss. We introduce malicious fine-tuning (MFT), where we attempt to elicit maximum capabilities by fine-tuning gpt-oss to be as capable as possibl…",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms",
+      "publishedAt": "2025-08-05",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "risk"
+      ],
+      "readTime": 2
+    }
+  ],
+  "tools": [
+    {
+      "name": "Claude Finance Agents",
+      "vendor": "Anthropic",
+      "useCase": "关账、KYC、建模与金融材料",
+      "stage": "已发布",
+      "stageCode": "ga",
+      "verdict": "适合从复核型任务切入",
+      "url": "https://www.anthropic.com/news/finance-agents"
+    },
+    {
+      "name": "UiPath P2P Solution",
+      "vendor": "UiPath",
+      "useCase": "采购到付款与例外处理",
+      "stage": "试点期",
+      "stageCode": "pilot",
+      "verdict": "共享中心优先关注",
+      "url": "https://www.uipath.com/newsroom/uipath-announces-new-agentic-solution-to-accelerate-procurement-cycles"
+    },
+    {
+      "name": "Sana for Workday",
+      "vendor": "Workday",
+      "useCase": "财务自助与跨系统工作流",
+      "stage": "已发布",
+      "stageCode": "ga",
+      "verdict": "已有 Workday 栈价值更高",
+      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Introducing-Sana-from-Workday-Superintelligence-for-Work-That-Finds-Answers-Takes-Action-and-Automates-Workflows/default.aspx"
+    },
+    {
+      "name": "Oracle Fusion Agents",
+      "vendor": "Oracle",
+      "useCase": "财务、采购与供应链异常",
+      "stage": "预览中",
+      "stageCode": "preview",
+      "verdict": "重点验证原生集成深度",
+      "url": "https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-finance-and-supply-chain-2026-04-09/"
+    },
+    {
+      "name": "Zuora AI",
+      "vendor": "Zuora",
+      "useCase": "订阅、账单、回款与风险信号",
+      "stage": "已发布",
+      "stageCode": "ga",
+      "verdict": "订阅制业务适配度高",
+      "url": "https://www.zuora.com/press-release/zuora-ai/"
+    },
+    {
+      "name": "Ramp Applied AI",
+      "vendor": "Ramp",
+      "useCase": "应付、采购、费用与关账",
+      "stage": "试点期",
+      "stageCode": "pilot",
+      "verdict": "关注复杂系统连接能力",
+      "url": "https://www.prnewswire.com/news-releases/ramp-launches-applied-ai-solutions-helping-enterprises-deploy-ai-agents-across-finance-operations-302796179.html"
+    }
+  ]
+}

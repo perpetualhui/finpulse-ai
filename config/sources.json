@@ -1,0 +1,13 @@
+[
+  { "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "tier": 1, "locale": "en" },
+  { "name": "Microsoft AI", "url": "https://news.microsoft.com/source/topics/ai/feed/", "tier": 1, "locale": "en" },
+  { "name": "SAP News", "url": "https://news.sap.com/feed/", "tier": 1, "locale": "en" },
+  { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/", "tier": 1, "locale": "en" },
+  { "name": "AWS Machine Learning", "url": "https://aws.amazon.com/blogs/machine-learning/feed/", "tier": 1, "locale": "en" },
+  { "name": "CFO Dive", "url": "https://www.cfodive.com/feeds/news/", "tier": 2, "locale": "en" },
+  { "name": "Banking Dive", "url": "https://www.bankingdive.com/feeds/news/", "tier": 2, "locale": "en" },
+  { "name": "Payments Dive", "url": "https://www.paymentsdive.com/feeds/news/", "tier": 2, "locale": "en" },
+  { "name": "PYMNTS", "url": "https://www.pymnts.com/feed/", "tier": 2, "locale": "en" },
+  { "name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "tier": 2, "locale": "en" },
+  { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "tier": 2, "locale": "en" }
+]
