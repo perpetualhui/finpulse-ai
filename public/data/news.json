@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-19 00:21 CST",
+    "lastUpdated": "2026-07-20 09:57 CST",
     "sourceCount": 15,
-    "todaySignals": 9,
-    "actionable": 16,
-    "issue": "20260719",
-    "dailyBrief": "本轮从 15 个正常信源中匹配 9 条财务与金融 AI 信号，重点集中在风险合规、AI工具、流程升级。当前最值得继续追踪的是《Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance》。",
+    "todaySignals": 8,
+    "actionable": 17,
+    "issue": "20260720",
+    "dailyBrief": "本轮从 15 个正常信源中匹配 8 条财务与金融 AI 信号，重点集中在风险合规、AI工具、流程升级。当前最值得继续追踪的是《Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance》。",
     "sourceOk": 15,
     "websiteSourceCount": 4,
     "sourceStats": [
@@ -61,7 +61,7 @@
         "name": "PYMNTS",
         "type": "feed",
         "status": "ok",
-        "matched": 2
+        "matched": 1
       },
       {
         "name": "VentureBeat AI",
@@ -125,10 +125,29 @@
     {
       "label": "金融 AI",
       "note": "银行、支付与风控加速落地",
-      "heat": 38
+      "heat": 49
     }
   ],
   "items": [
+    {
+      "id": "0fb3ee9e3a6b2847de",
+      "title": "Bank of America Promotes Execs to Champion AI and Crypto",
+      "summary": "Bank of America has reportedly promoted new leaders to guide its artificial intelligence and crypto efforts. Sonali Theisen has been named the bank’s head of global digital-assets platform and Kevin Milsom head of platforms AI transformation, Bloomberg News reported Friday (July 17), citing an internal Bank of Amer…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/personnel/2026/bank-of-america-promotes-execs-to-champion-ai-and-crypto/",
+      "publishedAt": "2026-07-19",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 71,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "bank"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
     {
       "id": "3eed44316a2c14f070",
       "title": "The $100 Million CFO Rewrites the Rules on Legal Spend",
