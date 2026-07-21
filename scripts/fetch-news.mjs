@@ -477,10 +477,11 @@ async function syncHostedSnapshot(snapshot) {
   const syncUrl = process.env.NEWS_SYNC_URL;
   const token = process.env.NEWS_INGEST_TOKEN;
   if (!syncUrl || !token) return false;
-  const response = await fetch(new URL("/api/news", syncUrl), {
-    method: "PUT",
-    headers: { "content-type": "application/json", authorization: `Bearer ${token}` },
-    body: JSON.stringify(snapshot),
+  const encodedSnapshot = Buffer.from(JSON.stringify(snapshot), "utf8").toString("base64");
+  const response = await fetch(new URL("/api/news-ingest", syncUrl), {
+    method: "POST",
+    headers: { "content-type": "text/plain", "x-finance-sync-token": token },
+    body: encodedSnapshot,
     signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`Hosted snapshot sync failed: ${response.status} ${await response.text()}`);

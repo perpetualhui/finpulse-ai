@@ -40,7 +40,7 @@ const worker = {
       }, allowedWidths);
     }
 
-    if (url.pathname === "/api/news") {
+    if (url.pathname === "/api/news" || url.pathname === "/api/news-ingest") {
       return handleNewsRequest(request, env);
     }
 

@@ -27,13 +27,16 @@ export async function handleNewsRequest(request: Request, env: NewsApiEnv) {
     });
   }
 
-  if (request.method === "PUT") {
-    const token = request.headers.get("authorization")?.replace(/^Bearer\s+/i, "");
+  if (request.method === "POST") {
+    const token = request.headers.get("x-finance-sync-token");
     if (!env.NEWS_INGEST_TOKEN || token !== env.NEWS_INGEST_TOKEN) {
       return Response.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const payload = await request.json() as typeof fallbackNewsData;
+    const encoded = await request.text();
+    const binary = atob(encoded);
+    const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+    const payload = JSON.parse(new TextDecoder().decode(bytes)) as typeof fallbackNewsData;
     if (!/^\d{8}$/.test(payload.meta?.issue ?? "") || !Array.isArray(payload.items) || payload.items.length < 10) {
       return Response.json({ error: "Invalid news snapshot" }, { status: 400 });
     }
@@ -48,5 +51,5 @@ export async function handleNewsRequest(request: Request, env: NewsApiEnv) {
     return Response.json({ ok: true, issue: payload.meta.issue, items: payload.items.length });
   }
 
-  return new Response("Method Not Allowed", { status: 405, headers: { allow: "GET, PUT" } });
+  return new Response("Method Not Allowed", { status: 405, headers: { allow: "GET, POST" } });
 }

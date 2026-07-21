@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-21 09:38 CST",
+    "lastUpdated": "2026-07-21 09:54 CST",
     "sourceCount": 25,
-    "todaySignals": 160,
-    "actionable": 136,
+    "todaySignals": 149,
+    "actionable": 138,
     "issue": "20260721",
-    "dailyBrief": "本轮从 24 个正常信源中匹配 160 条财务与金融关键信号，重点集中在资本市场、公司财务、银行金融。当前最值得继续追踪的是《华为云CEO称智能体将重塑金融服务模式 金融科技投资或迎来新机遇》。",
+    "dailyBrief": "本轮从 24 个正常信源中匹配 149 条财务与金融关键信号，重点集中在资本市场、公司财务、银行金融。当前最值得继续追踪的是《华为云CEO称智能体将重塑金融服务模式 金融科技投资或迎来新机遇》。",
     "sourceOk": 24,
     "websiteSourceCount": 14,
     "sourceStats": [
@@ -79,7 +79,7 @@
         "name": "腾讯公司新闻",
         "type": "website",
         "status": "ok",
-        "matched": 8
+        "matched": 0
       },
       {
         "name": "阿里巴巴投资者关系",
@@ -97,7 +97,7 @@
         "name": "第一财经",
         "type": "website",
         "status": "ok",
-        "matched": 17
+        "matched": 14
       },
       {
         "name": "21世纪经济报道",
@@ -175,7 +175,7 @@
     {
       "label": "银行金融",
       "note": "机构、产品与资产质量",
-      "heat": 54
+      "heat": 53
     },
     {
       "label": "宏观政策",
@@ -1007,6 +1007,72 @@
         "债券",
         "上市",
         "资本市场"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "32e8036c0e10d3eaea",
+      "title": "红利板块V型修复，二季度以来ETF吸金350亿，首只300亿红利ETF诞生",
+      "summary": "红利板块V型修复，二季度以来ETF吸金350亿，首只300亿红利ETF诞生",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2432059",
+      "publishedAt": "2026-07-21",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "ETF"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "238b3e2cf454444163",
+      "title": "摩根大通CEO：投资者低估全球风险 当前不应购买股票或美国长债",
+      "summary": "摩根大通CEO：投资者低估全球风险 当前不应购买股票或美国长债",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2432065",
+      "publishedAt": "2026-07-21",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "投资者"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "1602059ae84320e96b",
+      "title": "私募规模站上23.66万亿再刷历史纪录，百亿量化担纲备案主力，鸣石51只领跑",
+      "summary": "私募规模站上23.66万亿再刷历史纪录，百亿量化担纲备案主力，鸣石51只领跑",
+      "insight": "关注产品、资产质量、资本约束与监管变化，识别对企业融资和金融业务的传导。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2432071",
+      "publishedAt": "2026-07-21",
+      "category": "银行金融",
+      "process": "金融机构 · 产品与风险",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "私募"
       ],
       "readTime": 2,
       "language": "zh",
@@ -2173,6 +2239,110 @@
       "pipelineVersion": 3
     },
     {
+      "id": "bb1e06b72747d70e8e",
+      "title": "李强主持召开国务院常务会议 推动服务业扩能提质 系统推进“六张网”规划建设",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030879.html",
+      "publishedAt": "2026-07-21",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "b2993b02efcaed66b3",
+      "title": "中央网信办举报中心上半年转交处置仿冒假冒网站759个",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031376.html",
+      "publishedAt": "2026-07-21",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "4cf1bbc127b6937131",
+      "title": "智谱盘中最高涨超19%",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031373.html",
+      "publishedAt": "2026-07-21",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "6586772c418dad1ae7",
+      "title": "电池板块震荡拉升 国轩高科、鹏辉能源涨超6%",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031366.html",
+      "publishedAt": "2026-07-21",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
       "id": "103784aa72b5b7f0ee",
       "title": "31省份上半年人均可支配收入公布",
       "summary": "有13个省份居民人均可支配收入超过2万元。",
@@ -2409,6 +2579,28 @@
       "kind": "news",
       "keywords": [
         "港股"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "69fe71e53b6ed5ae2e",
+      "title": "互联网金融板块短线拉升 | 智度股份、中嘉博创涨停，证通电子、新晨科技、科蓝软件、四方精创、宇信科技等纷纷走高。",
+      "summary": "互联网金融板块短线拉升 智度股份、中嘉博创涨停，证通电子、新晨科技、科蓝软件、四方精创、宇信科技等纷纷走高。",
+      "insight": "关注产品、资产质量、资本约束与监管变化，识别对企业融资和金融业务的传导。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284624.html",
+      "publishedAt": "2026-07-21",
+      "category": "银行金融",
+      "process": "金融机构 · 产品与风险",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融"
       ],
       "readTime": 2,
       "language": "zh",
@@ -2963,7 +3155,7 @@
     },
     {
       "id": "3466cccc5c22715b2d",
-      "title": "焦点 异动速递丨三大指数集体高开 投资 30分钟前",
+      "title": "焦点 异动速递丨韩国KOSPI指数日内涨3% 投资 1小时前",
       "summary": "异动速递丨韩国KOSPI指数日内涨3% 7月21日，全球资本市场最新动态如下：09:34早盘电力板块震荡下挫，湖南发展、杭州热电跌停，深南电A、桂冠电力、宁波能源等跟跌。09:33韩国KOSPI指数日内涨3%，现报6712.53点。09:2...",
       "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
       "source": "21世纪经济报道",
@@ -3834,188 +4026,6 @@
       "category": "银行金融",
       "process": "金融机构 · 产品与风险",
       "score": 60,
-      "selected": false,
-      "kind": "news",
-      "keywords": [
-        "金融"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "dae8a004b0c43b648b",
-      "title": "社评：给英国算算强吞英钢的几笔账",
-      "summary": "来源：环球时报 导读：敬业当年在英钢濒临破产、无人问津之时施以援手，英方却演绎了一出现代版“农夫与蛇”。一个连基本契约都不遵守的国家，一个连投资者合法权益都不保障的国家，有什么资格谈论“法治”与“文明”7月19日，敬业钢铁有限公司发表严正声...",
-      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-07-20/doc-iniinscw8179996.shtml",
-      "publishedAt": "2026-07-20",
-      "category": "公司财务",
-      "process": "公司财务 · 业绩与资本动作",
-      "score": 60,
-      "selected": false,
-      "kind": "news",
-      "keywords": [
-        "投资者"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "0fb3ee9e3a6b2847de",
-      "title": "Bank of America Promotes Execs to Champion AI and Crypto",
-      "summary": "Bank of America has reportedly promoted new leaders to guide its artificial intelligence and crypto efforts. Sonali Theisen has been named the bank’s head of global digital-assets platform and Kevin Milsom head of platforms AI transform…",
-      "insight": "关注产品、资产质量、资本约束与监管变化，识别对企业融资和金融业务的传导。",
-      "source": "PYMNTS",
-      "url": "https://www.pymnts.com/personnel/2026/bank-of-america-promotes-execs-to-champion-ai-and-crypto/",
-      "publishedAt": "2026-07-19",
-      "category": "银行金融",
-      "process": "金融机构 · 产品与风险",
-      "score": 71,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "bank"
-      ],
-      "readTime": 2,
-      "pipelineVersion": 3,
-      "language": "en",
-      "sourceType": "international",
-      "isCompanyFinance": false
-    },
-    {
-      "id": "5bc8a26e1b442ee667",
-      "title": "招商证券总裁虚位以待 集团“80后”干部加入备选",
-      "summary": "招商银行1982年出生的招商局集团产业发展部/招商局业务协同部部长徐鑫是否会到招商证券任职？",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财新财经",
-      "url": "https://finance.caixin.com/2026-07-18/102465575.html",
-      "publishedAt": "2026-07-18",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 78,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "银行",
-        "证券"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "a100dbf162c14d5453",
-      "title": "贷款中介“付费加白”调查：借渠道说辞收取高额费用",
-      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "中国证券报",
-      "url": "https://www.cs.com.cn/yh/04/2026/07/17/detail_2026071710024969.html",
-      "publishedAt": "2026-07-17",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "金融",
-        "费用",
-        "证券",
-        "上市",
-        "理财"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "3eed44316a2c14f070",
-      "title": "The $100 Million CFO Rewrites the Rules on Legal Spend",
-      "summary": "Legal spending was once a simple professional-services line item for CFOs. Now it’s an operating problem. Compliance rules, cybersecurity duties, artificial intelligence (AI) governance and a growing patchwork of state enforcement actio…",
-      "insight": "核对监管口径、风险边界、内部控制和审计要求是否出现实质变化。",
-      "source": "PYMNTS",
-      "url": "https://www.pymnts.com/back-office/cfo/2026/the-100-million-cfo-rewrites-the-rules-on-legal-spend/",
-      "publishedAt": "2026-07-17",
-      "category": "风险合规",
-      "process": "风险合规 · 治理审计",
-      "score": 75,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "finance",
-        "cfo"
-      ],
-      "readTime": 2,
-      "pipelineVersion": 3,
-      "language": "en",
-      "sourceType": "international",
-      "isCompanyFinance": false
-    },
-    {
-      "id": "0df485823cd151e15b",
-      "title": "本周A股最牛：退市股1亿元成交额拉出260%涨幅 北交所连续两日暂停部分账户买入",
-      "summary": "个股炒作 北交所 云创退散户蜂拥北交所爆炒云创退，从0.56元爆炒至2.02元，成为本周A股涨幅最高个股",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财新财经",
-      "url": "https://finance.caixin.com/2026-07-17/102465460.html",
-      "publishedAt": "2026-07-17",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 74,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "A股"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "ccdf9b327910cfecc5",
-      "title": "FIS Deploys Anthropic’s Mythos 5 to Strengthen Global Financial Infrastructure",
-      "summary": "FIS has joined Anthropic’s Project Glasswing and is using the artificial intelligence company’s most advanced frontier model, Mythos 5, to secure its own systems. Project Glasswing is Anthropic’s initiative that allows select organizati…",
-      "insight": "结合企业基本面、资金环境与政策背景判断影响，避免只按单一市场波动行动。",
-      "source": "PYMNTS",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fis-deploys-anthropics-mythos-5-to-strengthen-global-financial-infrastructure/",
-      "publishedAt": "2026-07-17",
-      "category": "财经动态",
-      "process": "财经动态 · 综合观察",
-      "score": 71,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "financial"
-      ],
-      "readTime": 2,
-      "pipelineVersion": 3,
-      "language": "en",
-      "sourceType": "international",
-      "isCompanyFinance": false
-    },
-    {
-      "id": "c4d2beed228e428d9e",
-      "title": "中国明确数据报告库规则 所有场外衍生品交易需及时报送",
-      "summary": "金融基础设施 数据报告库交易商协会与数据报告库一起，全面收集中国场外衍生品市场信息，有助于实现“放得开、管得住”的宏观调控及监管",
-      "insight": "将政策、利率和汇率变化映射到融资成本、现金管理、预算假设与风险敞口。",
-      "source": "财新财经",
-      "url": "https://finance.caixin.com/2026-07-17/102465264.html",
-      "publishedAt": "2026-07-17",
-      "category": "宏观政策",
-      "process": "宏观 · 政策与监管",
-      "score": 66,
       "selected": false,
       "kind": "news",
       "keywords": [
