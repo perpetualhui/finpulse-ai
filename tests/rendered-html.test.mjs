@@ -66,3 +66,8 @@ test("frontend reads the live data snapshot independently from site builds", asy
   assert.match(page, /raw\.githubusercontent\.com\/perpetualhui\/finpulse-ai\/main\/public\/data\/news\.json/);
   assert.match(page, /cache: "no-store"/);
 });
+
+test("site build removes stale deployment assets before compiling", async () => {
+  const packageJson = JSON.parse(await readFile(new URL("../package.json", import.meta.url), "utf8"));
+  assert.match(packageJson.scripts.build, /clean-dist\.mjs/);
+});
