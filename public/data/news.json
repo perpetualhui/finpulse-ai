@@ -1,18 +1,18 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-21 08:38 CST",
-    "sourceCount": 15,
-    "todaySignals": 6,
-    "actionable": 18,
+    "lastUpdated": "2026-07-21 09:23 CST",
+    "sourceCount": 25,
+    "todaySignals": 155,
+    "actionable": 132,
     "issue": "20260721",
-    "dailyBrief": "本轮从 15 个正常信源中匹配 6 条财务与金融 AI 信号，重点集中在风险合规、AI工具、流程升级。当前最值得继续追踪的是《Natural Raises $30 Million to Build Payment Rails for AI Agents》。",
-    "sourceOk": 15,
-    "websiteSourceCount": 4,
+    "dailyBrief": "本轮从 24 个正常信源中匹配 155 条财务与金融关键信号，重点集中在流程升级、AI工具、风险合规。当前最值得继续追踪的是《华为云CEO称智能体将重塑金融服务模式 金融科技投资或迎来新机遇》。",
+    "sourceOk": 24,
+    "websiteSourceCount": 14,
     "sourceStats": [
       {
         "name": "OpenAI News",
         "type": "feed",
-        "status": "ok",
+        "status": "error",
         "matched": 0
       },
       {
@@ -76,6 +76,66 @@
         "matched": 0
       },
       {
+        "name": "腾讯公司新闻",
+        "type": "website",
+        "status": "ok",
+        "matched": 0
+      },
+      {
+        "name": "阿里巴巴投资者关系",
+        "type": "website",
+        "status": "ok",
+        "matched": 3
+      },
+      {
+        "name": "财新财经",
+        "type": "website",
+        "status": "ok",
+        "matched": 10
+      },
+      {
+        "name": "第一财经",
+        "type": "website",
+        "status": "ok",
+        "matched": 19
+      },
+      {
+        "name": "21世纪经济报道",
+        "type": "website",
+        "status": "ok",
+        "matched": 13
+      },
+      {
+        "name": "证券时报",
+        "type": "website",
+        "status": "ok",
+        "matched": 30
+      },
+      {
+        "name": "中国证券报",
+        "type": "website",
+        "status": "ok",
+        "matched": 30
+      },
+      {
+        "name": "澎湃财经",
+        "type": "website",
+        "status": "ok",
+        "matched": 6
+      },
+      {
+        "name": "新浪财经",
+        "type": "website",
+        "status": "ok",
+        "matched": 20
+      },
+      {
+        "name": "财联社",
+        "type": "website",
+        "status": "ok",
+        "matched": 16
+      },
+      {
         "name": "Anthropic Newsroom",
         "type": "website",
         "status": "ok",
@@ -97,7 +157,7 @@
         "name": "Workday Newsroom",
         "type": "website",
         "status": "ok",
-        "matched": 0
+        "matched": 2
       }
     ]
   },
@@ -105,7 +165,7 @@
     {
       "label": "财务智能体",
       "note": "从助手走向流程执行",
-      "heat": 95
+      "heat": 46
     },
     {
       "label": "P2P 自动化",
@@ -115,20 +175,2391 @@
     {
       "label": "智能 FP&A",
       "note": "解释偏差比预测更重要",
-      "heat": 38
+      "heat": 39
     },
     {
       "label": "AI 治理",
       "note": "权限与审计要求上升",
-      "heat": 95
+      "heat": 47
     },
     {
       "label": "金融 AI",
       "note": "银行、支付与风控加速落地",
-      "heat": 61
+      "heat": 95
     }
   ],
   "items": [
+    {
+      "id": "90f1cadca2e87ad799",
+      "title": "华为云CEO称智能体将重塑金融服务模式 金融科技投资或迎来新机遇",
+      "summary": "华为云CEO称智能体将重塑金融服务模式 金融科技投资或迎来新机遇 华为云CEO称智能体将重塑金融服务模式 金融科技投资或迎来新机遇",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431969",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 92,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "543dfdee816510fcf5",
+      "title": "【早报】美股光通信、存储板块全线走强，中概股多数上涨；油价上行、黄金微跌；三环集团、三花智控、东山精密等计划回购股份",
+      "summary": "【早报】美股光通信、存储板块全线走强，中概股多数上涨；油价上行、黄金微跌；三环集团、三花智控、东山精密等计划回购股份 【早报】美股光通信、存储板块全线走强，中概股多数上涨；油价上行、黄金微跌；三环集团、三花智控、东山精密等计划回购股份",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431956",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 92,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "回购",
+        "中概股",
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "036a83ce28cab8fff0",
+      "title": "上海资产管理协会：坚定看好中国资本市场、当好维护资本市场稳定的压舱石 | 记者从上海资产管理协会获悉，协会及其银行理财、保险资管、信托公司、券商资管、公募基金、私募基金以及资管服务机构等会员单位，坚定看好中国资本市场发展前景，全力服务",
+      "summary": "上海资产管理协会：坚定看好中国资本市场、当好维护资本市场稳定的压舱石 记者从上海资产管理协会获悉，协会及其银行理财、保险资管、信托公司、券商资管、公募基金、私募基金以及资管服务机构等会员单位，坚定看好中国资本市",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284370.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 90,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "银行",
+        "保险",
+        "券商",
+        "基金",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "52dc53cfeb9ea72f84",
+      "title": "美股资金大轮动开启！高盛：AI之外，关注三大替代投资主题",
+      "summary": "美股资金大轮动开启！高盛：AI之外，关注三大替代投资主题 美股资金大轮动开启！高盛：AI之外，关注三大替代投资主题",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431987",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "09deade1294fb923e8",
+      "title": "贝莱德拟发逾120亿美元债券 为Meta得州数据中心提供融资",
+      "summary": "贝莱德拟发逾120亿美元债券 为Meta得州数据中心提供融资 贝莱德拟发逾120亿美元债券 为Meta得州数据中心提供融资",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431921",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "债券",
+        "融资"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "d12e3b3da18755cd1c",
+      "title": "英国AI新材料初创公司CuspAI获4.5亿美元融资 贝索斯基金、英国政府参投",
+      "summary": "英国AI新材料初创公司CuspAI获4.5亿美元融资 贝索斯基金、英国政府参投 英国AI新材料初创公司CuspAI获4.5亿美元融资 贝索斯基金、英国政府参投",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431898",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "基金",
+        "融资"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f050adfcedaf255202",
+      "title": "港股早报 | 高盛称对冲基金以创纪录的速度抛售美国科技股 花旗上调中国股票评级",
+      "summary": "港股早报",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431944",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "港股",
+        "基金"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "3862cd8204fe4a1f48",
+      "title": "东芯股份营收增逾三倍 同比扭亏为盈 近期股价却已腰斩|财报解读",
+      "summary": "东芯股份营收增逾三倍 同比扭亏为盈 近期股价却已腰斩",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431849",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "财报",
+        "营收"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "be64301c7b85e148e9",
+      "title": "“国家队”加速集结，稳市资金下场呵护A股基本盘",
+      "summary": "险资、券商、基金都在入列，更有地方国资平台宣布加入“护盘”。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/103284034.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 86,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "A股",
+        "券商",
+        "基金"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "221daa5be653c901ac",
+      "title": "中信证券：保险观点更新，更加重视红利策略 | 中信证券研报指出，上半年保险板块业绩大幅分化，下半年预计整体利润有负增长压力，投资策略重点关注红利优势品种。行业长周期向上趋势没有改变，重点关注头部公司的资源优",
+      "summary": "中信证券：保险观点更新，更加重视红利策略 中信证券研报指出，上半年保险板块业绩大幅分化，下半年预计整体利润有负增长压力，投资策略重点关注红利优势品种。行业长周期向上趋势没有改变，重点",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284327.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 86,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "保险",
+        "业绩",
+        "利润",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "9921195100234c7559",
+      "title": "上市公司密集发布增持回购公告",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025815.html",
+      "publishedAt": "2026-07-21",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "回购",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a7e330cb1ab48fbe31",
+      "title": "07-21 07:32 董添 多家上市企业发布中期分红方案 多家上市企业发布中期分红方案 近期，多家上市公司发布2026年中期利润分配方案，引发市场关注。不少上市公司中期拟分红金额占2026年上半年净利润比例较高。",
+      "summary": "多家上市企业发布中期分红方案 中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/21/detail_2026072110025806.html",
+      "publishedAt": "2026-07-21",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "利润",
+        "证券",
+        "上市",
+        "分红"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "edf74aec8414876fe2",
+      "title": "五大保险机构集体发声 坚定支持资本市场",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030883.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "保险",
+        "证券",
+        "基金",
+        "债券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a69b8bec20f10a628a",
+      "title": "回购、增持、自购、分红 多方合力护航资本市场稳健发展",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030869.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "回购",
+        "证券",
+        "基金",
+        "债券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "8282fda50fc005ab6f",
+      "title": "证监会：全力维护市场平稳运行 更好回报投资者",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030880.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "投资者",
+        "证券",
+        "基金",
+        "债券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "df17e6a8909f64652d",
+      "title": "23.66万亿元，私募基金规模再创新高！",
+      "summary": "发行重回千亿元，资金加速入场 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031200.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "证券",
+        "基金",
+        "债券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "2aab9effcbcdc5fa7b",
+      "title": "今年首家！广发证券上调融资融券业务规模上限",
+      "summary": "今年首家！广发证券，上调融资融券业务规模上限 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031019.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "融资",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "d2c1a70fa9b21ed10e",
+      "title": "东北证券深耕科创企业全周期服务",
+      "summary": "打造差异化优势 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030878.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "1ac4ec3514aa2e8bc5",
+      "title": "机构：水电商业模式简单且优秀 火电已处于业绩与估值双底",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031146.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "证券",
+        "基金",
+        "债券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "b76e27f456e477ee30",
+      "title": "氧化锆龙头宣布涨价，融资资金大幅加仓3股",
+      "summary": "最高上涨40%， 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031048.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "证券",
+        "基金",
+        "债券",
+        "融资"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "5a1cf2766fc4430de4",
+      "title": "华西证券孙付：科技板块有望迎来中长期布局窗口",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031254.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f283a28709ede0ef2a",
+      "title": "7月21日人民币对美元中间价调升31个基点",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031249.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "人民币"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "12af95eb16fbea4522",
+      "title": "开源证券孙金钜：经济向稳向好，调整后科技主线有望以更健康的方式重新展开",
+      "summary": "开源证券孙金钜：经济向稳向好，调整后科技主线有望以更健康的方式重新展开 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031247.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "773bdcb4d89439248b",
+      "title": "宽基ETF吸金591亿 成为今年次新高",
+      "summary": "宽基ETF昨日吸金591亿 成为今年次新高 宽基ETF昨日吸金591亿 成为今年次新高",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2432028",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "ETF"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c3e0b53af608bf0a37",
+      "title": "华泰柏瑞沪深300ETF最新规模1136亿元 时隔22天再现千亿ETF",
+      "summary": "华泰柏瑞沪深300ETF最新规模1136亿元 时隔22天再现千亿ETF 华泰柏瑞沪深300ETF最新规模1136亿元 时隔22天再现千亿ETF",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2432030",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "ETF"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "486ef519418d4b6636",
+      "title": "券商晨会精华：白酒淡季需求偏弱，渠道优化成为核心边际改善",
+      "summary": "券商晨会精华：白酒淡季需求偏弱，渠道优化成为核心边际改善 券商晨会精华：白酒淡季需求偏弱，渠道优化成为核心边际改善",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431967",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "券商"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f51d7e39abe1801bfb",
+      "title": "信贷市场已现“恐慌迹象”？甲骨文五年期CDS创下历史新高",
+      "summary": "AI AI",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431986",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "信贷"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "deb6e6a9f1b2c540a7",
+      "title": "【数读IPO】今日1只医药概念股上市",
+      "summary": "【数读IPO】今日1只医药概念股上市 【数读IPO】今日1只医药概念股上市",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431957",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "2b4dd7eed94bcc60b9",
+      "title": "美股回调背后暗藏激烈博弈：空头押注水平创纪录",
+      "summary": "美股回调背后暗藏激烈博弈：空头押注水平创纪录 美股回调背后暗藏激烈博弈：空头押注水平创纪录",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431824",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "249eb1003b412cc643",
+      "title": "宽基ETF又见证历史时刻，“国家队”曾重仓的多只ETF显著放量",
+      "summary": "宽基ETF又见证历史时刻，“国家队”曾重仓的多只ETF显著放量 宽基ETF又见证历史时刻，“国家队”曾重仓的多只ETF显著放量",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431750",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "ETF"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "26c784fc673c6fb822",
+      "title": "稳市信号密集释放，公募基金如何看后市？",
+      "summary": "稳市信号密集释放，公募基金如何看后市？ 稳市信号密集释放，公募基金如何看后市？",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431760",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "基金"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "b643363587cc1fc1e2",
+      "title": "美股收盘：高开低走三大指数齐收跌 光通信、存储概念整体反弹",
+      "summary": "美股收盘：高开低走三大指数齐收跌 光通信、存储概念整体反弹 美股收盘：高开低走三大指数齐收跌 光通信、存储概念整体反弹",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431934",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "96897ef1f7f959027e",
+      "title": "央行今日开展2530亿元7天期逆回购操作",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031255.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "回购",
+        "证券",
+        "基金",
+        "债券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "4a6a48555b4e558078",
+      "title": "363股获融资买入超亿元，中际旭创获买入48.64亿元居首 | A股7月20日共有3824只个股获融资资金买入，有363股买入金额超亿元。其中，中际旭创、新易盛、兆易创新融资买入金额排名前三，分别获买入48.64亿元、44.",
+      "summary": "363股获融资买入超亿元，中际旭创获买入48.64亿元居首 A股7月20日共有3824只个股获融资资金买入，有363股买入金额超亿元。其中，中际旭创、新易盛、兆易创新融资买入金额排名前三，分别获买入4",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284368.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "A股",
+        "融资"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "086378196facb08de9",
+      "title": "双汇发展三季度业绩亮眼：肉类总外销量创新高",
+      "summary": "第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102904326.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "业绩",
+        "季度业绩"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "e25fa541e58f899da3",
+      "title": "信号极强！吴清直面散户座谈，国家队百亿护盘，A股稳市机制升级",
+      "summary": "21世纪经济报道 记者 崔文静 A股迎来明确稳市政策信号。7月20日，证监会主席吴清深入证券营业部，主持召开专项投资者座谈会，与8名个人投资者代表面对面交流，听取一线交易体验与市场诉求本...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/fe0977594ca0036d1490490f123d9bc4.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "投资者",
+        "A股",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a5380baca47a857c59",
+      "title": "资金涌入“高成长”！创业板指ETF月内净流入已超200亿元",
+      "summary": "21世纪经济报道记者 黎雨辰 7月20日，A股三大指数涨跌互现。截至收盘，上证综指报3796.28点，涨幅0.85%，成交额12946.52亿元；深证成指报13610.23点，跌幅0.71%...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/e4dee414bfbca4277ba445f23c76c12a.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "A股",
+        "ETF"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "4538d894b2448eeb4c",
+      "title": "长鑫科技网下配售落地 “打新”成增厚收益重要手段",
+      "summary": "证监会召开投资者座谈会，多家央企上市公司集中发布回购、增持计划。长鑫科技网下配售落地，银行理财顺利参与硬科技“打新”，“打新”成为理财增厚收益的重要手段。7月20日证监会召开投资者座谈会7月20日，证...",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/29f86259ae02b7a76c6d43a7372efdab.html",
+      "publishedAt": "2026-07-21",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "银行",
+        "投资者",
+        "回购",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "83f5167c096d37ce48",
+      "title": "兴业基金：强化逆周期布局 坚定看好资本市场长期投资价值",
+      "summary": "中证报中证网讯（记者 王鹤静）近期A股市场震荡加剧，兴业基金研判认为，短期波动和外部冲击不改中长期投资价值和向上趋势，叠加政策持续发力，公司对资本市场坚定看好。当前市场风格在经历前期科技资产大幅上涨后...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/447df0b449345902814fbf8be7922381.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "A股",
+        "基金",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f7b39ef6ce42fc1af7",
+      "title": "07-21 07:53 --> --> --> --> --> 2026世界人工智能大会闭幕 2026世界人工智能大会闭幕 7月20日在世博展览馆拍摄的OPC展区。7月20日，2026世界人工智能大会暨人工智能全球治理高级别会议在上海闭幕。",
+      "summary": "2026世界人工智能大会闭幕 中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025820.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 80,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "19e70b399eda4225cb",
+      "title": "从“产品输出”到“全球扎根” 上市公司出海重塑长期价值版图",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/cj2020/2026/07/21/detail_2026072110025812.html",
+      "publishedAt": "2026-07-21",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 80,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "ad624bd2a2f6ee81e9",
+      "title": "阿里巴巴集团发布2026财务年度报告（英文版） 2026年5月20日",
+      "summary": "阿里巴巴集团发布2026财务年度报告（英文版） Hong Kong, China, May 20, 2026 – Alibaba Group Holding Limit",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "阿里巴巴投资者关系",
+      "url": "https://www.alibabagroup.com/document-2003564382071554048",
+      "publishedAt": "2026-07-21",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "财务",
+        "年度报告"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f4ec40606c387e73dc",
+      "title": "阿里巴巴集团公布2026年3月份季度及2026财年业绩 2026年5月13日",
+      "summary": "阿里巴巴集团公布2026年3月份季度及2026财年业绩 中国香港，2026年5月13日 – 阿里巴巴集团控股有限公司（纽交所代码：BABA及港交所代号：9988（港币柜台）及89988（人民币柜台），“阿里",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "阿里巴巴投资者关系",
+      "url": "https://www.alibabagroup.com/document-1991237455038119936",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "人民币"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "acf1a67dfee6589624",
+      "title": "央行公开市场开展2530亿元7天期逆回购操作 | 央行公开市场开展2530亿元7天期逆回购操作，操作利率1.40%。Wind数据显示，今日2365亿元逆回购到期。",
+      "summary": "央行公开市场开展2530亿元7天期逆回购操作 央行公开市场开展2530亿元7天期逆回购操作，操作利率1.40%。Wind数据显示，今日2365亿元逆回购到期。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284372.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "回购",
+        "利率"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "da92bb2cde770744cc",
+      "title": "港股股票回购一览：68只个股获公司回购 | Wind数据显示，7月20日，共68只港股获公司回购，5只个股回购金额超千万港元。其中，东阳光药、东原仁知服务、中国石油化工股份回购金额最大，分别获公司回购26",
+      "summary": "港股股票回购一览：68只个股获公司回购 Wind数据显示，7月20日，共68只港股获公司回购，5只个股回购金额超千万港元。其中，东阳光药、东原仁知服务、中国石油化工股份回购金额最大",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284352.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "回购",
+        "港股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "763963631cc7612468",
+      "title": "氧化锆龙头宣布涨价，融资资金大幅加仓3股 | 据数据宝，二季度以来，多只氧化锆概念股获得融资资金加仓。据统计，截至7月17日，国瓷材料、亨通股份、凯盛科技融资净买入额排名前三，依次为18.01亿元、5.77",
+      "summary": "氧化锆龙头宣布涨价，融资资金大幅加仓3股 据数据宝，二季度以来，多只氧化锆概念股获得融资资金加仓。据统计，截至7月17日，国瓷材料、亨通股份、凯盛科技融资净买入额排名前三，依次为18",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284333.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "融资"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a3e58f24c3d1017708",
+      "title": "视频 美股三大指数下跌，芯片、AI股反弹，中概股走强，阿里涨超4% 21视频",
+      "summary": "美股三大指数下跌，芯片、AI股反弹，中概股走强，阿里涨超4% 当地时间7月20日，美股三大指数高开后震荡下跌，纳指跌0.05%，标普500指数跌0.19%，道指跌0.59%。光通信、存储板块多数上涨，Lumentum、Credo涨超4%，迈威尔科技涨超3%，Co...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/08e0fdc5511f7d55347150d831bd0eaf.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "中概股",
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "8b2af4f702703cc5dc",
+      "title": "焦点 通宇通讯目标价涨幅超38%，贵州茅台、新易盛等股获推荐丨券商评级观察 投资 20分钟前",
+      "summary": "通宇通讯目标价涨幅超38%，贵州茅台、新易盛等股获推荐丨券商评级观察 南财投研数据显示，7月20日，券商给予上市公司目标价共8次，按最新收盘价计算，目标价涨幅排名居前的公司有通宇通讯、三棵树、洽洽食品，目标价涨幅分别为38.54%、33.20%、29.80%，分别属于通...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/af51ded83717a0572894254fb0c0fbfe.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "券商",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "24a28497f36dcc9d78",
+      "title": "《21世纪经济报道》与越声理财联合推出“寻找中国龙”调研活动",
+      "summary": "21世纪经济报道记者 张伟泽 翁榕涛 当前，我国居民财富结构调整与资本市场深化发展的总体形势，正共同推动投顾投研行业进入历史性转型机遇期。居民对专业资产配置的需求，已从“少数人的选择”升级为“多数人的...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/12522a27c72d3c39cd5ef9346da29096.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资本市场",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "1044dea0ca2c10f700",
+      "title": "真金白银护盘！四券商抛出上限7亿元回购计划",
+      "summary": "多家券商加入回购阵营",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/44f0a7bc3b7e04b07bdc727b751a8322.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "回购",
+        "券商"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "54d8fcfea61cafedf5",
+      "title": "美股三大指数高开后下跌，中概股走强，芯片、AI股反弹，美军称对伊朗发动新一轮打击",
+      "summary": "当地时间7月20日，美股三大指数高开后震荡下跌，纳指跌0.05%，标普500指数跌0.19%，道指跌0.59%。光通信、存储板块多数上涨，Lumentum、Credo涨超4%，迈威尔科技涨超3%，Co...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/be33581207b367c57bea838250b05a3c.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "中概股",
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a5382234b1c6b0e47c",
+      "title": "券商晨会观点速递 | ①华泰证券：美伊局势再升级 霍尔木兹海峡双重封锁推高油价 华泰证券研报称，7月中旬美伊局势再次升级，伊朗宣布再次关闭霍尔木兹海峡，同时美国",
+      "summary": "券商晨会观点速递 ①华泰证券：美伊局势再升级 霍尔木兹海峡双重封锁推高油价华泰证券研报称，7月中旬美伊局势再次升级，伊朗宣布再次关闭霍尔木兹海峡，同时美国也宣",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284329.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "券商"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "6100e00f193a3ef695",
+      "title": "“第四范式财报放盈利前景 定位AI时代Salesforce",
+      "summary": "第四范式财报放盈利前景 定位AI时代Salesforce 第四范式的定位是一家用人工智能改造的企业软件公司，用AI赋能千行万业。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102038339.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 77,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "财报"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "ad035fbac3a4df48d7",
+      "title": "昨夜，中国资产走强！特朗普，最新发声",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031003.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "2ceb0157f342c770ea",
+      "title": "国常会：充分释放服务业发展潜力，分门别类完善支持政策",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030811.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "93dc8a2ccc2b12f666",
+      "title": "加征50%关税！美国，突然宣布！加拿大回应",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031198.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "935713f283c56ec7d3",
+      "title": "世界终将习惯越来越多的中国AI时刻",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030881.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "9900b076684e65c050",
+      "title": "企业年金扩面一线观察：先要让企业知道这政策",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030877.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "78b466a264c6bad44f",
+      "title": "企业年金扩面“川渝样本”：人才可优先参加",
+      "summary": "园区可集合办理 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030876.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a176521f21254e8033",
+      "title": "技术人才资本三重驱动中国独角兽企业十年新高",
+      "summary": "技术、人才、资本三重驱动中国独角兽企业十年新高 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030871.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "52d1440c598b77711c",
+      "title": "资本互动常态化 央地国资合作步入新耦合时代",
+      "summary": "资本互动高频化常态化 央地国资合作步入“新耦合时代” 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030864.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "512157fafa78512233",
+      "title": "中国AI原生力量吸引全球资本目光",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030860.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "bd96e0bd7a8743d4c6",
+      "title": "走了近3万步！一线投资人，在这个AI大会“寻宝”",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030787.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "76958bb5e510bd1952",
+      "title": "尘埃落定！杉杉股份实控人正式变更为安徽省国资委",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030789.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "3b552982dbdd7ce848",
+      "title": "机构策略丨短期反弹行情或将临近",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031158.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "9cca7c8efcce0f39c0",
+      "title": "机构：社会库存去化印证铝供需格局",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031109.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "3a1fc41979ebba4459",
+      "title": "机构：2026年是人形机器人0—1兑现的重要节点",
+      "summary": "机构：2026年是人形机器人0 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031125.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "efde5f18bc85bc90a4",
+      "title": "机构：白酒需求有望逐渐恢复 聚焦大众食品高景气成长主线",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031126.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "de577864ccb98a3507",
+      "title": "最高100亿元！杰创智能加码智算云集群建设",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031079.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c06e3a3105e81eae9b",
+      "title": "地缘扰动持续影响，国际油价继续上涨",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4031013.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "588914c0419b33d891",
+      "title": "政策赋能海水淡化 概念股市盈率不足二十倍",
+      "summary": "政策赋能海水淡化产业 六只概念股市盈率不足二十倍 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030875.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "9f21bbfc6c67b99e4f",
+      "title": "机构预测8只国产AI大模型概念股高增长",
+      "summary": "国产AI大模型规模有望超700亿元 机构预测8只概念股高增长 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
+      "insight": "落地前应先统一指标定义、版本口径、责任中心和数据权限。",
+      "source": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4030874.html",
+      "publishedAt": "2026-07-21",
+      "category": "业财分析",
+      "process": "FP&A · 预算预测",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "基金",
+        "债券",
+        "上市",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "099b5a3aeff5199a7c",
+      "title": "回购增持、业绩预喜、中期分红、险资长投！近百家沪市公司释放积极信号",
+      "summary": "_牛市点线面_澎湃新闻-The Paper 7月20日晚间，近百家沪市公司密集释放利好，涉及回购增持、业绩预喜、中期分红、险资长投等多个积极信号。 具体来看，回购增持方面，当日新增回购计划16家，合计回购",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "澎湃财经",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33624071",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "回购",
+        "分红"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "103784aa72b5b7f0ee",
+      "title": "31省份上半年人均可支配收入公布",
+      "summary": "有13个省份居民人均可支配收入超过2万元。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/103283814.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "收入"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "018c757a60098287bb",
+      "title": "人民币兑美元中间价调升31个基点 | 人民币兑美元中间价报6.7917，调升31个基点。前一交易日中间价报6.7948，在岸人民币16:30收盘价报6.7670，夜盘收报6.7690。",
+      "summary": "人民币兑美元中间价调升31个基点 人民币兑美元中间价报6.7917，调升31个基点。前一交易日中间价报6.7948，在岸人民币16:30收盘价报6.7670，夜盘收报6.76",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284366.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "人民币"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "3e375414c35185e530",
+      "title": "A股停牌提示：5股今日停牌 | Wind数据显示，7月21日，超卓航科、瓦轴B、新芝生物等5只个股停牌。",
+      "summary": "A股停牌提示：5股今日停牌 Wind数据显示，7月21日，超卓航科、瓦轴B、新芝生物等5只个股停牌。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284354.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "A股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "2561268c8ca2ff7ef1",
+      "title": "华泰证券：半年报盈利兑现快递行业景气，关注淡季价格表现 | 华泰证券研报指出，6月，消费数据环比改善，社零、商品零售额当月同比分别增长1.0%、0.9%；线上零售保持韧性，网上商品零售额同比增长3.9%，去年618大促前",
+      "summary": "华泰证券：半年报盈利兑现快递行业景气，关注淡季价格表现 华泰证券研报指出，6月，消费数据环比改善，社零、商品零售额当月同比分别增长1.0%、0.9%；线上零售保持韧性，网上商品零售额同比增长3.9",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284346.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a3dbb8a36f6e860ce4",
+      "title": "两市融资余额减少596.85亿元 | 截至7月20日，上交所融资余额报13627.47亿元，较前一交易日减少300.86亿元；深交所融资余额报13267.13亿元，较前一交易日减少295.99亿元；",
+      "summary": "两市融资余额减少596.85亿元 截至7月20日，上交所融资余额报13627.47亿元，较前一交易日减少300.86亿元；深交所融资余额报13267.13亿元，较前一交易日减",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284344.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "融资"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a2d3253337f86fcdc1",
+      "title": "天风证券：创新药产业链景气度提升 关注大单品放量及相应机会 | 天风证券研报认为，在国内BD交易热潮的持续下，创新药研发热潮有望持续。天风证券认为在创新药研发需求持续火热的情况下，国内需求有望持续高增长，有望带动创新药产业链",
+      "summary": "天风证券：创新药产业链景气度提升 关注大单品放量及相应机会 天风证券研报认为，在国内BD交易热潮的持续下，创新药研发热潮有望持续。天风证券认为在创新药研发需求持续火热的情况下，国内需求有望持续高增长，",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/brief/103284325.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c61fec9c965707dc63",
+      "title": "创新药细分龙头今日上市丨打新早知道",
+      "summary": "7月21日，有一只新股上市，为科创板的泰诺麦博（688806.SH）。泰诺麦博成立于2015年，是一家面向全球市场、致力于血液制品替代疗法的创新生物制药企业。此次发行股份总数为6908万股，网上发行股...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/5235f3481c8c0212cbdd8ae21e071a5a.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "e4de39513c9e65aa53",
+      "title": "美股三大指数收跌，存储芯片反弹，闪迪、西部数据、英特尔涨超2%；中概科技龙头股普涨，阿里巴巴涨超4%，腾讯控股-ADR、京东集团涨超3%",
+      "summary": "中经记者 张漫游 北京报道北京时间7月21日凌晨，美股三大指数收盘下跌。道琼斯工业平均指数收报51839.26点，跌0.59%；纳斯达克指数收报25508.07点，跌0.05%；标普500指数收报74...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/86bcd367b9b3c4f65f62a0a1fa7b4dac.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "55b0e3143b61ccaaa9",
+      "title": "逆势聚活水 创业板指锻造中国优质创新引擎",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025822.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "21f040b8e52944ec43",
+      "title": "改革破局提质效 国资聚力启新程",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025818.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f4b14253c22ee391d9",
+      "title": "加力推动民营经济促进法配套制度建设",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025817.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "70046711a91d586f02",
+      "title": "LPR连续14个月“按兵不动” 货币政策仍处观察期",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025816.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "77babe894355e24dd5",
+      "title": "证监会：全力维护市场平稳运行",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025814.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "50a0fa69595ff56dff",
+      "title": "商务部组织开展绿色消费试点",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/21/detail_2026072110025813.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "bf00451aa5808c7025",
+      "title": "重塑产业链话语权 整车企业需精准破局",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/21/detail_2026072110025826.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "809dd7b9c3d98c4cd4",
+      "title": "近百项经营授权激活新能源汽车板块 一汽红旗天工剑指十万销量目标",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/21/detail_2026072110025821.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "feb15e6b549948d181",
+      "title": "订单火热 价格回落 碳酸锂走弱背后的“温差”真相",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/cj2020/2026/07/21/detail_2026072110025811.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "0fb464a352e1913db1",
+      "title": "估值触底与政策暖风共振 白酒板块进入“企稳复苏”新周期",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/cj2020/2026/07/21/detail_2026072110025809.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "d14270f0a049b85dc5",
+      "title": "具身智能探索落地部署“最后一公里”",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/cj2020/2026/07/21/detail_2026072110025803.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "9f3150293e5ec9f35b",
+      "title": "集团主席和首席执行官致股东的信 2026年5月20日",
+      "summary": "集团主席和首席执行官致股东的信 尊敬的投资者： 今天，我们正站在通用人工智能(AGI)的关键转折点上。 大量AI智能体将承担越来越多的数字化工作，每个智能体都由模",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "阿里巴巴投资者关系",
+      "url": "https://www.alibabagroup.com/document-1993785120221298688",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "投资者"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "706ae9a48fdfd20077",
+      "title": "“后世界杯”时期，交通银行如何以金融创新释放消费新动能",
+      "summary": "_10%公司_澎湃新闻-The Paper 文/俞冰礼 2026年美加墨世界杯已经落下帷幕，当全球数亿球迷的热情逐渐消退时，足球盛宴催生出庞大的“赛事经济”却正值高潮。越来越多的现状表明一流体育赛事的最大",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "澎湃财经",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33619041",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "银行"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "92eff766ec8f62b6a3",
+      "title": "美股三大指数集体收跌：半导体板块涨幅回落，中概股走强",
+      "summary": "_牛市点线面_澎湃新闻-The Paper 美东时间7月20日，美股三大指数全线小幅收跌。 截至收盘，道琼斯工业平均指数下跌0.59%，报51839.26点；纳斯达克综合指数下跌0.05%，报25508.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "澎湃财经",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33625736",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "中概股",
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a014636bb3e6c40e38",
+      "title": "新易盛：二季度业绩预告与年初预期基本吻合，预计1.6T光模块三四季度起放量节奏加快",
+      "summary": "_10%公司_澎湃新闻-The Paper 光模块龙头新易盛上半年净利最高预增102%，公司预计下半年订单交付情况仍处于快速增长阶段。 7月20日，成都新易盛通信技术股份有限公司（新易盛，300502.S",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "澎湃财经",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33623893",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "季度业绩"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "719c67850a1c6343d0",
+      "title": "康美药业案追偿迎关键进展！",
+      "summary": "马兴田夫妇被判赔13.96亿元 7月20日，康美药业发布公告，广州市中级人民法院对两起追偿权纠纷案作出一审判决。法院支持部分追偿请求，判令马兴田、许冬瑾赔偿13.96亿元，邱锡伟在1.42亿元内承担补充清偿责任，正中珠江在1.41亿元内承担补充清偿责任。两起诉讼源于2021年证券集体诉讼案，当年康美药业因财务造假被判向52037名投资者赔偿约24.59亿元。康美完成赔偿后于2022年起诉追偿。两案历经多年审理，此次一审宣判，判决未生效且处于上诉期，后续进展和执行存不确定性，追偿实际收回金额也不确定。 (AI生成)",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniiphzq8179302.shtml",
+      "publishedAt": "2026-07-21",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 68,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "财务",
+        "投资者",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "aeb07168b348cedd02",
+      "title": "牛市早报｜证监会召开投资者座谈会听取意见建议",
+      "summary": "_10%公司_澎湃新闻-The Paper 【市场数据】 截至7月20日收盘，上证综指涨0.85%，报3796.28点；深证成指跌0.71%，报13610.23点；创业板指涨0.42%，报3443.1点。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "澎湃财经",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33625752",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 68,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "投资者"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "4d4fafcd19c1972506",
+      "title": "“整车厂被钉在十字架上，左边交智能税，右边交电池税”",
+      "summary": "2026年上半年国内整车制造环节平均利润率跌至1.5%。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/103282999.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "利润"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "07d257bdf0af1e8dfb",
+      "title": "普洛斯算力中心引入浙江国资战略股东",
+      "summary": "，加速智算新基建发展 第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102794012.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "91e87cab0b77fa2906",
+      "title": "泰国总理佩通坦·钦那瓦一行参访华彬集团",
+      "summary": "第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102464166.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "63083b90ddb8dbb913",
+      "title": "“汾酒抖音挑战赛播放量突破6.3亿次，全面掀起新春清香热 >",
+      "summary": "这就是名酒势能！汾酒抖音挑战赛播放量突破6.3亿次，全面掀起新春清香热 第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102000474.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "927495e7b19049168e",
+      "title": "焦点 证监会：全力维护市场平稳运行；美对伊发动新一轮打击丨盘前情报 投资 30分钟前",
+      "summary": "证监会：全力维护市场平稳运行；美对伊发动新一轮打击丨盘前情报 A股复盘市场尾盘拉升，沪指、创业板指、科创50指数探底回升翻红。沪深两市成交额2.7万亿元，较上一个交易日放量472亿元。盘面上，市场热点较为杂乱，全市场超37...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/b4463b17ef8de7b5740ec01ed98e163f.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "A股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "3466cccc5c22715b2d",
+      "title": "异动速递丨韩国KOSPI指数日内涨幅达1%",
+      "summary": "7月21日，全球资本市场最新动态如下：08:44韩国KOSPI指数日内涨幅达1%，此前一度跌超1%。个股方面，三星电子涨超3%，SK海力士涨超2%。08:14日经225指数涨幅扩大至1%。08:09韩...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20260721/herald/e2dd64e02eddfbea4b64176c2d825ed8.html",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "6d78459b668dd5d614",
+      "title": "财富策略周刊∣情绪再次进入冰点，指数已明显超跌",
+      "summary": "（来源：国金证券第5小时）财富策略周刊情绪再次进入冰点指数已明显超跌市场回顾：上周A股市场经历了今年以来调整幅度最大、波动最为剧烈的一周，主要指数均以大幅下跌报收。从指数表现来看，上证50、沪深300跌幅相对较小，而科创50、创业板指等前期...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniiphzs4965221.shtml",
+      "publishedAt": "2026-07-21",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 64,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "A股",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "9cdc41e3c56478d13d",
+      "title": "中国人寿减持兆易创新110.97万股，套现6.82亿元",
+      "summary": "_金改实验室_澎湃新闻-The Paper 7月20日，中国人寿（601628.SH）发布多份关于卖出兆易创新资金运用关联交易的信息披露公告。公告显示，该公司旗下多个资金运用组合于7月8日通过证券交易所集",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "澎湃财经",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33624616",
+      "publishedAt": "2026-07-21",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 64,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "3ae1939c1fe0ed612a",
+      "title": "A股调整 多家头部险企表态",
+      "summary": "险资 证监会将发挥保险资金长期资本、耐心资本优势，坚定支持资本市场发展，并积极回报投资者",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-20/102466252.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 90,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "保险",
+        "资金",
+        "投资者",
+        "A股",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "975c6f0b85f95958cf",
+      "title": "四大证券报头版头条内容精华摘要_2026年7月21日_财经新闻",
+      "summary": "7月20日，多家险资巨头看好资本市场发展，优化分红提升股东回报；多家A股上市公司披露2026年半年度业绩，吉华集团增幅超12倍。7月17 - 20日，2026世界人工智能大会上多款端侧智能终端亮相。止于至善投资发布报告，认为AI产业发展节奏加快。近期A股风格再平衡，公募逆周期布局，券商多管齐下提振信心。7月20日，证监会召开投资者座谈会，全力维护市场平稳。2025年中国独角兽企业达376家、总估值超1.4万亿美元。7月LPR连续14个月“按兵不动”，5家公私募自购1.22亿元，4家券商拟斥资7亿回购。 (AI生成)",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/y/2026-07-21/doc-iniiphzm2632288.shtml?froms=pccs",
+      "publishedAt": "2026-07-20",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 87,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "投资者",
+        "回购",
+        "A股",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "fae79e425d448958e2",
+      "title": "证监会：全力维护资本市场平稳运行",
+      "summary": "吴清到证券营业部调研并主持召开投资者座谈会 7月20日，中国证监会党委书记、主席吴清在北京到证券营业部调研并主持投资者座谈会，与8名包括大中小散的投资者代表面对面交流，听取促进资本市场稳定健康发展的意见建议。吴清强调投资者是市场之本，证监会将一体推进防风险、强监管、促高质量发展，维护市场平稳，提升上市公司质量，督促机构提升服务，健全投资者保护机制。投资者代表发言称，虽近期A股受境外因素影响波动大，但“9·26”以来资本市场逻辑未变，长期向好，还建议加强一二级市场调节、引导中长期资金入市等推动高质量发展。 (AI生成)",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniinwmu8194919.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "投资者",
+        "A股",
+        "证券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "42c4dea28c1a25fcad",
+      "title": "多家上市险企：坚定支持资本市场发展 提升股东回报",
+      "summary": "近期A股市场波动，7月20日多家上市险企公告看好中国资本市场前景并支持其发展。中国人保称宏观经济与资本市场改革为投资提供支撑。中国太保、新华保险、中国平安等表示发挥险资优势，加大权益投资。7月20日，中国人寿资管净买入超100亿元权益类资产。截至2026年一季度末，保险公司股票资产约3.84万亿元，较2025年末增2.7%。同时，险企多举措回报投资者，如中国太保优化分红频次，新华保险推行双分红，中国平安坚持稳定分红。上半年保险板块跑输大盘，7月以来已涨12.74%。 (AI生成)",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-07-21/doc-iniinsct2838131.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "保险",
+        "投资者",
+        "A股",
+        "上市",
+        "分红"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f5163be9545368e865",
+      "title": "国家队重仓ETF上周资金净流入850亿元",
+      "summary": "国家队 ETFA股科技成长板块剧烈调整，沪深300、中证500、中证1000及“双创”ETF获得资金逆势申购",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-20/102465998.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "A股",
+        "ETF"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "48f6ce6763264845af",
+      "title": "央企领衔 一日百余家公司公告回购增持新动作",
+      "summary": "近日，A股市场迎来由央企领衔的回购、增持热潮。7月19日晚，中国国新、中国诚通合计投入超600亿增持A股，后续还将继续增持。7月20日，逾百家公司披露相关计划及进展。7月以来，约103家公司披露回购计划，金额上限超160亿；58家公司有增持计划，金额上限超100亿。多家央企控股上市公司披露增持计划，如三峡能源控股股东拟最高增持30亿。此外，部分地方国企及民企也加入，如三一重工拟斥资4 - 8亿回购股份，海尔智家累计回购支付18.18亿等。 (AI生成)",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-07-21/doc-iniinwmu8194936.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 80,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "支付",
+        "回购",
+        "A股",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
     {
       "id": "6ce207ac1e5d8803a9",
       "title": "Natural Raises $30 Million to Build Payment Rails for AI Agents",
@@ -149,6 +2580,566 @@
       "pipelineVersion": 2
     },
     {
+      "id": "69f6e03f1c7f9c95b2",
+      "title": "花旗调高中国股票评级至“超配” 大摩建议加仓港股",
+      "summary": "股市 港股 A股目前看多港股的声音越来越多",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-20/102466192.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "A股",
+        "港股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "923669f59f17680f2b",
+      "title": "今日视点：从中期业绩趋势看A股的基本面支撑",
+      "summary": "■ 苏向杲 当前，A股市场已进入2026年半年度业绩预告集中披露期。面对市场风格轮动，上市公司盈利能否持续改善，正成为判断市场中期走势的重要变量。随着更多上市公司披露业绩预告，A股公司盈利结构中的积极变化正在逐渐显现，市场...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-07-21/doc-iniiphzq8122626.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "A股",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c64037edbe90ce7935",
+      "title": "多重积极因素汇聚 A股企稳回升底气十足",
+      "summary": "多重积极因素汇聚 A股市场企稳回升底气十足 本报记者 周尚伃 近期A股市场经历了一轮震荡调整，投资者情绪有所波动。围绕本轮调整的成因、性质以及后市展望，中国银河证券策略首席分析师杨超近日在接受《证券日报》记者专访时表示，本轮回落主要源于外部环境波动带来的情绪传导，当...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-07-21/doc-iniiphzm2633096.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "投资者",
+        "A股",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c1a42903b593accae8",
+      "title": "试点稳步扩容 “份额”蓄势待发 基金投顾行业迎发展新机遇",
+      "summary": "基金投顾行业发展迎来新机遇。试点稳步扩容，西部证券等多家券商筹备申请牌照，预计8月末前集中申报，2019年试点启动，如今试点机构60家，截至2026年初，管理规模约4500亿元，服务客户近1000万。“投顾份额”蓄势待发，其费率或低于普通份额，可缓解双重收费问题。今年部分机构退还尾随佣金，倒逼行业转向新模式。政策频频支持，入场机构申请牌照，持牌机构适应变革，同业合作赋能模式兴起。业内认为，机构需坚守初心、提升素养、深化合作，共促行业发展。 (AI生成)",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniinwmr2787327.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 76,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "券商",
+        "基金"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f6a2947c3411db9fa2",
+      "title": "光智科技：子公司安徽光智牵头项目获安徽省科学技术进步奖一等奖",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025786.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "dd6104b5816c499699",
+      "title": "海信RGB-Mini LED技术护航世界杯决赛 赛事赋能拉动大屏销量大幅增长",
+      "summary": "海信RGB 中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025784.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "2fa975089dcfd95da7",
+      "title": "宁波东力加码精密传动 拟向控股子公司增资2.28亿元",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025783.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "8973d887b6b184d791",
+      "title": "“树立和践行正确政绩观，进一步深化上海国资国企改革”专题研讨班举办",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/07/20/detail_2026072010025781.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "8eec9d36df552d1878",
+      "title": "格尔软件获2025年度国家科学技术进步奖二等奖",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025777.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "9aff31ddb787cfb888",
+      "title": "强一股份：南通项目主力从8英寸产线向12英寸全自动产线设备跨越",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025776.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c61e78b9cb9bbe7438",
+      "title": "智洋创新优化核心技术团队 两名算法博士加盟完善研发梯队",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025769.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "ee7fee1b534560115f",
+      "title": "索辰科技亮相WAIC 2026 集中展示在世界物理模型等方面最新成果",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025747.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "8237541ec59a956bfa",
+      "title": "平安好医生：将继续深化“医疗+AI”创新探索",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025746.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "73f6b65aeb93b6cc50",
+      "title": "聚焦情境智能 模思智能亮相 WAIC 2026",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/20/detail_2026072010025745.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "上市",
+        "理财"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "1c2607c7b2d56b7fa1",
+      "title": "“国家队”高调进场 证监会召开机构座谈会",
+      "summary": "国家队 证监会国新、诚通增持超600亿 ，国新本轮增持或主要通过直接买入央企股票实施，诚通旗下机构持有的ETF获资金流入",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-20/102466069.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 70,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "ETF"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a24d7a78935a2f47b6",
+      "title": "新华财经早报：7月21日",
+      "summary": "转自：新华财经•证监会召开投资者座谈会听取意见建议 吴清表示证监会将全力维护市场平稳运行•多家央企及金融机构宣布增持回购 向市场传递积极信号•美军对伊朗发动新一轮打击 伊朗称打击美军位于巴林和科威特的目标•国务院总理李强7月20日主持召开国...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/bond/2026-07-21/doc-iniiphzm2639456.shtml?froms=pccs",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 68,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "投资者",
+        "回购"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c1648d3254a7d5d080",
+      "title": "专家称三季度或将成为降息降准的重要窗口",
+      "summary": "三季度货币政策宽松空间或进一步打开 行至年中，央行明确下半年货币政策总体思路，将强化逆周期和跨周期调节。物价、经济基本面、海外主要经济体货币政策是影响货币政策操作关键因素。6月CPI同比涨1.0%，涨幅回落，下半年物价或温和上行，降息紧迫性降低；消费、投资需求待提振；美联储政策转向等对降息形成掣肘。6月新发放企业贷款加权平均利率约3.0%，处历史低位。三季度政府债券发行提速，或打开货币政策宽松空间，但市场对降准降息落地时点存分歧，也有观点认为当前概率偏低。下半年结构性货币政策工具或成“主角”，预计将针对多领域推出或扩容再贷款工具。 (AI生成)",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniinwmw4971082.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 68,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "债券",
+        "利率",
+        "贷款"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "efa5b8b64684d087ed",
+      "title": "7月21日收盘：油价上涨拖累美股收跌 道指下跌逾300点",
+      "summary": "北京时间7月21日凌晨，美股周一收跌，道指跌307.16点，跌幅0.59%，报51839.26点；纳指跌12.17点，跌幅0.05%，报25508.07点；标普500指数跌14.41点，跌幅0.19%，报7443.28点。市场关注美伊局势，美国连续九晚轰炸伊朗，伊朗胡塞盟友宣布对沙特海上禁运。不过伊朗外交部发言表态提升外交解决希望。特朗普称伊朗要为美军死亡付出代价后，油价上涨，布油涨约1.3%收于89.22美元/桶，美油涨0.9%收于83.23美元/桶，本月油价飙升约20%。芯片股部分收复失地抑制股指跌幅。 (AI生成)",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniipatu4864105.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 68,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "美股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "7e6a974986e6aedf0e",
+      "title": "一批绩优基金恢复大额申购等业务",
+      "summary": "多只绩优基金限购松绑：恢复大额申购等业务 来源：中国基金报 【导读】一批绩优主动权益基金恢复大额申购等业务 中国基金报记者天心 部分绩优基金限购闸门打开。 近日，一批主动权益基金密集发布恢复大额申购公告。值得一提的是，除了前期收紧的头部绩优基金陆续松绑，解除限购...",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniiphzn9423531.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 68,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "基金"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "b93ee5357e3ca3fd6b",
+      "title": "救市难挡下跌 长鑫科技的“锅”？",
+      "summary": "长鑫科技 救市 “国家队”行业跌幅榜几乎被泛科技产业链包揽，代表杠杆资金的两融余额已连续12个交易日下滑，市场转向避险交易",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-20/102466273.html",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "资金"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "40ccbf4214a930afce",
+      "title": "封锁沙特海上航行，地缘博弈，油价上蹿下跳",
+      "summary": "胡塞出手！封锁沙特海上航行，地缘激烈博弈，油价上蹿下跳 炒期货上新浪、实时行情信息全。 来源：能源研发中心 后市观点 周一油价剧烈波动，地缘局势的反复让投资者对油市的评估出现摇摆。在周末地缘局势升温刺激下，周一早盘油价大幅高开，布伦特原油一度冲至90美元上方，油价能快速涨至这一位置意味着对供应端的担忧扰动开始引发...--新浪财经领先金融信息服务平台",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-07-21/doc-iniiphzm2626793.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 64,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "投资者"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "5e53c195dba531ba3b",
+      "title": "国际金价险守4000美元关口",
+      "summary": "对地缘炮火“免疫”， 炒期货上新浪、实时行情信息全。美伊冲突升级，7月20日现货黄金盘中跌破4000美元，最低至3982.32美元/盎司，后拉升，截至18：00暂稳4020美元/盎司；国际油价冲破90美元大关。金油“跷跷板”效应下，油价飙涨强化加息预期令黄金承压，交易员预计12月加息概率升至82%。多空力量在4000美元关口拉锯，COMEX期金多空持仓均增加。当前黄金受“地缘通胀”与“降息预期”博弈影响，在3959 - 4104美元区间震荡。机构认为黄金短期回调未结束，后市需关注美国通胀数据和欧洲央行利率决议，投资可多元化配置。 (AI生成)--新浪财经领先金融信息服务平台",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-20/doc-iniinfpy9766790.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 64,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "利率"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "73da90ed4a4a470701",
+      "title": "碳酸锂走弱背后的“温差”真相",
+      "summary": "炒期货上新浪、实时行情信息全。 ● 本报记者 李嫒嫒 “我们的订单很好，产品不愁卖。”一家锂盐企业董秘向中国证券报记者吐露了心声，折射出当前锂电板块的高景气。在短期供应端出现确定性下降、下半年需求旺盛、锂电企业加快扩产的背景下，碳酸锂价格却一反常态，呈现回落态势。...--新浪财经领先金融信息服务平台",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-07-21/doc-iniiphzq8101964.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 64,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "金融",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "824d0c21b741ac360b",
+      "title": "特朗普暗示美军将对伊朗发动强硬报复",
+      "summary": "全球汇率新浪最全炒汇神器。△美国总统特朗普（资料图） 当地时间7月20日，美国总统特朗普在社交媒体发文，暗示美军在近日出现人员伤亡后将对伊朗发动强硬报复行动。 特朗普发文称，“每当伊朗杀害一名美国士兵，他们都将为此付出数倍的代价”。他称，这一指令已经传达给美...--新浪财经领先金融信息服务平台",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-07-21/doc-iniinwmw4985045.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 64,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "汇率"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "8985a05dc5c41c21d6",
+      "title": "年内最大IPO来了 中际旭创拟赴港募资70亿美元",
+      "summary": "全球光模块龙头中际旭创“A+H”两地上市仅差临门一脚。7月17日，港交所披露易平台显示，中际旭创股份有限公司已完成主板上市聆讯，并发布了聆讯后资料集（PHIP）。高盛、中金公司、摩根士丹利、广发证券担任联席保荐人。同日，中国证监会国际合作司...",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniiphzn9400624.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 64,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "证券",
+        "上市"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "5ef2a22aba341dacc1",
+      "title": "商品策略师警告：市场低估了极端天气的影响",
+      "summary": "从厄尔尼诺到欧洲热浪！大宗 炒期货上新浪、实时行情信息全。 来源：财联社 财联社7月20日讯（编辑 牛占林）多位大宗商品策略师近日警告称，随着极端热浪席卷欧洲、气象学家警示今年可能出现强厄尔尼诺现象，市场正在低估气候波动对各类资产的影响，而全球大宗商品市场也面临着新的不确定性。 世界气象...--新浪财经领先金融信息服务平台",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-20/doc-iniinsct2819190.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 60,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "dae8a004b0c43b648b",
+      "title": "社评：给英国算算强吞英钢的几笔账",
+      "summary": "来源：环球时报 导读：敬业当年在英钢濒临破产、无人问津之时施以援手，英方却演绎了一出现代版“农夫与蛇”。一个连基本契约都不遵守的国家，一个连投资者合法权益都不保障的国家，有什么资格谈论“法治”与“文明”7月19日，敬业钢铁有限公司发表严正声...",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-07-20/doc-iniinscw8179996.shtml",
+      "publishedAt": "2026-07-20",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 60,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "投资者"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
       "id": "0fb3ee9e3a6b2847de",
       "title": "Bank of America Promotes Execs to Champion AI and Crypto",
       "summary": "Bank of America has reportedly promoted new leaders to guide its artificial intelligence and crypto efforts. Sonali Theisen has been named the bank’s head of global digital-assets platform and Kevin Milsom head of platforms AI transformation, Bloomberg News reported Friday (July 17), citing an internal Bank of Amer…",
@@ -163,6 +3154,49 @@
       "kind": "tool",
       "keywords": [
         "bank"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "5bc8a26e1b442ee667",
+      "title": "招商证券总裁虚位以待 集团“80后”干部加入备选",
+      "summary": "招商银行1982年出生的招商局集团产业发展部/招商局业务协同部部长徐鑫是否会到招商证券任职？",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-18/102465575.html",
+      "publishedAt": "2026-07-18",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "银行",
+        "证券"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "a100dbf162c14d5453",
+      "title": "贷款中介“付费加白”调查：借渠道说辞收取高额费用",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/yh/04/2026/07/17/detail_2026071710024969.html",
+      "publishedAt": "2026-07-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "费用",
+        "证券",
+        "上市",
+        "理财"
       ],
       "readTime": 2,
       "pipelineVersion": 2
@@ -188,6 +3222,25 @@
       "pipelineVersion": 2
     },
     {
+      "id": "0df485823cd151e15b",
+      "title": "本周A股最牛：退市股1亿元成交额拉出260%涨幅 北交所连续两日暂停部分账户买入",
+      "summary": "个股炒作 北交所 云创退散户蜂拥北交所爆炒云创退，从0.56元爆炒至2.02元，成为本周A股涨幅最高个股",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-17/102465460.html",
+      "publishedAt": "2026-07-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "A股"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
       "id": "ccdf9b327910cfecc5",
       "title": "FIS Deploys Anthropic’s Mythos 5 to Strengthen Global Financial Infrastructure",
       "summary": "FIS has joined Anthropic’s Project Glasswing and is using the artificial intelligence company’s most advanced frontier model, Mythos 5, to secure its own systems. Project Glasswing is Anthropic’s initiative that allows select organizations that build or maintain foundational software to use the company’s most advan…",
@@ -202,6 +3255,63 @@
       "kind": "news",
       "keywords": [
         "financial"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "c4d2beed228e428d9e",
+      "title": "中国明确数据报告库规则 所有场外衍生品交易需及时报送",
+      "summary": "金融基础设施 数据报告库交易商协会与数据报告库一起，全面收集中国场外衍生品市场信息，有助于实现“放得开、管得住”的宏观调控及监管",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-17/102465264.html",
+      "publishedAt": "2026-07-17",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "f5fd662c4c29c138b3",
+      "title": "外汇局：QDII额度将“更加普惠” 拟进一步向公募产品倾斜",
+      "summary": "QDII外汇局将支持投资管理能力强、产品认可度高、合规意识和管理水平高的市场机构，在QDII业务中发挥更好的作用",
+      "insight": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-17/102465477.html",
+      "publishedAt": "2026-07-17",
+      "category": "风险合规",
+      "process": "风险合规 · AI 治理",
+      "score": 66,
+      "selected": false,
+      "kind": "tool",
+      "keywords": [
+        "资管"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "0d1a386bcd3272a118",
+      "title": "外汇局优化服务贸易统计 完善国际运输和跨境电商数据",
+      "summary": "外汇局 服务贸易 国际运输 跨境电商发布颗粒度更细的数据，更全面、更细致展现中国跨境投融资和对外资产负债的结构",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-07-17/102465342.html",
+      "publishedAt": "2026-07-17",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "融资"
       ],
       "readTime": 2,
       "pipelineVersion": 2
@@ -325,276 +3435,115 @@
       "pipelineVersion": 2
     },
     {
-      "id": "gartner-ap-2026",
-      "title": "2026 应付应用竞争焦点转向动态审批、实时反欺诈与全球电子发票合规",
-      "summary": "Gartner 最新研究把 AI 驱动的动态工作流、欺诈检测、电子发票合规和营运资金洞察列为应付应用的关键能力。",
-      "insight": "选型不应只看 OCR 准确率，还要同时衡量发票处理周期、例外率、折扣捕获、欺诈阻断和全球合规覆盖。",
-      "source": "Gartner",
-      "url": "https://www.gartner.com/en/documents/8014469",
-      "publishedAt": "2026-06-18",
-      "category": "风险合规",
-      "process": "P2P · 电子发票",
-      "score": 73,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "Gartner",
-        "AP",
-        "电子发票",
-        "欺诈",
-        "营运资金"
-      ],
-      "readTime": 8
-    },
-    {
-      "id": "a9f0898c4190e00181",
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "id": "c2024e90148c0f3c70",
+      "title": "平安基金周思聪：创新药行情修复背后是基本面、政策和资金的共振",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
       "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/bbva",
-      "publishedAt": "2026-06-11",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/sylm/jsbd/2026/07/14/detail_2026071410024393.html",
+      "publishedAt": "2026-07-14",
       "category": "流程升级",
       "process": "R2R · 财务运营",
-      "score": 69,
-      "selected": false,
+      "score": 84,
+      "selected": true,
       "kind": "news",
       "keywords": [
-        "erp"
-      ],
-      "readTime": 2
-    },
-    {
-      "id": "ramp-applied-ai-2026",
-      "title": "Ramp 推出 Applied AI Solutions，开始承接复杂财务运营流程",
-      "summary": "Ramp 的新方案面向大型企业，把智能体连接到 ERP、采购系统、文档库、审批流与银行数据，覆盖应付、采购、关账、应收和费用管理。",
-      "insight": "工具价值从单点识别转向跨系统编排。评估时应优先看主数据一致性、例外回退机制和人工审批插点。",
-      "source": "Ramp",
-      "url": "https://www.prnewswire.com/news-releases/ramp-launches-applied-ai-solutions-helping-enterprises-deploy-ai-agents-across-finance-operations-302796179.html",
-      "publishedAt": "2026-06-10",
-      "category": "财务共享",
-      "process": "财务共享 · P2P · R2R",
-      "score": 81,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "Ramp",
-        "应付",
-        "关账",
-        "费用管理",
-        "ERP"
-      ],
-      "readTime": 5
-    },
-    {
-      "id": "9da64821c60f866d06",
-      "title": "Building self-improving tax agents with Codex",
-      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "publishedAt": "2026-05-27",
-      "category": "AI工具",
-      "process": "财务数字化 · 工具应用",
-      "score": 77,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "tax"
-      ],
-      "readTime": 2
-    },
-    {
-      "id": "29276d540e65a68489",
-      "title": "Agents for financial services",
-      "summary": "We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
-      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
-      "source": "Anthropic Newsroom",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "publishedAt": "2026-05-05",
-      "category": "AI工具",
-      "process": "财务数字化 · 工具应用",
-      "score": 78,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "financial",
-        "insurance"
+        "金融",
+        "资金",
+        "证券",
+        "基金",
+        "上市"
       ],
       "readTime": 2,
       "pipelineVersion": 2
     },
     {
-      "id": "openai-pwc-cfo-2026",
-      "title": "OpenAI 与 PwC 共建 CFO 办公室智能体，覆盖规划、报告、税务与资金",
-      "summary": "双方宣布围绕真实财务工作流共建智能体，覆盖计划预测、管理报告、采购付款、资金、税务与会计关账，并强调治理和人工监督。",
-      "insight": "大型财务转型项目会越来越像“流程产品建设”，需要把岗位职责、系统权限、控制点与模型评估放进同一张蓝图。",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/openai-pwc-finance-collaboration/",
-      "publishedAt": "2026-05-04",
-      "category": "财务共享",
-      "process": "财务共享 · CFO Office",
-      "score": 90,
+      "id": "5cb9e09b4cf3cd6981",
+      "title": "平安基金周思聪：创新药或呈现更为分化行情 重点关注ADC、双抗等领域",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/sylm/jsbd/2026/07/14/detail_2026071410024392.html",
+      "publishedAt": "2026-07-14",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
       "selected": true,
       "kind": "news",
       "keywords": [
-        "OpenAI",
-        "PwC",
-        "CFO",
-        "财务转型",
-        "税务"
+        "金融",
+        "证券",
+        "基金",
+        "上市",
+        "理财"
       ],
-      "readTime": 5
+      "readTime": 2,
+      "pipelineVersion": 2
     },
     {
-      "id": "zuora-ai-agents-2026",
-      "title": "Zuora AI 新增 Quote-to-Cash 智能体，强调权限与审计框架内执行",
-      "summary": "Zuora 发布一组面向订阅业务的财务智能体，可汇总客户的合同、账单、付款与风险信号，并在现有权限和审计框架内提出后续动作。",
-      "insight": "O2C 场景天然跨越销售、合同、开票与回款，真正的落地门槛不在摘要，而在数据口径与动作权限。",
-      "source": "Zuora",
-      "url": "https://www.zuora.com/press-release/zuora-ai/",
-      "publishedAt": "2026-04-16",
+      "id": "cf74900a6bfa387162",
+      "title": "浙江美大停牌前连续涨停 控制权转让是否提前泄密",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/11/detail_2026071110023757.html",
+      "publishedAt": "2026-07-11",
       "category": "流程升级",
-      "process": "O2C · 应收管理",
-      "score": 78,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "Zuora",
-        "应收",
-        "订阅",
-        "Quote-to-Cash"
-      ],
-      "readTime": 4
-    },
-    {
-      "id": "oracle-fusion-agentic-2026",
-      "title": "Oracle 推出 Fusion Agentic Applications，把异常处理带入财务与供应链",
-      "summary": "Oracle 发布面向财务和供应链的代理式应用，聚焦跨工具谈判、异常处理、采购与合规，并以 AI Agent Studio 作为编排基础。",
-      "insight": "ERP 厂商正在把智能体嵌入系统记录层。已有 Oracle 技术栈的企业，应重点评估原生代理能否减少外围 RPA 和重复集成。",
-      "source": "Oracle",
-      "url": "https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-finance-and-supply-chain-2026-04-09/",
-      "publishedAt": "2026-04-09",
-      "category": "流程升级",
-      "process": "P2P · 采购与供应链",
-      "score": 77,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "Oracle",
-        "Fusion",
-        "采购",
-        "异常处理"
-      ],
-      "readTime": 5
-    },
-    {
-      "id": "trustworthy-agents-2026",
-      "title": "高自主财务智能体带来新的治理缺口：提示注入、越权与错误动作",
-      "summary": "随着智能体能够调用邮件、费用系统与企业应用，治理重点从输出内容安全扩展到身份、权限、工具访问、审批边界和运行时监控。",
-      "insight": "任何能写入财务系统的智能体都应拥有独立身份、最小权限、金额阈值、可撤销动作与完整审计日志。",
-      "source": "Anthropic Research",
-      "url": "https://www.anthropic.com/research/trustworthy-agents",
-      "publishedAt": "2026-04-09",
-      "category": "风险合规",
-      "process": "风险合规 · AI 治理",
-      "score": 74,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "治理",
-        "提示注入",
-        "最小权限",
-        "审计日志"
-      ],
-      "readTime": 7
-    },
-    {
-      "id": "uipath-p2p-agentic-2026",
-      "title": "UiPath 发布端到端 P2P 智能体方案，例外处理成为自动化核心",
-      "summary": "UiPath 发布 Purchase-to-Pay 代理式解决方案，面向采购和应付流程，自动处理跨 ERP、文档和审批系统之间的交接与异常。",
-      "insight": "传统 RPA 的稳定路径正在升级为“智能体处理异常 + 自动化执行确定动作”，共享中心需要重新划分机器人、智能体和人工坐席的边界。",
-      "source": "UiPath",
-      "url": "https://www.uipath.com/newsroom/uipath-announces-new-agentic-solution-to-accelerate-procurement-cycles",
-      "publishedAt": "2026-03-25",
-      "category": "财务共享",
-      "process": "财务共享 · P2P",
-      "score": 73,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "UiPath",
-        "P2P",
-        "应付",
-        "例外处理",
-        "RPA"
-      ],
-      "readTime": 5
-    },
-    {
-      "id": "workday-sana-2026",
-      "title": "Workday Sana 上线 300+ 技能，把财务自助服务扩展到跨系统执行",
-      "summary": "Sana from Workday 面向全球客户开放，Self-Service Agent 搭载 300 多项技能，可基于 Workday 的人员与财务数据查找答案、执行动作并自动化多步工作流。",
-      "insight": "员工财务自助将从查制度、查单据进化为可执行服务。上线前要把低风险动作、敏感变更与二次确认规则分级。",
-      "source": "Workday",
-      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Introducing-Sana-from-Workday-Superintelligence-for-Work-That-Finds-Answers-Takes-Action-and-Automates-Workflows/default.aspx",
-      "publishedAt": "2026-03-17",
-      "category": "AI工具",
-      "process": "财务共享 · 员工自助",
+      "process": "R2R · 财务运营",
       "score": 72,
       "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "Workday",
-        "Sana",
-        "员工自助",
-        "工作流"
-      ],
-      "readTime": 4
-    },
-    {
-      "id": "cemex-luca-bot-2026",
-      "title": "Cemex 用 LUCA Bot 向管理层开放财务 KPI，自然语言成为经营分析入口",
-      "summary": "Cemex 正向约 100 名高管推广财务智能体 LUCA Bot。该工具基于内部经济和财务数据回答问题，帮助管理层更快分析销售及工厂经营表现。",
-      "insight": "业财分析智能体的第一优先级不是生成更多图表，而是保证指标定义、权限隔离和答案可追溯。",
-      "source": "Microsoft Source",
-      "url": "https://news.microsoft.com/source/latam/features/ai/cemex-luca-bot-ai-agent/?lang=en",
-      "publishedAt": "2026-02-12",
-      "category": "业财分析",
-      "process": "FP&A · 管理报告",
-      "score": 69,
-      "selected": false,
       "kind": "news",
       "keywords": [
-        "Cemex",
-        "LUCA Bot",
-        "KPI",
-        "管理层",
-        "经营分析"
+        "金融",
+        "证券",
+        "上市",
+        "理财"
       ],
-      "readTime": 6
+      "readTime": 2,
+      "pipelineVersion": 2
     },
     {
-      "id": "board-microsoft-agents-2026",
-      "title": "Board 与 Microsoft 推出 FP&A 和 Controller Agents，瞄准连续计划",
-      "summary": "Board 发布基于 Microsoft Foundry 的企业规划智能体，首批覆盖 FP&A 与 Controller 岗位，支持财务、供应链和商品规划中的持续决策。",
-      "insight": "计划工具的竞争点正在从协同填报转向持续解释与建议，企业需要先治理版本、假设和责任中心数据。",
-      "source": "Microsoft Source",
-      "url": "https://news.microsoft.com/source/emea/2026/01/board-collaborates-with-microsoft-to-bring-agentic-ai-into-the-core-of-enterprise-planning/",
-      "publishedAt": "2026-01-21",
-      "category": "业财分析",
-      "process": "FP&A · 预算预测",
-      "score": 81,
+      "id": "c471269b9826e52fb9",
+      "title": "诉讼、外贸政策双重承压 北京通美IPO：过会四年后终止注册 拟转战港股上市",
+      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "中国证券报",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/07/10/detail_2026071010023481.html",
+      "publishedAt": "2026-07-10",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 84,
       "selected": true,
-      "kind": "tool",
+      "kind": "news",
       "keywords": [
-        "Board",
-        "Microsoft",
-        "FP&A",
-        "Controller",
-        "连续计划"
+        "金融",
+        "港股",
+        "证券",
+        "上市",
+        "理财"
       ],
-      "readTime": 5
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
+    {
+      "id": "d702a1e684dbc225cf",
+      "title": "2026.06.24 腾讯通过“碳寻计划2.0”催化资金支持新一代减碳创新者，持续推动气候目标落实 16支全球气候创新团队将共同获得近2亿元人民币的资金支持、技术资源和专家指导。",
+      "summary": "腾讯通过“碳寻计划2.0”催化资金支持新一代减碳创新者，持续推动气候目标落实 Tencent announced 16 winners of CarbonX 2.0, a global initiative designed to help promising climate solutions grow and scale.",
+      "insight": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。",
+      "source": "腾讯公司新闻",
+      "url": "https://www.tencent.com/zh-cn/articles/2202371.html",
+      "publishedAt": "2026-06-24",
+      "category": "流程升级",
+      "process": "R2R · 财务运营",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "人民币"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
     }
   ],
   "tools": [

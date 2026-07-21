@@ -21,7 +21,7 @@ test("server-renders the finance AI intelligence product", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>财智雷达 · 财务 AI 情报聚合器<\/title>/);
-  assert.match(html, /今天，财务被 AI 改写了什么？/);
+  assert.match(html, /这周，财务有哪些关键变化？/);
   assert.match(html, /财务 AI 工具雷达/);
   assert.match(html, /采集流水线/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
@@ -36,7 +36,7 @@ test("news data keeps attribution and finance workflow fields", async () => {
   assert.ok(data.meta.websiteSourceCount >= 1);
   assert.ok(data.meta.sourceStats.some((source) => source.type === "website" && source.status === "ok"));
   assert.match(data.meta.issue, /^\d{8}$/);
-  assert.ok(data.meta.dailyBrief.includes("财务与金融 AI 信号"));
+  assert.match(data.meta.dailyBrief, /财务与金融(?: AI)?关键信号|财务与金融 AI 信号/);
   assert.ok(data.items.every((item) => item.source && item.url.startsWith("http")));
   assert.ok(data.items.every((item) => item.title && item.summary && item.insight));
   assert.ok(data.items.every((item) => item.category && item.process && Number.isInteger(item.score)));

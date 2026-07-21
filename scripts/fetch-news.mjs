@@ -17,10 +17,13 @@ const FINANCE_TERMS = [
   "month-end close", "record-to-report", "closing", "forecast", "budget", "fpa", "fp&a",
   "cfo", "erp", "bank", "banking", "payment", "fintech", "insurance", "wealth",
   "investment", "federal reserve", "central bank", "interest rate", "aml", "kyc", "working capital", "spend management", "financial controller", "controllership",
-  "共享", "财务", "金融", "银行", "保险", "支付", "会计", "发票", "关账", "预算", "资金", "税务"
+  "共享", "财务", "金融", "银行", "保险", "支付", "会计", "发票", "关账", "预算", "资金", "税务",
+  "业绩", "财报", "季度业绩", "年度报告", "投资者", "收入", "利润", "现金流", "费用", "营收", "回购",
+  "A股", "港股", "中概股", "美股", "证券", "券商", "基金", "ETF", "债券", "融资", "上市", "分红",
+  "人民币", "汇率", "利率", "资本市场", "私募", "资管", "理财", "信贷", "贷款", "并购"
 ];
 const AI_TERMS = [" ai ", "ai-", "ai-powered", "ai-driven", "artificial intelligence", "agent", "agents", "agentic", "copilot", "automation", "llm", "智能体", "人工智能", "自动化"];
-const USER_AGENT = "FinPulseAI/1.1 (+daily finance AI intelligence aggregator)";
+const USER_AGENT = "FinPulseAI/1.2 (+weekly finance intelligence aggregator)";
 const BROWSER_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36";
 
 function decodeXml(value = "") {
@@ -91,6 +94,7 @@ function htmlMeta(html, names) {
 
 function parseHtmlLinks(html, source) {
   const base = new URL(source.url);
+  const allowedHosts = new Set([base.hostname, ...(source.allowedHosts ?? [])]);
   const seen = new Set();
   const links = [];
   const anchorPattern = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
@@ -100,7 +104,7 @@ function parseHtmlLinks(html, source) {
     if (!href || href.startsWith("#") || href.startsWith("mailto:")) continue;
     let url;
     try { url = new URL(href, base); } catch { continue; }
-    if (url.hostname !== base.hostname) continue;
+    if (!allowedHosts.has(url.hostname)) continue;
     if (!(source.includePaths ?? []).some((part) => url.pathname.includes(part))) continue;
     url.hash = "";
     const canonical = url.toString();
@@ -135,6 +139,16 @@ function parseEmbeddedArticles(html, source) {
 }
 
 async function fetchHtmlArticle(link, source) {
+  const listedDate = link.listingTitle.match(/\b(20\d{2})[./-](\d{1,2})[./-](\d{1,2})\b/);
+  const urlDate = link.url.match(/\b(20\d{2})[./-](\d{1,2})[./-](\d{1,2})\b/);
+  const listingPublishedAt = listedDate
+    ? `${listedDate[1]}-${listedDate[2].padStart(2, "0")}-${listedDate[3].padStart(2, "0")}`
+    : urlDate
+      ? `${urlDate[1]}-${urlDate[2].padStart(2, "0")}-${urlDate[3].padStart(2, "0")}`
+      : "";
+  if (/\.pdf(?:$|\?)/i.test(link.url)) {
+    return { title: cleanText(link.listingTitle), url: link.url, description: "", publishedAt: listingPublishedAt };
+  }
   const response = await fetch(link.url, {
     headers: { "user-agent": source.browserUserAgent ? BROWSER_USER_AGENT : USER_AGENT, accept: "text/html,application/xhtml+xml" },
     signal: AbortSignal.timeout(20_000),
@@ -142,12 +156,15 @@ async function fetchHtmlArticle(link, source) {
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   const html = await response.text();
   const documentTitle = tag(html, ["title"]).replace(/\s*[|–—-]\s*[^|–—-]{2,50}$/, "").trim();
-  const title = htmlMeta(html, ["og:title", "twitter:title"]) || documentTitle || link.listingTitle;
-  const description = htmlMeta(html, ["description", "og:description", "twitter:description"]);
+  const articleTitle = htmlMeta(html, ["og:title", "twitter:title"]) || documentTitle;
+  const title = source.financeOnly ? link.listingTitle : articleTitle || link.listingTitle;
+  const description = [source.financeOnly ? articleTitle : "", htmlMeta(html, ["description", "og:description", "twitter:description"])]
+    .filter(Boolean)
+    .join(" ");
   const jsonDate = html.match(/["']datePublished["']\s*:\s*["']([^"']+)["']/i)?.[1] ?? "";
   const timeDate = html.match(/<time\b[^>]*datetime=["']([^"']+)["']/i)?.[1] ?? "";
   const publishedAt = htmlMeta(html, ["article:published_time", "date", "datepublished"]) || jsonDate || timeDate;
-  return { title: cleanText(title), url: link.url, description: cleanText(description), publishedAt };
+  return { title: cleanText(title), url: link.url, description: cleanText(description), publishedAt: publishedAt || listingPublishedAt || (source.financeOnly ? new Date().toISOString() : "") };
 }
 
 function termMatches(text, term) {
@@ -167,8 +184,9 @@ function matchingTerms(text, terms) {
 
 function isFinanceAiRelevant(raw, source) {
   const text = `${raw.title} ${raw.description}`;
-  if (!includesAny(text, AI_TERMS)) return false;
   const combinedHits = matchingTerms(text, FINANCE_TERMS).length;
+  if (source.financeOnly) return combinedHits >= 1;
+  if (!includesAny(text, AI_TERMS)) return false;
   if (source.focus === "finance") return combinedHits >= 1;
   return includesAny(raw.title, FINANCE_TERMS) || combinedHits >= 2;
 }
@@ -190,7 +208,7 @@ function scoreItem(raw, source) {
   const titleAi = includesAny(raw.title, AI_TERMS);
   const base = source.tier === 1 ? 54 : 48;
   const focusBoost = source.focus === "finance" ? 8 : 0;
-  return Math.min(96, base + focusBoost + Math.min(20, financeHits * 4) + Math.min(12, aiHits * 3) + (titleFinance ? 8 : 0) + (titleAi ? 5 : 0));
+  return Math.min(96, base + focusBoost + (source.sourceBoost ?? 0) + Math.min(20, financeHits * 4) + Math.min(12, aiHits * 3) + (titleFinance ? 8 : 0) + (titleAi ? 5 : 0));
 }
 
 function defaultInsight(category) {
@@ -204,16 +222,24 @@ function defaultInsight(category) {
   return insights[category] ?? insights["流程升级"];
 }
 
+function buildSummary(raw) {
+  const title = cleanText(raw.title);
+  const description = cleanText(raw.description);
+  const withoutRepeatedTitle = description.replaceAll(title, " ").replace(/\s+/g, " ").trim();
+  const summary = withoutRepeatedTitle || description || title;
+  return summary.length > 320 ? `${summary.slice(0, 316)}…` : summary;
+}
+
 function toRecord(raw, source) {
   const text = `${raw.title} ${raw.description}`;
   const [category, processName] = classify(text);
   const score = scoreItem(raw, source);
   const date = new Date(raw.publishedAt || Date.now());
-  const summary = raw.description.length > 320 ? `${raw.description.slice(0, 316)}…` : raw.description;
+  const summary = buildSummary(raw);
   return {
     id: createHash("sha1").update(raw.url).digest("hex").slice(0, 18),
     title: raw.title,
-    summary: summary || "该信源发布了新的财务 AI 动态，建议打开原文核验具体能力、适用范围与上线状态。",
+    summary: summary || "该信源发布了新的财务动态，建议打开原文核验具体信息、影响范围与后续变化。",
     insight: defaultInsight(category),
     source: source.name,
     url: raw.url,
@@ -243,7 +269,14 @@ async function fetchSource(source) {
     } else {
       const links = parseHtmlLinks(body, source);
       const articleResults = await Promise.allSettled(links.map((link) => fetchHtmlArticle(link, source)));
-      candidates = articleResults.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
+      candidates = articleResults.flatMap((result, index) => result.status === "fulfilled"
+        ? [result.value]
+        : [{
+            title: links[index].listingTitle,
+            url: links[index].url,
+            description: "",
+            publishedAt: links[index].url.match(/\b(20\d{2})[./-](\d{1,2})[./-](\d{1,2})\b/)?.slice(1, 4).map((part, partIndex) => partIndex === 0 ? part : part.padStart(2, "0")).join("-") ?? new Date().toISOString(),
+          }]);
     }
   } else {
     candidates = parseFeed(body);
@@ -351,7 +384,7 @@ function buildDailyBrief(allItems, matchedCount, healthyCount) {
   const focus = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([category]) => category);
   const lead = recent[0];
   if (!lead) return `本轮已有 ${healthyCount} 个信源正常完成采集，暂未发现新的高相关财务 AI 信号。`;
-  return `本轮从 ${healthyCount} 个正常信源中匹配 ${matchedCount} 条财务与金融 AI 信号，重点集中在${focus.join("、")}。当前最值得继续追踪的是《${lead.title}》。`;
+  return `本轮从 ${healthyCount} 个正常信源中匹配 ${matchedCount} 条财务与金融关键信号，重点集中在${focus.join("、")}。当前最值得继续追踪的是《${lead.title}》。`;
 }
 
 const now = new Date();
