@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-20 09:07 CST",
+    "lastUpdated": "2026-07-21 09:02 CST",
     "sourceCount": 15,
-    "todaySignals": 8,
-    "actionable": 17,
-    "issue": "20260720",
-    "dailyBrief": "本轮从 15 个正常信源中匹配 8 条财务与金融 AI 信号，重点集中在风险合规、AI工具、流程升级。当前最值得继续追踪的是《Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance》。",
+    "todaySignals": 6,
+    "actionable": 18,
+    "issue": "20260721",
+    "dailyBrief": "本轮从 15 个正常信源中匹配 6 条财务与金融 AI 信号，重点集中在风险合规、AI工具、流程升级。当前最值得继续追踪的是《Natural Raises $30 Million to Build Payment Rails for AI Agents》。",
     "sourceOk": 15,
     "websiteSourceCount": 4,
     "sourceStats": [
@@ -43,13 +43,13 @@
         "name": "CFO Dive",
         "type": "feed",
         "status": "ok",
-        "matched": 1
+        "matched": 0
       },
       {
         "name": "Banking Dive",
         "type": "feed",
         "status": "ok",
-        "matched": 1
+        "matched": 0
       },
       {
         "name": "Payments Dive",
@@ -105,7 +105,7 @@
     {
       "label": "财务智能体",
       "note": "从助手走向流程执行",
-      "heat": 84
+      "heat": 95
     },
     {
       "label": "P2P 自动化",
@@ -125,10 +125,29 @@
     {
       "label": "金融 AI",
       "note": "银行、支付与风控加速落地",
-      "heat": 49
+      "heat": 61
     }
   ],
   "items": [
+    {
+      "id": "6ce207ac1e5d8803a9",
+      "title": "Natural Raises $30 Million to Build Payment Rails for AI Agents",
+      "summary": "Natural, a year-old company that is building a foundational payment stack for artificial intelligence agents, raised $30 million in a Series A funding round. The round brings Natural’s total funding to more than $40 million, the company said in a Monday (July 20) press release. The firm announced about 10 months ag…",
+      "insight": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/investment-tracker/2026/natural-raises-30-million-to-build-payment-rails-for-ai-agents/",
+      "publishedAt": "2026-07-20",
+      "category": "AI工具",
+      "process": "财务数字化 · 工具应用",
+      "score": 79,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "payment"
+      ],
+      "readTime": 2,
+      "pipelineVersion": 2
+    },
     {
       "id": "0fb3ee9e3a6b2847de",
       "title": "Bank of America Promotes Execs to Champion AI and Crypto",
