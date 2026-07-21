@@ -28,6 +28,7 @@ test("server-renders the finance AI intelligence product", async () => {
   assert.match(html, /主题分布/);
   assert.match(html, /实时数据/);
   assert.match(html, /财务 AI 工具雷达/);
+  assert.doesNotMatch(html, /中国公司优先，英文信源补充|正常 \/ 全部信源|高相关精选|条来自财联社与财新/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
 });
 

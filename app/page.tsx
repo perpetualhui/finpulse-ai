@@ -18,41 +18,34 @@ const NAV_ITEMS = [
 
 const FILTERS = ["全部", "财联社", "财新财经", "公司财务", "资本市场", "银行金融", "英文补充"];
 
-const SECTION_COPY: Record<string, { title: string; eyebrow: string; subtitle: string }> = {
+const SECTION_COPY: Record<string, { title: string; eyebrow: string }> = {
   精选: {
     eyebrow: "WEEKLY SIGNAL / 周报信号",
     title: "这周，财务有哪些关键变化？",
-    subtitle: "中国公司优先，英文信源补充，只保留值得财务负责人继续追踪的变化。",
   },
   全部: {
     eyebrow: "FULL STREAM / 全量情报",
     title: "财务 AI 动态流",
-    subtitle: "按相关度、发布时间与财务流程统一整理的全量信号。",
   },
   中国公司: {
     eyebrow: "CHINA COMPANY / 中国公司",
     title: "中国公司的财务关键信号",
-    subtitle: "聚焦业绩、现金流、融资、回购、分红和并购等可验证的经营变化。",
   },
   公司财务: {
     eyebrow: "EARNINGS WATCH / 财报业绩",
     title: "从财报看经营质量",
-    subtitle: "把收入、利润、现金流与资本动作放在同一条经营脉络中观察。",
   },
   资本市场: {
     eyebrow: "CAPITAL MARKET / 资本市场",
     title: "资金正在重新定价什么？",
-    subtitle: "跟踪股债、基金、融资与资本成本变化，筛掉只有波动、缺少信息增量的消息。",
   },
   金融动态: {
     eyebrow: "FINANCIAL SYSTEM / 金融动态",
     title: "银行、保险与政策的传导链",
-    subtitle: "关注金融机构、利率汇率、监管政策对企业融资和现金管理的影响。",
   },
   AI技术: {
     eyebrow: "GLOBAL TECH / AI 与技术",
     title: "英文原始信源中的财务技术变化",
-    subtitle: "英文作为补充，重点保留能进入财务流程、金融产品或风险控制的技术进展。",
   },
 };
 
@@ -151,8 +144,6 @@ export default function Home() {
     counts[item.source] = (counts[item.source] ?? 0) + 1;
     return counts;
   }, {}), []);
-  const chineseCount = newsData.items.filter((item) => item.language === "zh").length;
-  const companyCount = newsData.items.filter((item) => item.language === "zh" && item.isCompanyFinance).length;
   const topChineseSources = ["财联社", "财新财经", "第一财经", "21世纪经济报道", "证券时报", "中国证券报"]
     .map((source) => ({ source, count: sourceCounts[source] ?? 0 }));
   const topicCounts = Object.entries(newsData.items.reduce<Record<string, number>>((counts, item) => {
@@ -237,24 +228,8 @@ export default function Home() {
             <div className="hero-copy">
               <p className="eyebrow">{sectionCopy.eyebrow}</p>
               <h1>{sectionCopy.title}</h1>
-              <p className="hero-subtitle">{sectionCopy.subtitle}</p>
-            </div>
-            <div className="hero-stats" aria-label="本周采集概览">
-              <div><strong>{newsData.meta.sourceOk}/{newsData.meta.sourceCount}</strong><span>正常 / 全部信源</span></div>
-              <div><strong>{chineseCount}</strong><span>中文财经信号</span></div>
-              <div><strong>{companyCount}</strong><span>中国公司财务</span></div>
-              <div><strong>{newsData.meta.actionable}</strong><span>高相关精选</span></div>
             </div>
           </section>
-
-          {activeView === "精选" && (
-            <section className="coverage-strip" aria-label="本周内容结构">
-              <div><span>中文优先</span><strong>{chineseCount}</strong><small>条中文财经与公司信号</small></div>
-              <div><span>重点媒体</span><strong>{(sourceCounts["财联社"] ?? 0) + (sourceCounts["财新财经"] ?? 0)}</strong><small>条来自财联社与财新</small></div>
-              <div><span>英文补充</span><strong>{englishHighlights.length ? newsData.items.filter((item) => item.language === "en").length : 0}</strong><small>条国际原始信源</small></div>
-              <div><span>公司观察</span><strong>{companyCount}</strong><small>条业绩与资本动作</small></div>
-            </section>
-          )}
 
           <section className="signal-grid" id="daily-brief">
             <article className="lead-signal">
