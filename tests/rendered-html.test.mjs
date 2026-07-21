@@ -59,10 +59,10 @@ test("source configuration covers feeds and direct websites", async () => {
   assert.ok(sources.every((source) => source.name && source.url.startsWith("https://")));
 });
 
-test("hosting uses runtime persistence for live news snapshots", async () => {
+test("frontend reads the live data snapshot independently from site builds", async () => {
   const hosting = JSON.parse(await readFile(new URL("../.openai/hosting.json", import.meta.url), "utf8"));
-  assert.equal(hosting.d1, "DB");
-  const route = await readFile(new URL("../worker/news-api.ts", import.meta.url), "utf8");
-  assert.match(route, /news_snapshots/);
-  assert.match(route, /cache-control": "no-store"/);
+  assert.equal(hosting.d1, null);
+  const page = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
+  assert.match(page, /raw\.githubusercontent\.com\/perpetualhui\/finpulse-ai\/main\/public\/data\/news\.json/);
+  assert.match(page, /cache: "no-store"/);
 });

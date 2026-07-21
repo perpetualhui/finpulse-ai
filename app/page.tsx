@@ -5,6 +5,7 @@ import fallbackNewsData from "@/public/data/news.json";
 
 type NewsData = typeof fallbackNewsData;
 type NewsItem = NewsData["items"][number];
+const LIVE_NEWS_URL = "https://raw.githubusercontent.com/perpetualhui/finpulse-ai/main/public/data/news.json";
 
 const NAV_ITEMS = [
   { id: "精选", mark: "01", label: "周报精选" },
@@ -91,7 +92,7 @@ export default function Home() {
     let active = true;
     const loadLatestNews = async () => {
       try {
-        const response = await fetch("/api/news", { cache: "no-store" });
+        const response = await fetch(`${LIVE_NEWS_URL}?v=${Date.now()}`, { cache: "no-store" });
         if (!response.ok) return;
         const latest = await response.json() as NewsData;
         if (active) setNewsData(latest);

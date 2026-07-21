@@ -4,11 +4,6 @@ import path from "node:path";
 import process from "node:process";
 
 const root = process.cwd();
-try {
-  process.loadEnvFile(path.join(root, ".env.local"));
-} catch (error) {
-  if (error.code !== "ENOENT") throw error;
-}
 const sourcesPath = path.join(root, "config", "sources.json");
 const dataPath = path.join(root, "public", "data", "news.json");
 const sources = JSON.parse(await readFile(sourcesPath, "utf8"));
@@ -473,25 +468,8 @@ function validateSnapshot(snapshot) {
   }
 }
 
-async function syncHostedSnapshot(snapshot) {
-  const syncUrl = process.env.NEWS_SYNC_URL;
-  const token = process.env.NEWS_INGEST_TOKEN;
-  if (!syncUrl || !token) return false;
-  const encodedSnapshot = Buffer.from(JSON.stringify(snapshot), "utf8").toString("base64");
-  const response = await fetch(new URL("/api/news-ingest", syncUrl), {
-    method: "POST",
-    headers: { "content-type": "text/plain", "x-finance-sync-token": token },
-    body: encodedSnapshot,
-    signal: AbortSignal.timeout(30_000),
-  });
-  if (!response.ok) throw new Error(`Hosted snapshot sync failed: ${response.status} ${await response.text()}`);
-  return true;
-}
-
 validateSnapshot(current);
 await writeFile(dataPath, `${JSON.stringify(current, null, 2)}\n`, "utf8");
-const synced = await syncHostedSnapshot(current);
 console.log(`FinPulse refresh complete: ${fresh.length} matched, ${items.length} total.`);
 console.log(`Source results: ${sourceStats.map((source) => `${source.name}=${source.matched}`).join(", ")}`);
-console.log(synced ? "Hosted snapshot synced." : "Hosted snapshot sync skipped: runtime credentials are not configured.");
 if (errors.length) console.warn(`Unavailable feeds (${errors.length}):\n- ${errors.join("\n- ")}`);
