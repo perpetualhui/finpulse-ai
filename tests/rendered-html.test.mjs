@@ -66,6 +66,17 @@ test("frontend reads the live data snapshot independently from site builds", asy
   const page = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
   assert.match(page, /raw\.githubusercontent\.com\/perpetualhui\/finpulse-ai\/main\/public\/data\/news\.json/);
   assert.match(page, /cache: "no-store"/);
+  assert.match(page, /\[activeFilter, activeView, newsData\.items, query\]/);
+});
+
+test("mobile layout exposes every section with safe touch navigation", async () => {
+  const page = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
+  const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(page, /NAV_ITEMS\.map\(\(item\) =>/);
+  assert.doesNotMatch(page, /NAV_ITEMS\.slice\(0, 4\)/);
+  assert.match(css, /grid-template-columns: repeat\(6, minmax\(0, 1fr\)\)/);
+  assert.match(css, /env\(safe-area-inset-bottom\)/);
+  assert.match(css, /scroll-snap-type: x mandatory/);
 });
 
 test("site build removes stale deployment assets before compiling", async () => {

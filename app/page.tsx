@@ -8,12 +8,12 @@ type NewsItem = NewsData["items"][number];
 const LIVE_NEWS_URL = "https://raw.githubusercontent.com/perpetualhui/finpulse-ai/main/public/data/news.json";
 
 const NAV_ITEMS = [
-  { id: "精选", mark: "01", label: "周报精选" },
-  { id: "中国公司", mark: "02", label: "中国公司" },
-  { id: "公司财务", mark: "03", label: "财报与业绩" },
-  { id: "资本市场", mark: "04", label: "资本市场" },
-  { id: "金融动态", mark: "05", label: "金融动态" },
-  { id: "AI技术", mark: "06", label: "AI 与技术" },
+  { id: "精选", mark: "01", label: "周报精选", mobileLabel: "精选" },
+  { id: "中国公司", mark: "02", label: "中国公司", mobileLabel: "公司" },
+  { id: "公司财务", mark: "03", label: "财报与业绩", mobileLabel: "财报" },
+  { id: "资本市场", mark: "04", label: "资本市场", mobileLabel: "资本" },
+  { id: "金融动态", mark: "05", label: "金融动态", mobileLabel: "金融" },
+  { id: "AI技术", mark: "06", label: "AI 与技术", mobileLabel: "AI" },
 ] as const;
 
 const FILTERS = ["全部", "财联社", "财新财经", "公司财务", "资本市场", "银行金融", "英文补充"];
@@ -133,7 +133,7 @@ export default function Home() {
           .includes(normalizedQuery);
       return viewMatch && filterMatch && queryMatch;
     });
-  }, [activeFilter, activeView, query]);
+  }, [activeFilter, activeView, newsData.items, query]);
 
   const visibleItems = showAll ? filteredItems : filteredItems.slice(0, 12);
   const sectionCopy = SECTION_COPY[activeView] ?? SECTION_COPY.精选;
@@ -143,7 +143,7 @@ export default function Home() {
   const sourceCounts = useMemo(() => newsData.items.reduce<Record<string, number>>((counts, item) => {
     counts[item.source] = (counts[item.source] ?? 0) + 1;
     return counts;
-  }, {}), []);
+  }, {}), [newsData.items]);
   const topChineseSources = ["财联社", "财新财经", "第一财经", "21世纪经济报道", "证券时报", "中国证券报"]
     .map((source) => ({ source, count: sourceCounts[source] ?? 0 }));
   const topicCounts = Object.entries(newsData.items.reduce<Record<string, number>>((counts, item) => {
@@ -190,6 +190,7 @@ export default function Home() {
               key={item.id}
               className={activeView === item.id ? "side-link active" : "side-link"}
               onClick={() => switchView(item.id)}
+              aria-current={activeView === item.id ? "page" : undefined}
             >
               <span>{item.mark}</span>{item.label}
             </button>
@@ -212,15 +213,17 @@ export default function Home() {
       <div className="main-column">
         <header className="topbar">
           <div className="mobile-brand">财智雷达 <span>FINPULSE AI</span></div>
-          <label className="search-box">
-            <span>⌕</span>
-            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索工具、流程、厂商或关键词" />
+          <div className="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input aria-label="搜索情报" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索工具、流程、厂商或关键词" />
+            {query && <button type="button" className="mobile-search-clear" onClick={() => setQuery("")} aria-label="清空搜索">×</button>}
             <kbd>⌘ K</kbd>
-          </label>
+          </div>
           <div className="top-actions">
             <span className="update-time"><i />实时数据 · {newsData.meta.lastUpdated}</span>
             <button onClick={() => setQuery("")} className="clear-button">清空检索</button>
           </div>
+          <button type="button" className="mobile-theme-button" onClick={toggleTheme} aria-label="切换明暗主题">◐</button>
         </header>
 
         <main>
@@ -387,8 +390,16 @@ export default function Home() {
       </div>
 
       <nav className="mobile-tabs" aria-label="移动端导航">
-        {NAV_ITEMS.slice(0, 4).map((item) => (
-          <button key={item.id} className={activeView === item.id ? "active" : ""} onClick={() => switchView(item.id)}><span>{item.mark}</span>{item.label.replace("今日", "")}</button>
+        {NAV_ITEMS.map((item) => (
+          <button
+            key={item.id}
+            className={activeView === item.id ? "active" : ""}
+            onClick={() => switchView(item.id)}
+            aria-label={item.label}
+            aria-current={activeView === item.id ? "page" : undefined}
+          >
+            <span>{item.mark}</span>{item.mobileLabel}
+          </button>
         ))}
       </nav>
     </div>
