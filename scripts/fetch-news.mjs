@@ -4,6 +4,11 @@ import path from "node:path";
 import process from "node:process";
 
 const root = process.cwd();
+try {
+  process.loadEnvFile(path.join(root, ".env.local"));
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
 const sourcesPath = path.join(root, "config", "sources.json");
 const dataPath = path.join(root, "public", "data", "news.json");
 const sources = JSON.parse(await readFile(sourcesPath, "utf8"));
@@ -23,6 +28,8 @@ const FINANCE_TERMS = [
   "人民币", "汇率", "利率", "资本市场", "私募", "资管", "理财", "信贷", "贷款", "并购"
 ];
 const AI_TERMS = [" ai ", "ai-", "ai-powered", "ai-driven", "artificial intelligence", "agent", "agents", "agentic", "copilot", "automation", "llm", "智能体", "人工智能", "自动化"];
+const CHINESE_COMPANY_SOURCES = new Set(["腾讯公司新闻", "阿里巴巴投资者关系"]);
+const CHINESE_MEDIA_SOURCES = new Set(["财新财经", "第一财经", "21世纪经济报道", "证券时报", "中国证券报", "澎湃财经", "新浪财经", "财联社"]);
 const USER_AGENT = "FinPulseAI/1.2 (+weekly finance intelligence aggregator)";
 const BROWSER_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36";
 
@@ -193,11 +200,14 @@ function isFinanceAiRelevant(raw, source) {
 
 function classify(text) {
   const value = text.toLowerCase();
-  if (/(security|governance|compliance|audit|fraud|risk|内控|合规|风险)/.test(value)) return ["风险合规", "风险合规 · AI 治理"];
-  if (/(shared service|invoice|payable|purchase-to-pay|procurement|共享|应付|采购)/.test(value)) return ["财务共享", "财务共享 · P2P"];
-  if (/(forecast|budget|planning|variance|fpa|fp&a|预算|预测|经营分析)/.test(value)) return ["业财分析", "FP&A · 预算预测"];
-  if (/(tool|platform|launch|release|copilot|agent|产品|发布|工具)/.test(value)) return ["AI工具", "财务数字化 · 工具应用"];
-  return ["流程升级", "R2R · 财务运营"];
+  if (/(业绩|财报|年度报告|季度报告|营收|收入|利润|现金流|回购|分红|投资者|earnings|revenue|profit|cash flow|buyback|dividend)/.test(value)) return ["公司财务", "公司财务 · 业绩与资本动作"];
+  if (/(a股|港股|中概股|美股|证券|券商|基金|etf|债券|资本市场|股市|上市|market|equity|bond|securities|investment)/.test(value)) return ["资本市场", "资本市场 · 投融资"];
+  if (/(央行|财政|利率|汇率|人民币|货币政策|监管|宏观|central bank|federal reserve|interest rate|exchange rate|regulatory)/.test(value)) return ["宏观政策", "宏观 · 政策与监管"];
+  if (/(银行|保险|支付|信贷|贷款|理财|资管|私募|金融|bank|banking|insurance|payment|fintech|wealth|aml|kyc)/.test(value)) return ["银行金融", "金融机构 · 产品与风险"];
+  if (/(security|governance|compliance|audit|fraud|risk|内控|合规|审计|风险)/.test(value)) return ["风险合规", "风险合规 · 治理审计"];
+  if (/(shared service|invoice|payable|purchase-to-pay|procurement|forecast|budget|planning|variance|fpa|fp&a|共享|应付|采购|发票|预算|预测|经营分析|会计|财务)/.test(value)) return ["财务运营", "财务运营 · 流程与分析"];
+  if (/(tool|platform|launch|release|copilot|agent|产品|发布|工具|智能体|人工智能|automation)/.test(value)) return ["AI技术", "AI 技术 · 财务应用"];
+  return ["财经动态", "财经动态 · 综合观察"];
 }
 
 function scoreItem(raw, source) {
@@ -213,21 +223,50 @@ function scoreItem(raw, source) {
 
 function defaultInsight(category) {
   const insights = {
-    "AI工具": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
-    "财务共享": "共享中心可重点评估例外率、处理周期、人工接管与跨系统编排成本。",
-    "业财分析": "落地前应先统一指标定义、版本口径、责任中心和数据权限。",
-    "风险合规": "需要同步检查独立身份、最小权限、审批阈值、可撤销动作与审计日志。",
-    "流程升级": "判断价值时应从端到端周期、例外处理和控制有效性出发，而不只是单点效率。"
+    "公司财务": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+    "资本市场": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+    "宏观政策": "将政策、利率和汇率变化映射到融资成本、现金管理、预算假设与风险敞口。",
+    "银行金融": "关注产品、资产质量、资本约束与监管变化，识别对企业融资和金融业务的传导。",
+    "风险合规": "核对监管口径、风险边界、内部控制和审计要求是否出现实质变化。",
+    "财务运营": "判断变化能否改善预算、核算、资金或共享流程，同时保留必要的复核与控制。",
+    "AI技术": "先确认它能连接哪些财务数据、能执行哪些动作，以及关键结果是否支持人工复核。",
+    "财经动态": "结合企业基本面、资金环境与政策背景判断影响，避免只按单一市场波动行动。"
   };
-  return insights[category] ?? insights["流程升级"];
+  return insights[category] ?? insights["财经动态"];
+}
+
+function normalizeTitle(value) {
+  const title = cleanText(value);
+  const repeatedHalf = title.length % 2 === 0 && title.slice(0, title.length / 2) === title.slice(title.length / 2)
+    ? title.slice(0, title.length / 2)
+    : title;
+  const pipeLead = repeatedHalf.split(/\s+[|｜]\s+/)[0];
+  return (pipeLead.length >= 12 ? pipeLead : repeatedHalf).slice(0, 140).trim();
 }
 
 function buildSummary(raw) {
-  const title = cleanText(raw.title);
+  const title = normalizeTitle(raw.title);
   const description = cleanText(raw.description);
-  const withoutRepeatedTitle = description.replaceAll(title, " ").replace(/\s+/g, " ").trim();
-  const summary = withoutRepeatedTitle || description || title;
-  return summary.length > 320 ? `${summary.slice(0, 316)}…` : summary;
+  const withoutRepeatedTitle = description
+    .replaceAll(cleanText(raw.title), " ")
+    .replaceAll(title, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const summary = withoutRepeatedTitle || title;
+  return summary.length > 240 ? `${summary.slice(0, 236)}…` : summary;
+}
+
+function deriveAudienceFields(text, source) {
+  const language = source.financeOnly || /[\u3400-\u9fff]/.test(text) ? "zh" : "en";
+  const sourceType = CHINESE_COMPANY_SOURCES.has(source.name)
+    ? "company"
+    : CHINESE_MEDIA_SOURCES.has(source.name)
+      ? "chinese-media"
+      : "international";
+  const hasCompanyFinanceAction = /(业绩|财报|年度报告|季度报告|营收|收入|利润|现金流|回购|分红|并购|融资|投资者)/.test(text);
+  const hasForeignMarker = /(美股|美国|英国|欧洲|日本|韩国|印度|美元|欧元|华尔街|meta|blackrock|贝莱德|高盛|英伟达|微软|亚马逊|openai|anthropic|cuspai)/i.test(text);
+  const isCompanyFinance = sourceType === "company" || (language === "zh" && hasCompanyFinanceAction && !hasForeignMarker);
+  return { language, sourceType, isCompanyFinance };
 }
 
 function toRecord(raw, source) {
@@ -236,9 +275,10 @@ function toRecord(raw, source) {
   const score = scoreItem(raw, source);
   const date = new Date(raw.publishedAt || Date.now());
   const summary = buildSummary(raw);
+  const audience = deriveAudienceFields(text, source);
   return {
     id: createHash("sha1").update(raw.url).digest("hex").slice(0, 18),
-    title: raw.title,
+    title: normalizeTitle(raw.title),
     summary: summary || "该信源发布了新的财务动态，建议打开原文核验具体信息、影响范围与后续变化。",
     insight: defaultInsight(category),
     source: source.name,
@@ -251,7 +291,8 @@ function toRecord(raw, source) {
     kind: /(tool|platform|launch|release|agent|copilot|产品|工具)/i.test(text) ? "tool" : "news",
     keywords: [...new Set(matchingTerms(text, FINANCE_TERMS).slice(0, 5))],
     readTime: Math.max(2, Math.min(8, Math.round(text.length / 700))),
-    pipelineVersion: 2,
+    ...audience,
+    pipelineVersion: 3,
   };
 }
 
@@ -347,10 +388,24 @@ const sourceByName = new Map(sources.map((source) => [source.name, source]));
 const items = [...merged.values()]
   .map((item) => {
     const source = sourceByName.get(item.source) ?? { tier: 1 };
-    const validatedKeywords = item.pipelineVersion === 2 ? ` ${(item.keywords ?? []).join(" ")}` : "";
+    const validatedKeywords = item.pipelineVersion >= 2 ? ` ${(item.keywords ?? []).join(" ")}` : "";
     const raw = { title: item.title, description: `${item.summary}${validatedKeywords}` };
+    const displayRaw = { title: item.title, description: item.summary };
     const score = scoreItem(raw, source);
-    return { ...item, score, selected: score >= 70, _relevant: isFinanceAiRelevant(raw, source) };
+    const [category, processName] = classify(`${raw.title} ${raw.description}`);
+    return {
+      ...item,
+      title: normalizeTitle(item.title),
+      summary: buildSummary(displayRaw),
+      insight: defaultInsight(category),
+      category,
+      process: processName,
+      ...deriveAudienceFields(`${raw.title} ${raw.description}`, source),
+      pipelineVersion: 3,
+      score,
+      selected: score >= 70,
+      _relevant: isFinanceAiRelevant(raw, source),
+    };
   })
   .filter((item) => item._relevant)
   .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || b.score - a.score)
@@ -360,11 +415,11 @@ const items = [...merged.values()]
 function rebuildTrends(allItems) {
   const recent = allItems.filter((item) => new Date(`${item.publishedAt}T00:00:00Z`).valueOf() >= Date.now() - 30 * 24 * 60 * 60 * 1000);
   const definitions = [
-    { label: "财务智能体", note: "从助手走向流程执行", pattern: /agent|agentic|智能体/i },
-    { label: "P2P 自动化", note: "例外处理成为主战场", pattern: /payable|invoice|procurement|purchase-to-pay|p2p|应付|发票|采购/i },
-    { label: "智能 FP&A", note: "解释偏差比预测更重要", pattern: /forecast|budget|planning|variance|fp&a|fpa|预测|预算/i },
-    { label: "AI 治理", note: "权限与审计要求上升", pattern: /governance|security|compliance|audit|fraud|risk|治理|合规|审计|风险/i },
-    { label: "金融 AI", note: "银行、支付与风控加速落地", pattern: /bank|banking|payment|fintech|insurance|wealth|aml|kyc|银行|支付|金融|保险/i },
+    { label: "公司财务", note: "业绩、现金流与资本动作", pattern: /公司财务|业绩|财报|营收|利润|现金流|回购|分红/i },
+    { label: "资本市场", note: "股债与融资环境变化", pattern: /资本市场|a股|港股|中概股|美股|证券|基金|债券|融资/i },
+    { label: "银行金融", note: "机构、产品与资产质量", pattern: /银行金融|银行|保险|支付|信贷|资管|理财/i },
+    { label: "宏观政策", note: "利率、汇率与监管传导", pattern: /宏观政策|央行|利率|汇率|人民币|监管/i },
+    { label: "AI 与技术", note: "英文原始信源作为补充", pattern: /agent|agentic|智能体|人工智能|automation|copilot/i },
   ];
   const counts = definitions.map((definition) => recent.filter((item) => definition.pattern.test(`${item.title} ${item.summary} ${item.process}`)).length);
   const max = Math.max(1, ...counts);
@@ -408,7 +463,34 @@ current.meta.dailyBrief = buildDailyBrief(items, fresh.length, current.meta.sour
 current.trends = rebuildTrends(items);
 current.items = items;
 
+function validateSnapshot(snapshot) {
+  const health = snapshot.meta.sourceOk / snapshot.meta.sourceCount;
+  if (!/^\d{8}$/.test(snapshot.meta.issue) || health < 0.8 || snapshot.items.length < 10) {
+    throw new Error(`Quality gate failed: issue=${snapshot.meta.issue}, health=${health.toFixed(2)}, items=${snapshot.items.length}`);
+  }
+  if (snapshot.items.some((item) => !item.source || !/^https?:\/\//.test(item.url))) {
+    throw new Error("Quality gate failed: one or more items are missing source attribution or original URL");
+  }
+}
+
+async function syncHostedSnapshot(snapshot) {
+  const syncUrl = process.env.NEWS_SYNC_URL;
+  const token = process.env.NEWS_INGEST_TOKEN;
+  if (!syncUrl || !token) return false;
+  const response = await fetch(new URL("/api/news", syncUrl), {
+    method: "PUT",
+    headers: { "content-type": "application/json", authorization: `Bearer ${token}` },
+    body: JSON.stringify(snapshot),
+    signal: AbortSignal.timeout(30_000),
+  });
+  if (!response.ok) throw new Error(`Hosted snapshot sync failed: ${response.status} ${await response.text()}`);
+  return true;
+}
+
+validateSnapshot(current);
 await writeFile(dataPath, `${JSON.stringify(current, null, 2)}\n`, "utf8");
+const synced = await syncHostedSnapshot(current);
 console.log(`FinPulse refresh complete: ${fresh.length} matched, ${items.length} total.`);
 console.log(`Source results: ${sourceStats.map((source) => `${source.name}=${source.matched}`).join(", ")}`);
+console.log(synced ? "Hosted snapshot synced." : "Hosted snapshot sync skipped: runtime credentials are not configured.");
 if (errors.length) console.warn(`Unavailable feeds (${errors.length}):\n- ${errors.join("\n- ")}`);

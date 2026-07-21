@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://finpulse-ai.pages.dev"),
   title: "财智雷达 · 财务 AI 情报聚合器",
-  description: "每周聚合中国公司与英文补充信源中的财务 AI、财务共享、流程升级与风险合规动态，并生成面向财务人的行动解读。",
+  description: "每周聚合中国公司、财新、财联社及主要财经媒体的财务与金融信息，以中文为主、英文原始信源为补充。",
   keywords: ["财务AI", "财务共享", "智能财务", "财务自动化", "AI工具", "FP&A"],
   openGraph: {
     title: "财智雷达 · 财务 AI 情报聚合器",

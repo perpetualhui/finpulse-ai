@@ -22,8 +22,12 @@ test("server-renders the finance AI intelligence product", async () => {
   const html = await response.text();
   assert.match(html, /<title>财智雷达 · 财务 AI 情报聚合器<\/title>/);
   assert.match(html, /这周，财务有哪些关键变化？/);
+  assert.match(html, /中国公司/);
+  assert.match(html, /英文补充/);
+  assert.match(html, /重点中文信源/);
+  assert.match(html, /主题分布/);
+  assert.match(html, /实时数据/);
   assert.match(html, /财务 AI 工具雷达/);
-  assert.match(html, /采集流水线/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
 });
 
@@ -40,6 +44,10 @@ test("news data keeps attribution and finance workflow fields", async () => {
   assert.ok(data.items.every((item) => item.source && item.url.startsWith("http")));
   assert.ok(data.items.every((item) => item.title && item.summary && item.insight));
   assert.ok(data.items.every((item) => item.category && item.process && Number.isInteger(item.score)));
+  assert.ok(data.items.every((item) => ["zh", "en"].includes(item.language)));
+  assert.ok(data.items.every((item) => ["company", "chinese-media", "international"].includes(item.sourceType)));
+  assert.ok(data.items.some((item) => item.language === "zh" && item.isCompanyFinance));
+  assert.ok(data.items.some((item) => item.language === "en"));
   assert.ok(data.trends.every((trend) => trend.heat >= 0 && trend.heat <= 100));
 });
 
@@ -49,4 +57,12 @@ test("source configuration covers feeds and direct websites", async () => {
   assert.ok(sources.some((source) => source.type === "html"));
   assert.ok(sources.some((source) => source.focus === "finance"));
   assert.ok(sources.every((source) => source.name && source.url.startsWith("https://")));
+});
+
+test("hosting uses runtime persistence for live news snapshots", async () => {
+  const hosting = JSON.parse(await readFile(new URL("../.openai/hosting.json", import.meta.url), "utf8"));
+  assert.equal(hosting.d1, "DB");
+  const route = await readFile(new URL("../worker/news-api.ts", import.meta.url), "utf8");
+  assert.match(route, /news_snapshots/);
+  assert.match(route, /cache-control": "no-store"/);
 });
