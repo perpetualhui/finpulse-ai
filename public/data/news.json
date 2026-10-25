@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-24 09:54 CST",
+    "lastUpdated": "2026-10-25 09:30 CST",
     "sourceCount": 25,
-    "todaySignals": 118,
-    "actionable": 143,
-    "issue": "20261024",
-    "dailyBrief": "本轮从 23 个正常信源中匹配 118 条财务与金融关键信号，重点集中在资本市场、公司财务、银行金融。当前最值得继续追踪的是《首份上市银行三季报出炉：平安银行营收净利双增，息差压力由零售转向对公》。",
+    "todaySignals": 90,
+    "actionable": 139,
+    "issue": "20261025",
+    "dailyBrief": "本轮从 23 个正常信源中匹配 90 条财务与金融关键信号，重点集中在资本市场、公司财务、银行金融。当前最值得继续追踪的是《首份上市银行三季报出炉：平安银行营收净利双增，息差压力由零售转向对公》。",
     "sourceOk": 23,
     "websiteSourceCount": 14,
     "sourceStats": [
@@ -49,7 +49,7 @@
         "name": "Banking Dive",
         "type": "feed",
         "status": "ok",
-        "matched": 1
+        "matched": 0
       },
       {
         "name": "Payments Dive",
@@ -97,13 +97,13 @@
         "name": "第一财经",
         "type": "website",
         "status": "ok",
-        "matched": 13
+        "matched": 6
       },
       {
         "name": "21世纪经济报道",
         "type": "website",
         "status": "ok",
-        "matched": 16
+        "matched": 11
       },
       {
         "name": "证券时报",
@@ -121,7 +121,7 @@
         "name": "澎湃财经",
         "type": "website",
         "status": "ok",
-        "matched": 6
+        "matched": 2
       },
       {
         "name": "新浪财经",
@@ -133,7 +133,7 @@
         "name": "财联社",
         "type": "website",
         "status": "ok",
-        "matched": 20
+        "matched": 9
       },
       {
         "name": "Anthropic Newsroom",
@@ -165,7 +165,7 @@
     {
       "label": "公司财务",
       "note": "业绩、现金流与资本动作",
-      "heat": 65
+      "heat": 68
     },
     {
       "label": "资本市场",
@@ -185,10 +185,415 @@
     {
       "label": "AI 与技术",
       "note": "英文原始信源作为补充",
-      "heat": 42
+      "heat": 43
     }
   ],
   "items": [
+    {
+      "id": "5ff89211db7264dd64",
+      "title": "中国经济展现出较强韧性！兴业证券王涵最新表态",
+      "summary": "近期，受海外金融市场波动、全球风险偏好回落以及人工智能投资回报预期调整等因素影响，全球资本市场出现调整。兴业证券全球首席经济学家王涵在接受证券时报·券商中国记者采访时表示，经过前期较为充分的调整，市场...",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261025/herald/853569d8d2d70e562e9f7ff7fbc835ed.html",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 89,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "证券",
+        "券商",
+        "资本市场"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "11caaedc359f8e98c7",
+      "title": "A股“换挡”，资金在等什么？多位知名首席研判",
+      "summary": "A股“换挡”，资金在等什么？多位知名首席研判",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2514147",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金",
+        "A股"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "5b47e4eb649142b5bb",
+      "title": "【早报】特朗普：或对伊发动小规模“史诗怒火”；证监会：核准设立花旗证券（中国）有限公司；A股多家龙头公司发布三季报",
+      "summary": "【早报】特朗普：或对伊发动小规模“史诗怒火”；证监会：核准设立花旗证券（中国）有限公司；A股多家龙头公司发布三季报",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2514116",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "A股",
+        "证券"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "d896662e3fcc08d386",
+      "title": "北方稀土三季报净利翻倍：机构评价业绩“超预期” 股价近期创年内新低|财报解读",
+      "summary": "北方稀土三季报净利翻倍：机构评价业绩“超预期” 股价近期创年内新低",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2514029",
+      "publishedAt": "2026-10-25",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "财报"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "2811a40c4b375069bc",
+      "title": "首批上市银行半年经营数据出炉！资产规模稳步扩张，区域银行盈利增速显韧性",
+      "summary": "首批上市银行半年经营数据出炉！资产规模稳步扩张，区域银行盈利增速显韧性",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2431799",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "银行",
+        "上市"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "01233532a556060829",
+      "title": "环球下周看点：AI巨头财报密集揭晓 美联储议息或为利率定调",
+      "summary": "环球下周看点：AI巨头财报密集揭晓 美联储议息或为利率定调",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2514275",
+      "publishedAt": "2026-10-25",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 88,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "财报",
+        "利率"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "c8425192fac69a29cd",
+      "title": "美股盘前要闻一览：黄仁勋称到2029年出现内存过剩的概率不大；英特尔获1年期机器人进口限制豁免；SpaceX瞄准美国8万个基站使用权",
+      "summary": "美股盘前要闻一览：黄仁勋称到2029年出现内存过剩的概率不大；英特尔获1年期机器人进口限制豁免；SpaceX瞄准美国8万个基站使用权",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2513934",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "美股"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "5637b68b6034abde12",
+      "title": "现货金价跌破4000美元关口 避险市场下资金为何抛售黄金？",
+      "summary": "现货金价跌破4000美元关口 避险市场下资金为何抛售黄金？",
+      "insight": "结合企业基本面、资金环境与政策背景判断影响，避免只按单一市场波动行动。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2514076",
+      "publishedAt": "2026-10-25",
+      "category": "财经动态",
+      "process": "财经动态 · 综合观察",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "effc874700154772b8",
+      "title": "美股收盘：油价暴涨压制市场情绪 三大指数集体收低",
+      "summary": "美股收盘：油价暴涨压制市场情绪 三大指数集体收低",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2514112",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 84,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "美股"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "0a7d0f79bc91be02a7",
+      "title": "原材料与产品价差收窄 国恩股份Q3净利润环比下降近二成|速度公告",
+      "summary": "原材料与产品价差收窄 国恩股份Q3净利润环比下降近二成",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2514051",
+      "publishedAt": "2026-10-25",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 84,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
+        "利润"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "770334a0e3fb000390",
+      "title": "双汇通过漯河市慈善总会向西藏吉隆捐赠人民币200万元",
+      "summary": "第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/103337173.html",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "金融",
+        "人民币"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "6100e00f193a3ef695",
+      "title": "“第四范式财报放盈利前景 定位AI时代Salesforce",
+      "summary": "第四范式财报放盈利前景 定位AI时代Salesforce 第四范式的定位是一家用人工智能改造的企业软件公司，用AI赋能千行万业。",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102038339.html",
+      "publishedAt": "2026-10-25",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 77,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "财报"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "07d257bdf0af1e8dfb",
+      "title": "普洛斯算力中心引入浙江国资战略股东",
+      "summary": "，加速智算新基建发展 第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102794012.html",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "91e87cab0b77fa2906",
+      "title": "泰国总理佩通坦·钦那瓦一行参访华彬集团",
+      "summary": "第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102464166.html",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "63083b90ddb8dbb913",
+      "title": "“汾酒抖音挑战赛播放量突破6.3亿次，全面掀起新春清香热 >",
+      "summary": "这就是名酒势能！汾酒抖音挑战赛播放量突破6.3亿次，全面掀起新春清香热 第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/102000474.html",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "金融"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "316cc31466f79bc40f",
+      "title": "一文详解前三季度全国财政数据，税收为何实现较快增长？",
+      "summary": "全国税收收入约14.1万亿元，同比增长6.1%",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "第一财经",
+      "url": "https://www.yicai.com/news/103406803.html",
+      "publishedAt": "2026-10-25",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "收入"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "4be5c09224a5be79bf",
+      "title": "上证指数、科创综指等拟修订，明起实施！",
+      "summary": "上证指数、科创综指等指数拟修订。上交所网站9月24日发布《关于修订上证系列综合指数编制方案的公告》（简称《公告》）。 拟修订指数包括上证指数、上证A股指数、上证流通指数、科创综指，上述指数及衍生指数...",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261025/herald/2d8734056b9de1ede9d623028068fa44.html",
+      "publishedAt": "2026-10-25",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "A股"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "6dd71ad8260fae5410",
+      "title": "重大信号：极度超卖！国际大行，突然发声！",
+      "summary": "瑞银近日研报指出，亚洲股市技术面已进入极度超卖区间，欧洲部分市场则局部超买，建议投资者将策略重心从防御转向逢低吸纳；该机构还指出，半导体相对软件更具配置价值。花旗也在近期表示，市场情绪接近或已达到极度...",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261025/herald/f5b21620b14a8c22131ab73a567a90ec.html",
+      "publishedAt": "2026-10-25",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "投资者"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
     {
       "id": "8863b65fd7cbacaf46",
       "title": "首份上市银行三季报出炉：平安银行营收净利双增，息差压力由零售转向对公",
@@ -301,75 +706,6 @@
       "keywords": [
         "利润",
         "营收"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": true,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "11caaedc359f8e98c7",
-      "title": "A股“换挡”，资金在等什么？多位知名首席研判",
-      "summary": "A股“换挡”，资金在等什么？多位知名首席研判",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2514147",
-      "publishedAt": "2026-10-24",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 88,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "资金",
-        "A股"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "5b47e4eb649142b5bb",
-      "title": "【早报】特朗普：或对伊发动小规模“史诗怒火”；证监会：核准设立花旗证券（中国）有限公司；A股多家龙头公司发布三季报",
-      "summary": "【早报】特朗普：或对伊发动小规模“史诗怒火”；证监会：核准设立花旗证券（中国）有限公司；A股多家龙头公司发布三季报",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2514116",
-      "publishedAt": "2026-10-24",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 88,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "A股",
-        "证券"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "d896662e3fcc08d386",
-      "title": "北方稀土三季报净利翻倍：机构评价业绩“超预期” 股价近期创年内新低|财报解读",
-      "summary": "北方稀土三季报净利翻倍：机构评价业绩“超预期” 股价近期创年内新低",
-      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2514029",
-      "publishedAt": "2026-10-24",
-      "category": "公司财务",
-      "process": "公司财务 · 业绩与资本动作",
-      "score": 88,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "业绩",
-        "财报"
       ],
       "readTime": 2,
       "language": "zh",
@@ -517,50 +853,6 @@
       "pipelineVersion": 3
     },
     {
-      "id": "c8425192fac69a29cd",
-      "title": "美股盘前要闻一览：黄仁勋称到2029年出现内存过剩的概率不大；英特尔获1年期机器人进口限制豁免；SpaceX瞄准美国8万个基站使用权",
-      "summary": "美股盘前要闻一览：黄仁勋称到2029年出现内存过剩的概率不大；英特尔获1年期机器人进口限制豁免；SpaceX瞄准美国8万个基站使用权",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2513934",
-      "publishedAt": "2026-10-24",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "美股"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "5637b68b6034abde12",
-      "title": "现货金价跌破4000美元关口 避险市场下资金为何抛售黄金？",
-      "summary": "现货金价跌破4000美元关口 避险市场下资金为何抛售黄金？",
-      "insight": "结合企业基本面、资金环境与政策背景判断影响，避免只按单一市场波动行动。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2514076",
-      "publishedAt": "2026-10-24",
-      "category": "财经动态",
-      "process": "财经动态 · 综合观察",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "资金"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
       "id": "153ff802cc23d589f6",
       "title": "多家行业龙头三季报出炉，寒武纪第三季度净利润同比倍增",
       "summary": "多家行业龙头三季报出炉，寒武纪第三季度净利润同比倍增",
@@ -624,50 +916,6 @@
       "language": "zh",
       "sourceType": "chinese-media",
       "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "effc874700154772b8",
-      "title": "美股收盘：油价暴涨压制市场情绪 三大指数集体收低",
-      "summary": "美股收盘：油价暴涨压制市场情绪 三大指数集体收低",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2514112",
-      "publishedAt": "2026-10-24",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "美股"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "0a7d0f79bc91be02a7",
-      "title": "原材料与产品价差收窄 国恩股份Q3净利润环比下降近二成|速度公告",
-      "summary": "原材料与产品价差收窄 国恩股份Q3净利润环比下降近二成",
-      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2514051",
-      "publishedAt": "2026-10-24",
-      "category": "公司财务",
-      "process": "公司财务 · 业绩与资本动作",
-      "score": 84,
-      "selected": true,
-      "kind": "tool",
-      "keywords": [
-        "利润"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": true,
       "pipelineVersion": 3
     },
     {
@@ -741,21 +989,70 @@
       "pipelineVersion": 3
     },
     {
-      "id": "770334a0e3fb000390",
-      "title": "双汇通过漯河市慈善总会向西藏吉隆捐赠人民币200万元",
-      "summary": "第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "id": "8406e8c4e995a4d6cd",
+      "title": "对于A股调整，但斌发文：还是要“高抛低吸”；其美股三季度调仓曝光",
+      "summary": "近期，在多种因素影响下，全球科技股板块分歧加剧，出现急速调整，私募大佬的持仓动向格外受市场关注。据私募排排网最新数据，但斌三季度持仓总市值近100亿元，谷歌仍为第一大重仓股，并新进苹果、SpaceX两...",
       "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "第一财经",
-      "url": "https://www.yicai.com/news/103337173.html",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261025/herald/382b5ddcf56541a472af8703f41fd109.html",
       "publishedAt": "2026-10-24",
       "category": "资本市场",
       "process": "资本市场 · 投融资",
-      "score": 78,
+      "score": 82,
       "selected": true,
       "kind": "news",
       "keywords": [
+        "A股",
+        "美股",
+        "私募"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "39a69f11b4b55d9c26",
+      "title": "煤市“淡季不淡”！中国神华第三季度营收超千亿，创同期新高",
+      "summary": "中国神华（601088）第三季度营收创历史同期新高。10月23日，中国神华披露最新业绩报告。2026年前三季度公司实现营收2960.31亿元，同比增长9%；归母净利润444.03亿元，同比增长3.8%...",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261024/herald/943b74cf7e9eb1f332f64d6a80a2115b.html",
+      "publishedAt": "2026-10-24",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 82,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "利润",
+        "营收"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "754e516c9250979a22",
+      "title": "从“资金供给”到“分层接力”：金融工具精准滴灌大健康产业",
+      "summary": "21世纪经济报道 记者郭聪聪10月21日，2026金融街论坛年会企业家圆桌会议在北京金融街举行。会议以“大健康产业的转型升级与金融赋能”为主题，由北京银行股份有限公司、通用技术集团资本有限公司、北京金...",
+      "insight": "关注产品、资产质量、资本约束与监管变化，识别对企业融资和金融业务的传导。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261024/herald/c3224fe144ac57a9389f19b3f19dda6b.html",
+      "publishedAt": "2026-10-24",
+      "category": "银行金融",
+      "process": "金融机构 · 产品与风险",
+      "score": 82,
+      "selected": true,
+      "kind": "tool",
+      "keywords": [
         "金融",
-        "人民币"
+        "银行",
+        "资金"
       ],
       "readTime": 2,
       "language": "zh",
@@ -902,25 +1199,49 @@
       "pipelineVersion": 3
     },
     {
-      "id": "6100e00f193a3ef695",
-      "title": "“第四范式财报放盈利前景 定位AI时代Salesforce",
-      "summary": "第四范式财报放盈利前景 定位AI时代Salesforce 第四范式的定位是一家用人工智能改造的企业软件公司，用AI赋能千行万业。",
+      "id": "6f68083673e786f570",
+      "title": "AI等科技赛道火热 海外资金如何看中国资产？",
+      "summary": "资金配置 中国资产全球投资者对风险资产的谨慎度仍在提高；在一些海外投资者眼中，“中国市场的阿尔法（Alpha）比较强，贝塔（Beta）则尚有空间”",
       "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "第一财经",
-      "url": "https://www.yicai.com/news/102038339.html",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-10-24/102496971.html",
       "publishedAt": "2026-10-24",
       "category": "公司财务",
       "process": "公司财务 · 业绩与资本动作",
-      "score": 77,
+      "score": 78,
       "selected": true,
       "kind": "news",
       "keywords": [
-        "财报"
+        "资金",
+        "投资者"
       ],
       "readTime": 2,
       "language": "zh",
       "sourceType": "chinese-media",
       "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "b965aad78c66b385d3",
+      "title": "华福证券陈兴：A股估值已充分消化谨慎预期 权益资产配置价值逐步凸显",
+      "summary": "10月24日，华福证券宏观首席分析师陈兴在接受中国证券报·中证金牛座记者采访时表示，当前A股核心资产估值已较充分反映市场谨慎预期，权益市场配置价值逐步凸显，后续只要盈利端边际企稳、流动性预期温和修复，...",
+      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261024/herald/c7897a3f9ddf60283c20b6496c54b85c.html",
+      "publishedAt": "2026-10-24",
+      "category": "资本市场",
+      "process": "资本市场 · 投融资",
+      "score": 78,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "A股",
+        "证券"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
       "pipelineVersion": 3
     },
     {
@@ -969,6 +1290,73 @@
       "language": "zh",
       "sourceType": "chinese-media",
       "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "193393b17c17d148f7",
+      "title": "三安光电实控人林秀成因职务侵占、挪用资金罪被批捕",
+      "summary": "三安光电 林秀成其重庆、长沙半导体项目曾屡获胡衡华站台，林秀成女婿、三安光电副董事长林科闯已被解除留置措施",
+      "insight": "结合企业基本面、资金环境与政策背景判断影响，避免只按单一市场波动行动。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-10-24/102496966.html",
+      "publishedAt": "2026-10-24",
+      "category": "财经动态",
+      "process": "财经动态 · 综合观察",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "资金"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "210e97d92621f59f70",
+      "title": "外汇局拟扩容跨境融资便利主体 提高关联企业外债和绿色外债额度",
+      "summary": "外汇局 跨境融资 境外直接投资符合条件的外商投资企业向境外关联企业借用外债，或符合条件的企业借用外债用于绿色发展或低碳转型项目的，各自类别风险转换因子均由1下调至0.5，将释放更多融资额度",
+      "insight": "核对监管口径、风险边界、内部控制和审计要求是否出现实质变化。",
+      "source": "财新财经",
+      "url": "https://finance.caixin.com/2026-10-24/102496815.html",
+      "publishedAt": "2026-10-24",
+      "category": "风险合规",
+      "process": "风险合规 · 治理审计",
+      "score": 74,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "融资"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "bbeb397fbedf98ad2c",
+      "title": "推荐 煤市“淡季不淡”！中国神华第三季度营收超千亿，创同期新高",
+      "summary": "煤市“淡季不淡”！中国神华第三季度营收超千亿，创同期新高 中国神华（601088）第三季度营收创历史同期新高。 10月23日，中国神华披露最新业绩报告。2026年前三季度公司实现营收2960.31亿元，同比增长9%；归",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "澎湃财经",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34326307",
+      "publishedAt": "2026-10-24",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 72,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "营收"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
       "pipelineVersion": 3
     },
     {
@@ -1063,6 +1451,29 @@
       "pipelineVersion": 3
     },
     {
+      "id": "4d6160dbf0ff5f8c4a",
+      "title": "301563，三季度净利最高预增613%！股价近期大涨",
+      "summary": "云汉芯城预计第三季度业绩大增。10月23日晚间，云汉芯城（301563）同步披露股票交易异常波动公告及2026年前三季度业绩预增公告，回应市场对公司近期股价大幅异动的关注。公告显示，公司股票在10月2...",
+      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261024/herald/da0fd7071eb82360229ec7b3ce0d43f5.html",
+      "publishedAt": "2026-10-24",
+      "category": "公司财务",
+      "process": "公司财务 · 业绩与资本动作",
+      "score": 70,
+      "selected": true,
+      "kind": "news",
+      "keywords": [
+        "业绩",
+        "季度业绩"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": true,
+      "pipelineVersion": 3
+    },
+    {
       "id": "96fe410a4e4d9bbd15",
       "title": "03:06 前三季度人均可支配收入34230元，是个什么概念？",
       "summary": "前三季度人均可支配收入34230元，是个什么概念？ 前三季度全国居民人均可支配收入34230元。这不只是工资！养老金、基本医保报销等也计入，老人和孩子也参与“平均”。这笔账怎么算？",
@@ -1085,15 +1496,37 @@
       "pipelineVersion": 3
     },
     {
-      "id": "07d257bdf0af1e8dfb",
-      "title": "普洛斯算力中心引入浙江国资战略股东",
-      "summary": "，加速智算新基建发展 第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
+      "id": "85b6b7d62c5c84eeaa",
+      "title": "视频 下周44股面临解禁 21视频",
+      "summary": "下周44股面临解禁！合计解禁市值超1060亿元 据数据宝统计，下周将有44股解禁，按照最新收盘价计算，合计解禁市值1060.1亿元。西安奕材-U下周将有28.37亿股上市流通，主要为首发原股东限售股份，解禁市值达602.83亿元。索辰科技的解禁规模...",
       "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "第一财经",
-      "url": "https://www.yicai.com/news/102794012.html",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261024/herald/b93db76658751de4ba38261bf7b7e12f.html",
       "publishedAt": "2026-10-24",
       "category": "资本市场",
       "process": "资本市场 · 投融资",
+      "score": 66,
+      "selected": false,
+      "kind": "news",
+      "keywords": [
+        "上市"
+      ],
+      "readTime": 2,
+      "language": "zh",
+      "sourceType": "chinese-media",
+      "isCompanyFinance": false,
+      "pipelineVersion": 3
+    },
+    {
+      "id": "468ef0ddf0e5bac7bd",
+      "title": "香港首个五年规划启幕",
+      "summary": "，四方面能力助力系统性监管落地 21世纪经济报道 记者郭聪聪香港首个五年规划落地之际，市场关注焦点正从“香港能做什么”转向“监管能不能跟上”。国家金融监督管理总局国际咨询委员会委员、香港特区政府行政长官顾问委员会成员沈联涛指出，香港...",
+      "insight": "将政策、利率和汇率变化映射到融资成本、现金管理、预算假设与风险敞口。",
+      "source": "21世纪经济报道",
+      "url": "https://m.21jingji.com/article/20261024/herald/a23dd644c10b2238d65d979960d4a809.html",
+      "publishedAt": "2026-10-24",
+      "category": "宏观政策",
+      "process": "宏观 · 政策与监管",
       "score": 66,
       "selected": false,
       "kind": "news",
@@ -1104,72 +1537,6 @@
       "language": "zh",
       "sourceType": "chinese-media",
       "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "91e87cab0b77fa2906",
-      "title": "泰国总理佩通坦·钦那瓦一行参访华彬集团",
-      "summary": "第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "第一财经",
-      "url": "https://www.yicai.com/news/102464166.html",
-      "publishedAt": "2026-10-24",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 66,
-      "selected": false,
-      "kind": "news",
-      "keywords": [
-        "金融"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "63083b90ddb8dbb913",
-      "title": "“汾酒抖音挑战赛播放量突破6.3亿次，全面掀起新春清香热 >",
-      "summary": "这就是名酒势能！汾酒抖音挑战赛播放量突破6.3亿次，全面掀起新春清香热 第一财经官方网站，7X24小时提供股市行情、经济大势、金融政策、行业动态、专家分析等财经资讯；全网独家直播谈股论金、今日股市、公司与行业、解码财商、头脑风暴等第一财经电视节目。",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "第一财经",
-      "url": "https://www.yicai.com/news/102000474.html",
-      "publishedAt": "2026-10-24",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 66,
-      "selected": false,
-      "kind": "news",
-      "keywords": [
-        "金融"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "316cc31466f79bc40f",
-      "title": "一文详解前三季度全国财政数据，税收为何实现较快增长？",
-      "summary": "全国税收收入约14.1万亿元，同比增长6.1%",
-      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "第一财经",
-      "url": "https://www.yicai.com/news/103406803.html",
-      "publishedAt": "2026-10-24",
-      "category": "公司财务",
-      "process": "公司财务 · 业绩与资本动作",
-      "score": 66,
-      "selected": false,
-      "kind": "news",
-      "keywords": [
-        "收入"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": true,
       "pipelineVersion": 3
     },
     {
@@ -3419,29 +3786,6 @@
       "pipelineVersion": 3
     },
     {
-      "id": "2811a40c4b375069bc",
-      "title": "首批上市银行半年经营数据出炉！资产规模稳步扩张，区域银行盈利增速显韧性",
-      "summary": "首批上市银行半年经营数据出炉！资产规模稳步扩张，区域银行盈利增速显韧性",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2431799",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 88,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "银行",
-        "上市"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
       "id": "f234e534dc8be797f9",
       "title": "Meta财报带来惊喜：营收及指引双超预期 Muse北美用户破千万",
       "summary": "Meta财报带来惊喜：营收及指引双超预期 Muse北美用户破千万",
@@ -3583,356 +3927,6 @@
         "债券",
         "上市",
         "资本市场"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "9f10fabc2f314b15e3",
-      "title": "中信证券：看好机器人产业的量产和应用前景，建议关注产业链核心厂商",
-      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "证券时报",
-      "url": "https://www.stcn.com/article/detail/4232391.html",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "证券",
-        "基金",
-        "债券",
-        "上市",
-        "资本市场"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "59a277a9273cbbf579",
-      "title": "美股期货集体跳水！中东，传来大消息",
-      "summary": "清晨，集体跳水！中东，传来大消息 证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "证券时报",
-      "url": "https://www.stcn.com/article/detail/4232278.html",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "美股",
-        "证券",
-        "基金",
-        "债券",
-        "上市"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "f27a9fc273e94a7a3e",
-      "title": "国金证券：低估值的券商板块具备较高性价比",
-      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "证券时报",
-      "url": "https://www.stcn.com/article/detail/4232312.html",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "证券",
-        "券商",
-        "基金",
-        "债券",
-        "上市"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "b1765ee4b41f10251c",
-      "title": "夯实发展底座 数字人民币基础设施持续完善",
-      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "中国证券报",
-      "url": "https://www.cs.com.cn/xwzx/01/2026/10/22/detail_2026102210046364.html",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "金融",
-        "证券",
-        "上市",
-        "人民币",
-        "理财"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "f731b642f94f14163c",
-      "title": "​前三季度获批创新药国产占比80%​ A股药企迎来密集收获期",
-      "summary": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "中国证券报",
-      "url": "https://www.cs.com.cn/ssgs/cj2020/2026/10/22/detail_2026102210046395.html",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "金融",
-        "A股",
-        "证券",
-        "上市",
-        "理财"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "08094e2fcf92ed7034",
-      "title": "特斯拉Q3财报：加码AI和机器人 汽车主业承压",
-      "summary": "特斯拉Q3财报出炉：加码AI和机器人汽车主业承压，资本支出远逊预期！ 特斯拉Q3财报出炉：加码AI和机器人汽车主业承压，资本支出远逊预期！",
-      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511667",
-      "publishedAt": "2026-10-22",
-      "category": "公司财务",
-      "process": "公司财务 · 业绩与资本动作",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "财报"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": true,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "31eb1aa63144892540",
-      "title": "MetaQ3财报：Muse点燃AI增长新叙事 Q4指引超预期",
-      "summary": "Muse点燃AI增长新叙事！Meta财报会：一年内算力效率将提升十倍 数年内实现高额盈利 Muse点燃AI增长新叙事！Meta财报会：一年内算力效率将提升十倍 数年内实现高额盈利",
-      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511691",
-      "publishedAt": "2026-10-22",
-      "category": "公司财务",
-      "process": "公司财务 · 业绩与资本动作",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "财报"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "aec00b504c7a728905",
-      "title": "【数读IPO】背靠中国移动、中国联通等巨头，通信接入设备领域单项冠军今日上市",
-      "summary": "【数读IPO】背靠中国移动、中国联通等巨头，通信接入设备领域单项冠军今日上市",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511645",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "上市"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "bdd5271cbfa5cff431",
-      "title": "人才流失困扰公募业，银河基金“头牌”郑巍山卸任，210亿接棒锁定三人选",
-      "summary": "人才流失困扰公募业，银河基金“头牌”郑巍山卸任，210亿接棒锁定三人选",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511725",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "基金"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "5d8f0aa24ca2427c71",
-      "title": "券商晨会精华：AI扩大研发探索范围，医药产业链有望同时受益于验证需求增长和服务能力升级",
-      "summary": "券商晨会精华：AI扩大研发探索范围，医药产业链有望同时受益于验证需求增长和服务能力升级",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511674",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "券商"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "c04473553cf684bd82",
-      "title": "“史上最大IPO”呼之欲出：Anthropic据悉最快周五公开提交上市申请",
-      "summary": "“史上最大IPO”呼之欲出：Anthropic据悉最快周五公开提交上市申请",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511666",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "上市"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "393cc9ae681624e4a9",
-      "title": "伯克希尔股价盘中创新高 投资者逐渐走出“巴菲特离任”阴影",
-      "summary": "伯克希尔股价盘中创新高 投资者逐渐走出“巴菲特离任”阴影",
-      "insight": "重点核对收入与利润质量、现金流变化、资本动作及管理层对后续经营的判断。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511633",
-      "publishedAt": "2026-10-22",
-      "category": "公司财务",
-      "process": "公司财务 · 业绩与资本动作",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "投资者"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": true,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "b5ea2ee9340653a4dc",
-      "title": "债市早参10月22日|不良贷款ABS信披指引修订版征求意见稿出台；又一个省份加入提前偿债队伍",
-      "summary": "债市早参10月22日",
-      "insight": "关注产品、资产质量、资本约束与监管变化，识别对企业融资和金融业务的传导。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511507",
-      "publishedAt": "2026-10-22",
-      "category": "银行金融",
-      "process": "金融机构 · 产品与风险",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "贷款"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "2dad98fcdab12c946a",
-      "title": "美股收盘：芯片、存储、光集体走强 纳指升超1%领涨三大指数",
-      "summary": "美股收盘：芯片、存储、光集体走强 纳指升超1%领涨三大指数",
-      "insight": "关注资金流向、估值与融资条件的变化，并判断其对企业资本成本和资产配置的影响。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511618",
-      "publishedAt": "2026-10-22",
-      "category": "资本市场",
-      "process": "资本市场 · 投融资",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "美股"
-      ],
-      "readTime": 2,
-      "language": "zh",
-      "sourceType": "chinese-media",
-      "isCompanyFinance": false,
-      "pipelineVersion": 3
-    },
-    {
-      "id": "2dcd0ad84906d7e6c1",
-      "title": "资本竞逐法律AI赛道！Legora获5.5亿美元融资 估值达88亿美元",
-      "summary": "资本竞逐法律AI赛道！Legora获5.5亿美元融资 估值达88亿美元",
-      "insight": "结合企业基本面、资金环境与政策背景判断影响，避免只按单一市场波动行动。",
-      "source": "财联社",
-      "url": "https://www.cls.cn/detail/2511569",
-      "publishedAt": "2026-10-22",
-      "category": "财经动态",
-      "process": "财经动态 · 综合观察",
-      "score": 84,
-      "selected": true,
-      "kind": "news",
-      "keywords": [
-        "融资"
       ],
       "readTime": 2,
       "language": "zh",
